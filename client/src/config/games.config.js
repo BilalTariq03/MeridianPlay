@@ -17,17 +17,27 @@ const games = [
     category: 'geography',
     path: '/games/guess-the-capital',
     apiEndpoint: '/api/questions/capitals',
-    available: false, // not built yet
+    available: true,
   },
   {
-    id: 'guess-the-country',
+    id: 'guess-the-map-country',
     title: 'Guess the Country',
-    description: 'Name the country from its capital.',
+    description: 'Identify the highlighted country on the map.',
     emoji: '🗺️',
     category: 'geography',
-    path: '/games/guess-the-country',
-    apiEndpoint: '/api/questions/countries',
-    available: false, // not built yet
+    path: '/games/guess-the-map-country',
+    apiEndpoint: '/api/questions/map-location',
+    available: true,
+  },
+  {
+    id: 'guess-the-currency',
+    title: 'Guess the Currency',
+    description: 'What currency does this country use?',
+    emoji: '💰',
+    category: 'geography',
+    path: '/games/guess-the-currency',
+    apiEndpoint: '/api/questions/currencies',
+    available: true,
   },
 ];
 
