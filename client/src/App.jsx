@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 
 import GuessTheFlag from './games/guess-the-flag/GuessTheFlag';
+import GuessTheCapital from './games/guess-the-capital/GuessTheCapital';   // ADD
 import GuessTheMapCountry from './games/guess-the-map-country/GuessTheMapCountry';
 import GuessTheCurrency   from './games/guess-the-currency/GuessTheCurrency';
 
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/games/guess-the-flag" element={<GuessTheFlag />} /> 
+        <Route path="/games/guess-the-capital" element={<GuessTheCapital />} /> 
         <Route path="/games/guess-the-map-country" element={<GuessTheMapCountry />} />
         <Route path="/games/guess-the-currency"    element={<GuessTheCurrency />} />
       </Routes>
