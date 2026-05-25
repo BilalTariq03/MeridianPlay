@@ -11,7 +11,8 @@
         "symbol": "$"
       }
     },
-    "code": "AI"
+    "code": "AI",
+    "numericCode": "660"
   },
   {
     "name": "Guatemala",
@@ -25,7 +26,8 @@
         "symbol": "Q"
       }
     },
-    "code": "GT"
+    "code": "GT",
+    "numericCode": "320"
   },
   {
     "name": "Gambia",
@@ -39,7 +41,8 @@
         "symbol": "D"
       }
     },
-    "code": "GM"
+    "code": "GM",
+    "numericCode": "270"
   },
   {
     "name": "Mexico",
@@ -53,7 +56,8 @@
         "symbol": "$"
       }
     },
-    "code": "MX"
+    "code": "MX",
+    "numericCode": "484"
   },
   {
     "name": "Malawi",
@@ -67,7 +71,8 @@
         "symbol": "MK"
       }
     },
-    "code": "MW"
+    "code": "MW",
+    "numericCode": "454"
   },
   {
     "name": "Pitcairn Islands",
@@ -81,7 +86,8 @@
         "symbol": "$"
       }
     },
-    "code": "PN"
+    "code": "PN",
+    "numericCode": "612"
   },
   {
     "name": "Argentina",
@@ -95,7 +101,8 @@
         "symbol": "$"
       }
     },
-    "code": "AR"
+    "code": "AR",
+    "numericCode": "032"
   },
   {
     "name": "Guam",
@@ -109,7 +116,8 @@
         "symbol": "$"
       }
     },
-    "code": "GU"
+    "code": "GU",
+    "numericCode": "316"
   },
   {
     "name": "Bulgaria",
@@ -123,7 +131,8 @@
         "symbol": "лв"
       }
     },
-    "code": "BG"
+    "code": "BG",
+    "numericCode": "100"
   },
   {
     "name": "Dominica",
@@ -137,7 +146,8 @@
         "symbol": "$"
       }
     },
-    "code": "DM"
+    "code": "DM",
+    "numericCode": "212"
   },
   {
     "name": "United Kingdom",
@@ -151,7 +161,8 @@
         "symbol": "£"
       }
     },
-    "code": "GB"
+    "code": "GB",
+    "numericCode": "826"
   },
   {
     "name": "Micronesia",
@@ -165,7 +176,8 @@
         "symbol": "$"
       }
     },
-    "code": "FM"
+    "code": "FM",
+    "numericCode": "583"
   },
   {
     "name": "Palestine",
@@ -187,7 +199,8 @@
         "symbol": "JD"
       }
     },
-    "code": "PS"
+    "code": "PS",
+    "numericCode": "275"
   },
   {
     "name": "Curaçao",
@@ -201,7 +214,8 @@
         "symbol": "ƒ"
       }
     },
-    "code": "CW"
+    "code": "CW",
+    "numericCode": "531"
   },
   {
     "name": "Rwanda",
@@ -215,7 +229,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "RW"
+    "code": "RW",
+    "numericCode": "646"
   },
   {
     "name": "Hong Kong",
@@ -229,7 +244,8 @@
         "symbol": "$"
       }
     },
-    "code": "HK"
+    "code": "HK",
+    "numericCode": "344"
   },
   {
     "name": "Uzbekistan",
@@ -243,7 +259,8 @@
         "symbol": "so'm"
       }
     },
-    "code": "UZ"
+    "code": "UZ",
+    "numericCode": "860"
   },
   {
     "name": "China",
@@ -257,7 +274,8 @@
         "symbol": "¥"
       }
     },
-    "code": "CN"
+    "code": "CN",
+    "numericCode": "156"
   },
   {
     "name": "Cyprus",
@@ -271,7 +289,8 @@
         "symbol": "€"
       }
     },
-    "code": "CY"
+    "code": "CY",
+    "numericCode": "196"
   },
   {
     "name": "Aruba",
@@ -285,7 +304,8 @@
         "symbol": "ƒ"
       }
     },
-    "code": "AW"
+    "code": "AW",
+    "numericCode": "533"
   },
   {
     "name": "Réunion",
@@ -299,7 +319,8 @@
         "symbol": "€"
       }
     },
-    "code": "RE"
+    "code": "RE",
+    "numericCode": "638"
   },
   {
     "name": "South Korea",
@@ -313,7 +334,8 @@
         "symbol": "₩"
       }
     },
-    "code": "KR"
+    "code": "KR",
+    "numericCode": "410"
   },
   {
     "name": "Somalia",
@@ -327,7 +349,8 @@
         "symbol": "Sh"
       }
     },
-    "code": "SO"
+    "code": "SO",
+    "numericCode": "706"
   },
   {
     "name": "Lebanon",
@@ -341,7 +364,8 @@
         "symbol": "ل.ل"
       }
     },
-    "code": "LB"
+    "code": "LB",
+    "numericCode": "422"
   },
   {
     "name": "Guinea",
@@ -355,7 +379,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "GN"
+    "code": "GN",
+    "numericCode": "324"
   },
   {
     "name": "Tajikistan",
@@ -369,7 +394,8 @@
         "symbol": "ЅМ"
       }
     },
-    "code": "TJ"
+    "code": "TJ",
+    "numericCode": "762"
   },
   {
     "name": "Malaysia",
@@ -383,7 +409,8 @@
         "symbol": "RM"
       }
     },
-    "code": "MY"
+    "code": "MY",
+    "numericCode": "458"
   },
   {
     "name": "North Korea",
@@ -397,7 +424,8 @@
         "symbol": "₩"
       }
     },
-    "code": "KP"
+    "code": "KP",
+    "numericCode": "408"
   },
   {
     "name": "Sierra Leone",
@@ -411,7 +439,8 @@
         "symbol": "Le"
       }
     },
-    "code": "SL"
+    "code": "SL",
+    "numericCode": "694"
   },
   {
     "name": "Benin",
@@ -425,7 +454,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "BJ"
+    "code": "BJ",
+    "numericCode": "204"
   },
   {
     "name": "Italy",
@@ -439,7 +469,8 @@
         "symbol": "€"
       }
     },
-    "code": "IT"
+    "code": "IT",
+    "numericCode": "380"
   },
   {
     "name": "Trinidad and Tobago",
@@ -453,7 +484,8 @@
         "symbol": "$"
       }
     },
-    "code": "TT"
+    "code": "TT",
+    "numericCode": "780"
   },
   {
     "name": "Saudi Arabia",
@@ -467,7 +499,8 @@
         "symbol": "ر.س"
       }
     },
-    "code": "SA"
+    "code": "SA",
+    "numericCode": "682"
   },
   {
     "name": "Costa Rica",
@@ -481,7 +514,8 @@
         "symbol": "₡"
       }
     },
-    "code": "CR"
+    "code": "CR",
+    "numericCode": "188"
   },
   {
     "name": "Serbia",
@@ -495,7 +529,8 @@
         "symbol": "дин."
       }
     },
-    "code": "RS"
+    "code": "RS",
+    "numericCode": "688"
   },
   {
     "name": "Tokelau",
@@ -509,7 +544,8 @@
         "symbol": "$"
       }
     },
-    "code": "TK"
+    "code": "TK",
+    "numericCode": "772"
   },
   {
     "name": "Mongolia",
@@ -523,7 +559,8 @@
         "symbol": "₮"
       }
     },
-    "code": "MN"
+    "code": "MN",
+    "numericCode": "496"
   },
   {
     "name": "Brunei",
@@ -541,7 +578,8 @@
         "symbol": "$"
       }
     },
-    "code": "BN"
+    "code": "BN",
+    "numericCode": "096"
   },
   {
     "name": "Hungary",
@@ -555,7 +593,8 @@
         "symbol": "Ft"
       }
     },
-    "code": "HU"
+    "code": "HU",
+    "numericCode": "348"
   },
   {
     "name": "Mozambique",
@@ -569,7 +608,8 @@
         "symbol": "MT"
       }
     },
-    "code": "MZ"
+    "code": "MZ",
+    "numericCode": "508"
   },
   {
     "name": "Kiribati",
@@ -587,7 +627,8 @@
         "symbol": "$"
       }
     },
-    "code": "KI"
+    "code": "KI",
+    "numericCode": "296"
   },
   {
     "name": "Haiti",
@@ -601,7 +642,8 @@
         "symbol": "G"
       }
     },
-    "code": "HT"
+    "code": "HT",
+    "numericCode": "332"
   },
   {
     "name": "Cambodia",
@@ -619,7 +661,8 @@
         "symbol": "$"
       }
     },
-    "code": "KH"
+    "code": "KH",
+    "numericCode": "116"
   },
   {
     "name": "Egypt",
@@ -633,7 +676,8 @@
         "symbol": "£"
       }
     },
-    "code": "EG"
+    "code": "EG",
+    "numericCode": "818"
   },
   {
     "name": "Turkmenistan",
@@ -647,7 +691,8 @@
         "symbol": "m"
       }
     },
-    "code": "TM"
+    "code": "TM",
+    "numericCode": "795"
   },
   {
     "name": "Oman",
@@ -661,7 +706,8 @@
         "symbol": "ر.ع."
       }
     },
-    "code": "OM"
+    "code": "OM",
+    "numericCode": "512"
   },
   {
     "name": "Jamaica",
@@ -675,7 +721,8 @@
         "symbol": "$"
       }
     },
-    "code": "JM"
+    "code": "JM",
+    "numericCode": "388"
   },
   {
     "name": "Azerbaijan",
@@ -689,7 +736,8 @@
         "symbol": "₼"
       }
     },
-    "code": "AZ"
+    "code": "AZ",
+    "numericCode": "031"
   },
   {
     "name": "Slovakia",
@@ -703,7 +751,8 @@
         "symbol": "€"
       }
     },
-    "code": "SK"
+    "code": "SK",
+    "numericCode": "703"
   },
   {
     "name": "Belarus",
@@ -717,7 +766,8 @@
         "symbol": "Br"
       }
     },
-    "code": "BY"
+    "code": "BY",
+    "numericCode": "112"
   },
   {
     "name": "Vietnam",
@@ -731,7 +781,8 @@
         "symbol": "₫"
       }
     },
-    "code": "VN"
+    "code": "VN",
+    "numericCode": "704"
   },
   {
     "name": "United States Virgin Islands",
@@ -745,7 +796,8 @@
         "symbol": "$"
       }
     },
-    "code": "VI"
+    "code": "VI",
+    "numericCode": "850"
   },
   {
     "name": "Gibraltar",
@@ -759,7 +811,8 @@
         "symbol": "£"
       }
     },
-    "code": "GI"
+    "code": "GI",
+    "numericCode": "292"
   },
   {
     "name": "Sint Maarten",
@@ -773,7 +826,8 @@
         "symbol": "ƒ"
       }
     },
-    "code": "SX"
+    "code": "SX",
+    "numericCode": "534"
   },
   {
     "name": "Åland Islands",
@@ -787,7 +841,8 @@
         "symbol": "€"
       }
     },
-    "code": "AX"
+    "code": "AX",
+    "numericCode": "248"
   },
   {
     "name": "Syria",
@@ -801,7 +856,8 @@
         "symbol": "£"
       }
     },
-    "code": "SY"
+    "code": "SY",
+    "numericCode": "760"
   },
   {
     "name": "Martinique",
@@ -815,7 +871,8 @@
         "symbol": "€"
       }
     },
-    "code": "MQ"
+    "code": "MQ",
+    "numericCode": "474"
   },
   {
     "name": "Greenland",
@@ -829,7 +886,8 @@
         "symbol": "kr."
       }
     },
-    "code": "GL"
+    "code": "GL",
+    "numericCode": "304"
   },
   {
     "name": "Honduras",
@@ -843,7 +901,8 @@
         "symbol": "L"
       }
     },
-    "code": "HN"
+    "code": "HN",
+    "numericCode": "340"
   },
   {
     "name": "Tunisia",
@@ -857,7 +916,8 @@
         "symbol": "د.ت"
       }
     },
-    "code": "TN"
+    "code": "TN",
+    "numericCode": "788"
   },
   {
     "name": "Comoros",
@@ -871,7 +931,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "KM"
+    "code": "KM",
+    "numericCode": "174"
   },
   {
     "name": "Slovenia",
@@ -885,7 +946,8 @@
         "symbol": "€"
       }
     },
-    "code": "SI"
+    "code": "SI",
+    "numericCode": "705"
   },
   {
     "name": "Switzerland",
@@ -899,7 +961,8 @@
         "symbol": "Fr."
       }
     },
-    "code": "CH"
+    "code": "CH",
+    "numericCode": "756"
   },
   {
     "name": "Guernsey",
@@ -917,7 +980,8 @@
         "symbol": "£"
       }
     },
-    "code": "GG"
+    "code": "GG",
+    "numericCode": "831"
   },
   {
     "name": "Myanmar",
@@ -931,7 +995,8 @@
         "symbol": "Ks"
       }
     },
-    "code": "MM"
+    "code": "MM",
+    "numericCode": "104"
   },
   {
     "name": "Paraguay",
@@ -945,7 +1010,8 @@
         "symbol": "₲"
       }
     },
-    "code": "PY"
+    "code": "PY",
+    "numericCode": "600"
   },
   {
     "name": "Caribbean Netherlands",
@@ -959,7 +1025,8 @@
         "symbol": "$"
       }
     },
-    "code": "BQ"
+    "code": "BQ",
+    "numericCode": "535"
   },
   {
     "name": "Barbados",
@@ -973,7 +1040,8 @@
         "symbol": "$"
       }
     },
-    "code": "BB"
+    "code": "BB",
+    "numericCode": "052"
   },
   {
     "name": "Jordan",
@@ -987,7 +1055,8 @@
         "symbol": "د.ا"
       }
     },
-    "code": "JO"
+    "code": "JO",
+    "numericCode": "400"
   },
   {
     "name": "Laos",
@@ -1001,7 +1070,8 @@
         "symbol": "₭"
       }
     },
-    "code": "LA"
+    "code": "LA",
+    "numericCode": "418"
   },
   {
     "name": "Togo",
@@ -1015,7 +1085,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "TG"
+    "code": "TG",
+    "numericCode": "768"
   },
   {
     "name": "Morocco",
@@ -1029,7 +1100,8 @@
         "symbol": "د.م."
       }
     },
-    "code": "MA"
+    "code": "MA",
+    "numericCode": "504"
   },
   {
     "name": "Puerto Rico",
@@ -1043,7 +1115,8 @@
         "symbol": "$"
       }
     },
-    "code": "PR"
+    "code": "PR",
+    "numericCode": "630"
   },
   {
     "name": "French Guiana",
@@ -1057,7 +1130,8 @@
         "symbol": "€"
       }
     },
-    "code": "GF"
+    "code": "GF",
+    "numericCode": "254"
   },
   {
     "name": "Saint Pierre and Miquelon",
@@ -1071,7 +1145,8 @@
         "symbol": "€"
       }
     },
-    "code": "PM"
+    "code": "PM",
+    "numericCode": "666"
   },
   {
     "name": "Saint Martin",
@@ -1085,7 +1160,8 @@
         "symbol": "€"
       }
     },
-    "code": "MF"
+    "code": "MF",
+    "numericCode": "663"
   },
   {
     "name": "Estonia",
@@ -1099,7 +1175,8 @@
         "symbol": "€"
       }
     },
-    "code": "EE"
+    "code": "EE",
+    "numericCode": "233"
   },
   {
     "name": "Indonesia",
@@ -1113,7 +1190,8 @@
         "symbol": "Rp"
       }
     },
-    "code": "ID"
+    "code": "ID",
+    "numericCode": "360"
   },
   {
     "name": "Seychelles",
@@ -1127,7 +1205,8 @@
         "symbol": "₨"
       }
     },
-    "code": "SC"
+    "code": "SC",
+    "numericCode": "690"
   },
   {
     "name": "Mali",
@@ -1141,7 +1220,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "ML"
+    "code": "ML",
+    "numericCode": "466"
   },
   {
     "name": "Timor-Leste",
@@ -1155,7 +1235,8 @@
         "symbol": "$"
       }
     },
-    "code": "TL"
+    "code": "TL",
+    "numericCode": "626"
   },
   {
     "name": "Brazil",
@@ -1169,7 +1250,8 @@
         "symbol": "R$"
       }
     },
-    "code": "BR"
+    "code": "BR",
+    "numericCode": "076"
   },
   {
     "name": "Ghana",
@@ -1183,7 +1265,8 @@
         "symbol": "₵"
       }
     },
-    "code": "GH"
+    "code": "GH",
+    "numericCode": "288"
   },
   {
     "name": "Kenya",
@@ -1197,7 +1280,8 @@
         "symbol": "Sh"
       }
     },
-    "code": "KE"
+    "code": "KE",
+    "numericCode": "404"
   },
   {
     "name": "Iceland",
@@ -1211,7 +1295,8 @@
         "symbol": "kr"
       }
     },
-    "code": "IS"
+    "code": "IS",
+    "numericCode": "352"
   },
   {
     "name": "Madagascar",
@@ -1225,7 +1310,8 @@
         "symbol": "Ar"
       }
     },
-    "code": "MG"
+    "code": "MG",
+    "numericCode": "450"
   },
   {
     "name": "Bangladesh",
@@ -1239,7 +1325,8 @@
         "symbol": "৳"
       }
     },
-    "code": "BD"
+    "code": "BD",
+    "numericCode": "050"
   },
   {
     "name": "DR Congo",
@@ -1253,7 +1340,8 @@
         "symbol": "FC"
       }
     },
-    "code": "CD"
+    "code": "CD",
+    "numericCode": "180"
   },
   {
     "name": "Zimbabwe",
@@ -1267,7 +1355,8 @@
         "symbol": "$"
       }
     },
-    "code": "ZW"
+    "code": "ZW",
+    "numericCode": "716"
   },
   {
     "name": "French Polynesia",
@@ -1281,7 +1370,8 @@
         "symbol": "₣"
       }
     },
-    "code": "PF"
+    "code": "PF",
+    "numericCode": "258"
   },
   {
     "name": "Turkey",
@@ -1295,7 +1385,8 @@
         "symbol": "₺"
       }
     },
-    "code": "TR"
+    "code": "TR",
+    "numericCode": "792"
   },
   {
     "name": "Cape Verde",
@@ -1309,7 +1400,8 @@
         "symbol": "Esc"
       }
     },
-    "code": "CV"
+    "code": "CV",
+    "numericCode": "132"
   },
   {
     "name": "Dominican Republic",
@@ -1323,7 +1415,8 @@
         "symbol": "$"
       }
     },
-    "code": "DO"
+    "code": "DO",
+    "numericCode": "214"
   },
   {
     "name": "Bahamas",
@@ -1341,7 +1434,8 @@
         "symbol": "$"
       }
     },
-    "code": "BS"
+    "code": "BS",
+    "numericCode": "044"
   },
   {
     "name": "Germany",
@@ -1355,7 +1449,8 @@
         "symbol": "€"
       }
     },
-    "code": "DE"
+    "code": "DE",
+    "numericCode": "276"
   },
   {
     "name": "Suriname",
@@ -1369,7 +1464,8 @@
         "symbol": "$"
       }
     },
-    "code": "SR"
+    "code": "SR",
+    "numericCode": "740"
   },
   {
     "name": "Tonga",
@@ -1383,7 +1479,8 @@
         "symbol": "T$"
       }
     },
-    "code": "TO"
+    "code": "TO",
+    "numericCode": "776"
   },
   {
     "name": "British Indian Ocean Territory",
@@ -1397,7 +1494,8 @@
         "symbol": "$"
       }
     },
-    "code": "IO"
+    "code": "IO",
+    "numericCode": "086"
   },
   {
     "name": "Saint Lucia",
@@ -1411,7 +1509,8 @@
         "symbol": "$"
       }
     },
-    "code": "LC"
+    "code": "LC",
+    "numericCode": "662"
   },
   {
     "name": "Ireland",
@@ -1425,7 +1524,8 @@
         "symbol": "€"
       }
     },
-    "code": "IE"
+    "code": "IE",
+    "numericCode": "372"
   },
   {
     "name": "Vatican City",
@@ -1439,7 +1539,8 @@
         "symbol": "€"
       }
     },
-    "code": "VA"
+    "code": "VA",
+    "numericCode": "336"
   },
   {
     "name": "Colombia",
@@ -1453,7 +1554,8 @@
         "symbol": "$"
       }
     },
-    "code": "CO"
+    "code": "CO",
+    "numericCode": "170"
   },
   {
     "name": "Portugal",
@@ -1467,7 +1569,8 @@
         "symbol": "€"
       }
     },
-    "code": "PT"
+    "code": "PT",
+    "numericCode": "620"
   },
   {
     "name": "Faroe Islands",
@@ -1485,7 +1588,8 @@
         "symbol": "kr"
       }
     },
-    "code": "FO"
+    "code": "FO",
+    "numericCode": "234"
   },
   {
     "name": "São Tomé and Príncipe",
@@ -1499,7 +1603,8 @@
         "symbol": "Db"
       }
     },
-    "code": "ST"
+    "code": "ST",
+    "numericCode": "678"
   },
   {
     "name": "Northern Mariana Islands",
@@ -1513,7 +1618,8 @@
         "symbol": "$"
       }
     },
-    "code": "MP"
+    "code": "MP",
+    "numericCode": "580"
   },
   {
     "name": "Jersey",
@@ -1531,7 +1637,8 @@
         "symbol": "£"
       }
     },
-    "code": "JE"
+    "code": "JE",
+    "numericCode": "832"
   },
   {
     "name": "Mayotte",
@@ -1545,7 +1652,8 @@
         "symbol": "€"
       }
     },
-    "code": "YT"
+    "code": "YT",
+    "numericCode": "175"
   },
   {
     "name": "Yemen",
@@ -1559,7 +1667,8 @@
         "symbol": "﷼"
       }
     },
-    "code": "YE"
+    "code": "YE",
+    "numericCode": "887"
   },
   {
     "name": "Nigeria",
@@ -1573,7 +1682,8 @@
         "symbol": "₦"
       }
     },
-    "code": "NG"
+    "code": "NG",
+    "numericCode": "566"
   },
   {
     "name": "Afghanistan",
@@ -1587,7 +1697,8 @@
         "symbol": "؋"
       }
     },
-    "code": "AF"
+    "code": "AF",
+    "numericCode": "004"
   },
   {
     "name": "Botswana",
@@ -1601,7 +1712,8 @@
         "symbol": "P"
       }
     },
-    "code": "BW"
+    "code": "BW",
+    "numericCode": "072"
   },
   {
     "name": "Isle of Man",
@@ -1619,7 +1731,8 @@
         "symbol": "£"
       }
     },
-    "code": "IM"
+    "code": "IM",
+    "numericCode": "833"
   },
   {
     "name": "El Salvador",
@@ -1633,7 +1746,8 @@
         "symbol": "$"
       }
     },
-    "code": "SV"
+    "code": "SV",
+    "numericCode": "222"
   },
   {
     "name": "Uganda",
@@ -1647,7 +1761,8 @@
         "symbol": "Sh"
       }
     },
-    "code": "UG"
+    "code": "UG",
+    "numericCode": "800"
   },
   {
     "name": "Andorra",
@@ -1661,7 +1776,8 @@
         "symbol": "€"
       }
     },
-    "code": "AD"
+    "code": "AD",
+    "numericCode": "020"
   },
   {
     "name": "Turks and Caicos Islands",
@@ -1675,7 +1791,8 @@
         "symbol": "$"
       }
     },
-    "code": "TC"
+    "code": "TC",
+    "numericCode": "796"
   },
   {
     "name": "Chad",
@@ -1689,7 +1806,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "TD"
+    "code": "TD",
+    "numericCode": "148"
   },
   {
     "name": "Finland",
@@ -1703,7 +1821,8 @@
         "symbol": "€"
       }
     },
-    "code": "FI"
+    "code": "FI",
+    "numericCode": "246"
   },
   {
     "name": "Russia",
@@ -1717,7 +1836,8 @@
         "symbol": "₽"
       }
     },
-    "code": "RU"
+    "code": "RU",
+    "numericCode": "643"
   },
   {
     "name": "Kazakhstan",
@@ -1731,7 +1851,8 @@
         "symbol": "₸"
       }
     },
-    "code": "KZ"
+    "code": "KZ",
+    "numericCode": "398"
   },
   {
     "name": "Svalbard and Jan Mayen",
@@ -1745,7 +1866,8 @@
         "symbol": "kr"
       }
     },
-    "code": "SJ"
+    "code": "SJ",
+    "numericCode": "744"
   },
   {
     "name": "Venezuela",
@@ -1759,7 +1881,8 @@
         "symbol": "Bs.S."
       }
     },
-    "code": "VE"
+    "code": "VE",
+    "numericCode": "862"
   },
   {
     "name": "Monaco",
@@ -1773,7 +1896,8 @@
         "symbol": "€"
       }
     },
-    "code": "MC"
+    "code": "MC",
+    "numericCode": "492"
   },
   {
     "name": "Senegal",
@@ -1787,7 +1911,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "SN"
+    "code": "SN",
+    "numericCode": "686"
   },
   {
     "name": "Nepal",
@@ -1801,7 +1926,8 @@
         "symbol": "₨"
       }
     },
-    "code": "NP"
+    "code": "NP",
+    "numericCode": "524"
   },
   {
     "name": "United Arab Emirates",
@@ -1815,7 +1941,8 @@
         "symbol": "د.إ"
       }
     },
-    "code": "AE"
+    "code": "AE",
+    "numericCode": "784"
   },
   {
     "name": "Taiwan",
@@ -1829,7 +1956,8 @@
         "symbol": "$"
       }
     },
-    "code": "TW"
+    "code": "TW",
+    "numericCode": "158"
   },
   {
     "name": "New Caledonia",
@@ -1843,7 +1971,8 @@
         "symbol": "₣"
       }
     },
-    "code": "NC"
+    "code": "NC",
+    "numericCode": "540"
   },
   {
     "name": "Bolivia",
@@ -1857,7 +1986,8 @@
         "symbol": "Bs."
       }
     },
-    "code": "BO"
+    "code": "BO",
+    "numericCode": "068"
   },
   {
     "name": "Chile",
@@ -1871,7 +2001,8 @@
         "symbol": "$"
       }
     },
-    "code": "CL"
+    "code": "CL",
+    "numericCode": "152"
   },
   {
     "name": "Ivory Coast",
@@ -1885,7 +2016,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "CI"
+    "code": "CI",
+    "numericCode": "384"
   },
   {
     "name": "Libya",
@@ -1899,7 +2031,8 @@
         "symbol": "ل.د"
       }
     },
-    "code": "LY"
+    "code": "LY",
+    "numericCode": "434"
   },
   {
     "name": "Peru",
@@ -1913,7 +2046,8 @@
         "symbol": "S/ "
       }
     },
-    "code": "PE"
+    "code": "PE",
+    "numericCode": "604"
   },
   {
     "name": "Canada",
@@ -1927,7 +2061,8 @@
         "symbol": "$"
       }
     },
-    "code": "CA"
+    "code": "CA",
+    "numericCode": "124"
   },
   {
     "name": "France",
@@ -1941,7 +2076,8 @@
         "symbol": "€"
       }
     },
-    "code": "FR"
+    "code": "FR",
+    "numericCode": "250"
   },
   {
     "name": "Djibouti",
@@ -1955,7 +2091,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "DJ"
+    "code": "DJ",
+    "numericCode": "262"
   },
   {
     "name": "Burundi",
@@ -1969,7 +2106,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "BI"
+    "code": "BI",
+    "numericCode": "108"
   },
   {
     "name": "Kosovo",
@@ -1983,7 +2121,8 @@
         "symbol": "€"
       }
     },
-    "code": "XK"
+    "code": "XK",
+    "numericCode": ""
   },
   {
     "name": "Denmark",
@@ -1997,7 +2136,8 @@
         "symbol": "kr"
       }
     },
-    "code": "DK"
+    "code": "DK",
+    "numericCode": "208"
   },
   {
     "name": "Greece",
@@ -2011,7 +2151,8 @@
         "symbol": "€"
       }
     },
-    "code": "GR"
+    "code": "GR",
+    "numericCode": "300"
   },
   {
     "name": "Czechia",
@@ -2025,7 +2166,8 @@
         "symbol": "Kč"
       }
     },
-    "code": "CZ"
+    "code": "CZ",
+    "numericCode": "203"
   },
   {
     "name": "Eritrea",
@@ -2039,7 +2181,8 @@
         "symbol": "Nfk"
       }
     },
-    "code": "ER"
+    "code": "ER",
+    "numericCode": "232"
   },
   {
     "name": "Namibia",
@@ -2057,7 +2200,8 @@
         "symbol": "R"
       }
     },
-    "code": "NA"
+    "code": "NA",
+    "numericCode": "516"
   },
   {
     "name": "British Virgin Islands",
@@ -2071,7 +2215,8 @@
         "symbol": "$"
       }
     },
-    "code": "VG"
+    "code": "VG",
+    "numericCode": "092"
   },
   {
     "name": "Iran",
@@ -2085,7 +2230,8 @@
         "symbol": "﷼"
       }
     },
-    "code": "IR"
+    "code": "IR",
+    "numericCode": "364"
   },
   {
     "name": "Equatorial Guinea",
@@ -2099,7 +2245,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "GQ"
+    "code": "GQ",
+    "numericCode": "226"
   },
   {
     "name": "Mauritania",
@@ -2113,7 +2260,8 @@
         "symbol": "UM"
       }
     },
-    "code": "MR"
+    "code": "MR",
+    "numericCode": "478"
   },
   {
     "name": "Bahrain",
@@ -2127,7 +2275,8 @@
         "symbol": ".د.ب"
       }
     },
-    "code": "BH"
+    "code": "BH",
+    "numericCode": "048"
   },
   {
     "name": "Cocos (Keeling) Islands",
@@ -2141,7 +2290,8 @@
         "symbol": "$"
       }
     },
-    "code": "CC"
+    "code": "CC",
+    "numericCode": "166"
   },
   {
     "name": "Ethiopia",
@@ -2155,7 +2305,8 @@
         "symbol": "Br"
       }
     },
-    "code": "ET"
+    "code": "ET",
+    "numericCode": "231"
   },
   {
     "name": "Zambia",
@@ -2169,7 +2320,8 @@
         "symbol": "ZK"
       }
     },
-    "code": "ZM"
+    "code": "ZM",
+    "numericCode": "894"
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -2183,7 +2335,8 @@
         "symbol": "KM"
       }
     },
-    "code": "BA"
+    "code": "BA",
+    "numericCode": "070"
   },
   {
     "name": "Falkland Islands",
@@ -2197,7 +2350,8 @@
         "symbol": "£"
       }
     },
-    "code": "FK"
+    "code": "FK",
+    "numericCode": "238"
   },
   {
     "name": "Grenada",
@@ -2211,7 +2365,8 @@
         "symbol": "$"
       }
     },
-    "code": "GD"
+    "code": "GD",
+    "numericCode": "308"
   },
   {
     "name": "Thailand",
@@ -2225,7 +2380,8 @@
         "symbol": "฿"
       }
     },
-    "code": "TH"
+    "code": "TH",
+    "numericCode": "764"
   },
   {
     "name": "Romania",
@@ -2239,7 +2395,8 @@
         "symbol": "lei"
       }
     },
-    "code": "RO"
+    "code": "RO",
+    "numericCode": "642"
   },
   {
     "name": "Saint Vincent and the Grenadines",
@@ -2253,7 +2410,8 @@
         "symbol": "$"
       }
     },
-    "code": "VC"
+    "code": "VC",
+    "numericCode": "670"
   },
   {
     "name": "Liberia",
@@ -2267,7 +2425,8 @@
         "symbol": "$"
       }
     },
-    "code": "LR"
+    "code": "LR",
+    "numericCode": "430"
   },
   {
     "name": "United States",
@@ -2281,7 +2440,8 @@
         "symbol": "$"
       }
     },
-    "code": "US"
+    "code": "US",
+    "numericCode": "840"
   },
   {
     "name": "South Sudan",
@@ -2295,7 +2455,8 @@
         "symbol": "£"
       }
     },
-    "code": "SS"
+    "code": "SS",
+    "numericCode": "728"
   },
   {
     "name": "Armenia",
@@ -2309,7 +2470,8 @@
         "symbol": "֏"
       }
     },
-    "code": "AM"
+    "code": "AM",
+    "numericCode": "051"
   },
   {
     "name": "Japan",
@@ -2323,7 +2485,8 @@
         "symbol": "¥"
       }
     },
-    "code": "JP"
+    "code": "JP",
+    "numericCode": "392"
   },
   {
     "name": "Pakistan",
@@ -2337,7 +2500,8 @@
         "symbol": "₨"
       }
     },
-    "code": "PK"
+    "code": "PK",
+    "numericCode": "586"
   },
   {
     "name": "Eswatini",
@@ -2355,7 +2519,8 @@
         "symbol": "R"
       }
     },
-    "code": "SZ"
+    "code": "SZ",
+    "numericCode": "748"
   },
   {
     "name": "Liechtenstein",
@@ -2369,7 +2534,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "LI"
+    "code": "LI",
+    "numericCode": "438"
   },
   {
     "name": "Israel",
@@ -2383,7 +2549,8 @@
         "symbol": "₪"
       }
     },
-    "code": "IL"
+    "code": "IL",
+    "numericCode": "376"
   },
   {
     "name": "American Samoa",
@@ -2397,7 +2564,8 @@
         "symbol": "$"
       }
     },
-    "code": "AS"
+    "code": "AS",
+    "numericCode": "016"
   },
   {
     "name": "Sri Lanka",
@@ -2411,7 +2579,8 @@
         "symbol": "Rs  රු"
       }
     },
-    "code": "LK"
+    "code": "LK",
+    "numericCode": "144"
   },
   {
     "name": "South Georgia",
@@ -2425,7 +2594,8 @@
         "symbol": "£"
       }
     },
-    "code": "GS"
+    "code": "GS",
+    "numericCode": "239"
   },
   {
     "name": "Albania",
@@ -2439,7 +2609,8 @@
         "symbol": "L"
       }
     },
-    "code": "AL"
+    "code": "AL",
+    "numericCode": "008"
   },
   {
     "name": "Algeria",
@@ -2453,7 +2624,8 @@
         "symbol": "د.ج"
       }
     },
-    "code": "DZ"
+    "code": "DZ",
+    "numericCode": "012"
   },
   {
     "name": "Ukraine",
@@ -2467,7 +2639,8 @@
         "symbol": "₴"
       }
     },
-    "code": "UA"
+    "code": "UA",
+    "numericCode": "804"
   },
   {
     "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -2485,7 +2658,8 @@
         "symbol": "£"
       }
     },
-    "code": "SH"
+    "code": "SH",
+    "numericCode": "654"
   },
   {
     "name": "San Marino",
@@ -2499,7 +2673,8 @@
         "symbol": "€"
       }
     },
-    "code": "SM"
+    "code": "SM",
+    "numericCode": "674"
   },
   {
     "name": "Cuba",
@@ -2517,7 +2692,8 @@
         "symbol": "$"
       }
     },
-    "code": "CU"
+    "code": "CU",
+    "numericCode": "192"
   },
   {
     "name": "Nauru",
@@ -2531,7 +2707,8 @@
         "symbol": "$"
       }
     },
-    "code": "NR"
+    "code": "NR",
+    "numericCode": "520"
   },
   {
     "name": "Spain",
@@ -2545,7 +2722,8 @@
         "symbol": "€"
       }
     },
-    "code": "ES"
+    "code": "ES",
+    "numericCode": "724"
   },
   {
     "name": "Kuwait",
@@ -2559,7 +2737,8 @@
         "symbol": "د.ك"
       }
     },
-    "code": "KW"
+    "code": "KW",
+    "numericCode": "414"
   },
   {
     "name": "Montserrat",
@@ -2573,7 +2752,8 @@
         "symbol": "$"
       }
     },
-    "code": "MS"
+    "code": "MS",
+    "numericCode": "500"
   },
   {
     "name": "Mauritius",
@@ -2587,7 +2767,8 @@
         "symbol": "₨"
       }
     },
-    "code": "MU"
+    "code": "MU",
+    "numericCode": "480"
   },
   {
     "name": "Sweden",
@@ -2601,7 +2782,8 @@
         "symbol": "kr"
       }
     },
-    "code": "SE"
+    "code": "SE",
+    "numericCode": "752"
   },
   {
     "name": "Australia",
@@ -2615,7 +2797,8 @@
         "symbol": "$"
       }
     },
-    "code": "AU"
+    "code": "AU",
+    "numericCode": "036"
   },
   {
     "name": "Cameroon",
@@ -2629,7 +2812,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "CM"
+    "code": "CM",
+    "numericCode": "120"
   },
   {
     "name": "Ecuador",
@@ -2643,7 +2827,8 @@
         "symbol": "$"
       }
     },
-    "code": "EC"
+    "code": "EC",
+    "numericCode": "218"
   },
   {
     "name": "Qatar",
@@ -2657,7 +2842,8 @@
         "symbol": "ر.ق"
       }
     },
-    "code": "QA"
+    "code": "QA",
+    "numericCode": "634"
   },
   {
     "name": "Marshall Islands",
@@ -2671,7 +2857,8 @@
         "symbol": "$"
       }
     },
-    "code": "MH"
+    "code": "MH",
+    "numericCode": "584"
   },
   {
     "name": "Poland",
@@ -2685,7 +2872,8 @@
         "symbol": "zł"
       }
     },
-    "code": "PL"
+    "code": "PL",
+    "numericCode": "616"
   },
   {
     "name": "Cayman Islands",
@@ -2699,7 +2887,8 @@
         "symbol": "$"
       }
     },
-    "code": "KY"
+    "code": "KY",
+    "numericCode": "136"
   },
   {
     "name": "South Africa",
@@ -2713,7 +2902,8 @@
         "symbol": "R"
       }
     },
-    "code": "ZA"
+    "code": "ZA",
+    "numericCode": "710"
   },
   {
     "name": "Wallis and Futuna",
@@ -2727,7 +2917,8 @@
         "symbol": "₣"
       }
     },
-    "code": "WF"
+    "code": "WF",
+    "numericCode": "876"
   },
   {
     "name": "Samoa",
@@ -2741,7 +2932,8 @@
         "symbol": "T"
       }
     },
-    "code": "WS"
+    "code": "WS",
+    "numericCode": "882"
   },
   {
     "name": "Netherlands",
@@ -2755,7 +2947,8 @@
         "symbol": "€"
       }
     },
-    "code": "NL"
+    "code": "NL",
+    "numericCode": "528"
   },
   {
     "name": "Western Sahara",
@@ -2777,7 +2970,8 @@
         "symbol": "UM"
       }
     },
-    "code": "EH"
+    "code": "EH",
+    "numericCode": "732"
   },
   {
     "name": "Montenegro",
@@ -2791,7 +2985,8 @@
         "symbol": "€"
       }
     },
-    "code": "ME"
+    "code": "ME",
+    "numericCode": "499"
   },
   {
     "name": "Bhutan",
@@ -2809,7 +3004,8 @@
         "symbol": "₹"
       }
     },
-    "code": "BT"
+    "code": "BT",
+    "numericCode": "064"
   },
   {
     "name": "Malta",
@@ -2823,7 +3019,8 @@
         "symbol": "€"
       }
     },
-    "code": "MT"
+    "code": "MT",
+    "numericCode": "470"
   },
   {
     "name": "Vanuatu",
@@ -2837,7 +3034,8 @@
         "symbol": "Vt"
       }
     },
-    "code": "VU"
+    "code": "VU",
+    "numericCode": "548"
   },
   {
     "name": "Tanzania",
@@ -2851,7 +3049,8 @@
         "symbol": "Sh"
       }
     },
-    "code": "TZ"
+    "code": "TZ",
+    "numericCode": "834"
   },
   {
     "name": "New Zealand",
@@ -2865,7 +3064,8 @@
         "symbol": "$"
       }
     },
-    "code": "NZ"
+    "code": "NZ",
+    "numericCode": "554"
   },
   {
     "name": "Palau",
@@ -2879,7 +3079,8 @@
         "symbol": "$"
       }
     },
-    "code": "PW"
+    "code": "PW",
+    "numericCode": "585"
   },
   {
     "name": "Panama",
@@ -2897,7 +3098,8 @@
         "symbol": "$"
       }
     },
-    "code": "PA"
+    "code": "PA",
+    "numericCode": "591"
   },
   {
     "name": "Tuvalu",
@@ -2915,7 +3117,8 @@
         "symbol": "$"
       }
     },
-    "code": "TV"
+    "code": "TV",
+    "numericCode": "798"
   },
   {
     "name": "Fiji",
@@ -2929,7 +3132,8 @@
         "symbol": "$"
       }
     },
-    "code": "FJ"
+    "code": "FJ",
+    "numericCode": "242"
   },
   {
     "name": "Nicaragua",
@@ -2943,7 +3147,8 @@
         "symbol": "C$"
       }
     },
-    "code": "NI"
+    "code": "NI",
+    "numericCode": "558"
   },
   {
     "name": "Kyrgyzstan",
@@ -2957,7 +3162,8 @@
         "symbol": "с"
       }
     },
-    "code": "KG"
+    "code": "KG",
+    "numericCode": "417"
   },
   {
     "name": "French Southern and Antarctic Lands",
@@ -2971,7 +3177,8 @@
         "symbol": "€"
       }
     },
-    "code": "TF"
+    "code": "TF",
+    "numericCode": "260"
   },
   {
     "name": "Latvia",
@@ -2985,7 +3192,8 @@
         "symbol": "€"
       }
     },
-    "code": "LV"
+    "code": "LV",
+    "numericCode": "428"
   },
   {
     "name": "Georgia",
@@ -2999,7 +3207,8 @@
         "symbol": "₾"
       }
     },
-    "code": "GE"
+    "code": "GE",
+    "numericCode": "268"
   },
   {
     "name": "Luxembourg",
@@ -3013,7 +3222,8 @@
         "symbol": "€"
       }
     },
-    "code": "LU"
+    "code": "LU",
+    "numericCode": "442"
   },
   {
     "name": "Austria",
@@ -3027,7 +3237,8 @@
         "symbol": "€"
       }
     },
-    "code": "AT"
+    "code": "AT",
+    "numericCode": "040"
   },
   {
     "name": "North Macedonia",
@@ -3041,7 +3252,8 @@
         "symbol": "den"
       }
     },
-    "code": "MK"
+    "code": "MK",
+    "numericCode": "807"
   },
   {
     "name": "Saint Barthélemy",
@@ -3055,7 +3267,8 @@
         "symbol": "€"
       }
     },
-    "code": "BL"
+    "code": "BL",
+    "numericCode": "652"
   },
   {
     "name": "Christmas Island",
@@ -3069,7 +3282,8 @@
         "symbol": "$"
       }
     },
-    "code": "CX"
+    "code": "CX",
+    "numericCode": "162"
   },
   {
     "name": "Solomon Islands",
@@ -3083,7 +3297,8 @@
         "symbol": "$"
       }
     },
-    "code": "SB"
+    "code": "SB",
+    "numericCode": "090"
   },
   {
     "name": "Antigua and Barbuda",
@@ -3097,7 +3312,8 @@
         "symbol": "$"
       }
     },
-    "code": "AG"
+    "code": "AG",
+    "numericCode": "028"
   },
   {
     "name": "Iraq",
@@ -3111,7 +3327,8 @@
         "symbol": "ع.د"
       }
     },
-    "code": "IQ"
+    "code": "IQ",
+    "numericCode": "368"
   },
   {
     "name": "Moldova",
@@ -3125,7 +3342,8 @@
         "symbol": "L"
       }
     },
-    "code": "MD"
+    "code": "MD",
+    "numericCode": "498"
   },
   {
     "name": "Norfolk Island",
@@ -3139,7 +3357,8 @@
         "symbol": "$"
       }
     },
-    "code": "NF"
+    "code": "NF",
+    "numericCode": "574"
   },
   {
     "name": "Republic of the Congo",
@@ -3153,7 +3372,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "CG"
+    "code": "CG",
+    "numericCode": "178"
   },
   {
     "name": "Niue",
@@ -3167,7 +3387,8 @@
         "symbol": "$"
       }
     },
-    "code": "NU"
+    "code": "NU",
+    "numericCode": "570"
   },
   {
     "name": "Lithuania",
@@ -3181,7 +3402,8 @@
         "symbol": "€"
       }
     },
-    "code": "LT"
+    "code": "LT",
+    "numericCode": "440"
   },
   {
     "name": "Niger",
@@ -3195,7 +3417,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "NE"
+    "code": "NE",
+    "numericCode": "562"
   },
   {
     "name": "Guyana",
@@ -3209,7 +3432,8 @@
         "symbol": "$"
       }
     },
-    "code": "GY"
+    "code": "GY",
+    "numericCode": "328"
   },
   {
     "name": "Bermuda",
@@ -3223,7 +3447,8 @@
         "symbol": "$"
       }
     },
-    "code": "BM"
+    "code": "BM",
+    "numericCode": "060"
   },
   {
     "name": "Gabon",
@@ -3237,7 +3462,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "GA"
+    "code": "GA",
+    "numericCode": "266"
   },
   {
     "name": "Cook Islands",
@@ -3255,7 +3481,8 @@
         "symbol": "$"
       }
     },
-    "code": "CK"
+    "code": "CK",
+    "numericCode": "184"
   },
   {
     "name": "Angola",
@@ -3269,7 +3496,8 @@
         "symbol": "Kz"
       }
     },
-    "code": "AO"
+    "code": "AO",
+    "numericCode": "024"
   },
   {
     "name": "Norway",
@@ -3283,7 +3511,8 @@
         "symbol": "kr"
       }
     },
-    "code": "NO"
+    "code": "NO",
+    "numericCode": "578"
   },
   {
     "name": "Guadeloupe",
@@ -3297,7 +3526,8 @@
         "symbol": "€"
       }
     },
-    "code": "GP"
+    "code": "GP",
+    "numericCode": "312"
   },
   {
     "name": "Maldives",
@@ -3311,7 +3541,8 @@
         "symbol": ".ރ"
       }
     },
-    "code": "MV"
+    "code": "MV",
+    "numericCode": "462"
   },
   {
     "name": "Belgium",
@@ -3325,7 +3556,8 @@
         "symbol": "€"
       }
     },
-    "code": "BE"
+    "code": "BE",
+    "numericCode": "056"
   },
   {
     "name": "Croatia",
@@ -3339,7 +3571,8 @@
         "symbol": "€"
       }
     },
-    "code": "HR"
+    "code": "HR",
+    "numericCode": "191"
   },
   {
     "name": "Belize",
@@ -3353,7 +3586,8 @@
         "symbol": "$"
       }
     },
-    "code": "BZ"
+    "code": "BZ",
+    "numericCode": "084"
   },
   {
     "name": "Saint Kitts and Nevis",
@@ -3367,7 +3601,8 @@
         "symbol": "$"
       }
     },
-    "code": "KN"
+    "code": "KN",
+    "numericCode": "659"
   },
   {
     "name": "Singapore",
@@ -3381,7 +3616,8 @@
         "symbol": "$"
       }
     },
-    "code": "SG"
+    "code": "SG",
+    "numericCode": "702"
   },
   {
     "name": "Lesotho",
@@ -3399,7 +3635,8 @@
         "symbol": "R"
       }
     },
-    "code": "LS"
+    "code": "LS",
+    "numericCode": "426"
   },
   {
     "name": "Uruguay",
@@ -3413,7 +3650,8 @@
         "symbol": "$"
       }
     },
-    "code": "UY"
+    "code": "UY",
+    "numericCode": "858"
   },
   {
     "name": "Burkina Faso",
@@ -3427,7 +3665,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "BF"
+    "code": "BF",
+    "numericCode": "854"
   },
   {
     "name": "India",
@@ -3441,7 +3680,8 @@
         "symbol": "₹"
       }
     },
-    "code": "IN"
+    "code": "IN",
+    "numericCode": "356"
   },
   {
     "name": "Philippines",
@@ -3455,7 +3695,8 @@
         "symbol": "₱"
       }
     },
-    "code": "PH"
+    "code": "PH",
+    "numericCode": "608"
   },
   {
     "name": "Central African Republic",
@@ -3469,7 +3710,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "CF"
+    "code": "CF",
+    "numericCode": "140"
   },
   {
     "name": "Sudan",
@@ -3483,7 +3725,8 @@
         "symbol": "ج.س"
       }
     },
-    "code": "SD"
+    "code": "SD",
+    "numericCode": "729"
   },
   {
     "name": "Guinea-Bissau",
@@ -3497,7 +3740,8 @@
         "symbol": "Fr"
       }
     },
-    "code": "GW"
+    "code": "GW",
+    "numericCode": "624"
   },
   {
     "name": "Papua New Guinea",
@@ -3511,7 +3755,8 @@
         "symbol": "K"
       }
     },
-    "code": "PG"
+    "code": "PG",
+    "numericCode": "598"
   },
   {
     "name": "United States Minor Outlying Islands",
@@ -3525,6 +3770,7 @@
         "symbol": "$"
       }
     },
-    "code": "UM"
+    "code": "UM",
+    "numericCode": "581"
   }
 ]

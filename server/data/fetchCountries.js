@@ -6,7 +6,7 @@ const fetchAndCache = async () => {
   console.log('Fetching country data...');
 
   const response = await axios.get(
-    'https://restcountries.com/v3.1/all?fields=name,capital,flags,region,independent,currencies,cca2'
+    'https://restcountries.com/v3.1/all?fields=name,capital,flags,region,independent,currencies,cca2,ccn3'
   );
 
   // Clean and simplify the data
@@ -19,7 +19,8 @@ const fetchAndCache = async () => {
       region: c.region,
       independent: c.independent,
       currency: c.currencies,
-      code: c.cca2
+      code: c.cca2,
+      numericCode: c.ccn3,
     }));
 
   const outputPath = path.join(__dirname, 'countries.json');
