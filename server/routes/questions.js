@@ -5,6 +5,28 @@ const countries = require('../data/countries.json');
 // Helper: pick N random items from array
 const getRandom = (arr, n) => [...arr].sort(() => Math.random() - 0.5).slice(0, n);
 
+
+
+// Extracts the base currency word: "Canadian dollar" → "Dollar"
+const simplifyCurrency = (name) => {
+  const overrides = {
+    'pound sterling': 'Pound',
+    'new shekel':     'Shekel',
+    'new lira':       'Lira',
+    'new dong':       'Dong',
+  };
+
+  const lower = name.toLowerCase();
+  for (const [key, val] of Object.entries(overrides)) {
+    if (lower.includes(key)) return val;
+  }
+
+  const words = name.split(' ');
+  const last  = words[words.length - 1];
+  return last.charAt(0).toUpperCase() + last.slice(1);
+};
+
+
 // GET /api/questions/flags
 // Returns 10 questions: each has a correct country + 3 wrong options
 router.get('/flags', (req, res) => {
@@ -50,10 +72,8 @@ router.get('/map-location', (req, res) => {
   res.json(questions);
 });
 
-// GET /api/questions/currencies
-// Returns country name → pick the correct currency
+// Get currencies
 router.get('/currencies', (req, res) => {
-  // Only include countries with valid currency data
   const eligible = countries.filter(c =>
     c.currency &&
     Object.keys(c.currency).length > 0 &&
@@ -63,21 +83,32 @@ router.get('/currencies', (req, res) => {
   const shuffled = getRandom(eligible, 10);
 
   const questions = shuffled.map(correct => {
-    const correctCurrency = Object.values(correct.currency)[0].name;
+    const correctCurrencyName     = Object.values(correct.currency)[0].name;
+    const correctCurrencySimple   = simplifyCurrency(correctCurrencyName);
 
-    const wrong = getRandom(
-      eligible.filter(c => c.code !== correct.code),
-      3
-    ).map(c => Object.values(c.currency)[0].name);
+    // Wrong options: different simplified name from correct AND from each other
+    const used = new Set([correctCurrencySimple]);
+    const wrong = [];
 
-    // Avoid duplicate currency names in options
-    const uniqueWrong = [...new Set(wrong)].slice(0, 3);
-    const options = getRandom([correctCurrency, ...uniqueWrong], 4);
+    const pool = getRandom(eligible.filter(c => c.code !== correct.code), 50);
+
+    for (const country of pool) {
+      if (wrong.length === 3) break;
+      const name   = Object.values(country.currency)[0]?.name;
+      if (!name) continue;
+      const simple = simplifyCurrency(name);
+      if (!used.has(simple)) {
+        used.add(simple);
+        wrong.push(simple);
+      }
+    }
+
+    const options = getRandom([correctCurrencySimple, ...wrong], 4);
 
     return {
-      question: correct.name,       // show country name
-      flag: correct.flag,           // show flag alongside for visual interest
-      answer: correctCurrency,
+      question: correct.name,
+      flag:     correct.flag,
+      answer:   correctCurrencySimple,
       options,
     };
   });
