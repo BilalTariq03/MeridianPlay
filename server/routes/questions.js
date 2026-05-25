@@ -50,6 +50,31 @@ router.get('/flags', (req, res) => {
   res.json(questions);
 });
 
+
+// GET /api/questions/capitals
+// Shows country name → pick the correct capital
+router.get('/capitals', (req, res) => {
+  const shuffled = getRandom(countries, 10);
+
+  const questions = shuffled.map(correct => {
+    const wrong = getRandom(
+      countries.filter(c => c.code !== correct.code),
+      3
+    );
+
+    const options = getRandom([correct, ...wrong], 4);
+
+    return {
+      question: correct.name,      // show the country name
+      answer: correct.capital,     // correct answer is the capital
+      options: options.map(o => o.capital),
+    };
+  });
+
+  res.json(questions);
+});
+
+
 // GET /api/questions/map-location
 // Returns a highlighted country (by numeric code) → pick the country name
 router.get('/map-location', (req, res) => {
