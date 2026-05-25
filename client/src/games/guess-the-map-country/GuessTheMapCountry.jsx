@@ -37,13 +37,13 @@ function GameRunner({ questions }) {
       {...quiz}
       onAnswer={quiz.handleAnswer}
       renderQuestion={(q) => (
-        <div>
-          <p style={{ color: '#94a3b8', marginBottom: '12px', fontSize: '0.9rem' }}>
-            Which country is highlighted?
-          </p>
-          <WorldMap numericCode={q.numericCode} />
-        </div>
-      )}
+      <div>
+        <p style={{ color: '#94a3b8', marginBottom: '12px', fontSize: '0.9rem' }}>
+          Which country is highlighted?
+        </p>
+        <WorldMap numericCode={q.numericCode} region={q.region} />
+      </div>
+    )}
     />
   );
 }
