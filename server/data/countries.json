@@ -12,7 +12,12 @@
       }
     },
     "code": "AI",
-    "numericCode": "660"
+    "numericCode": "660",
+    "area": 91,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Guatemala",
@@ -27,7 +32,12 @@
       }
     },
     "code": "GT",
-    "numericCode": "320"
+    "numericCode": "320",
+    "area": 108889,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Gambia",
@@ -42,7 +52,12 @@
       }
     },
     "code": "GM",
-    "numericCode": "270"
+    "numericCode": "270",
+    "area": 10689,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Mexico",
@@ -57,7 +72,12 @@
       }
     },
     "code": "MX",
-    "numericCode": "484"
+    "numericCode": "484",
+    "area": 1964375,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Malawi",
@@ -72,7 +92,12 @@
       }
     },
     "code": "MW",
-    "numericCode": "454"
+    "numericCode": "454",
+    "area": 118484,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Pitcairn Islands",
@@ -87,7 +112,12 @@
       }
     },
     "code": "PN",
-    "numericCode": "612"
+    "numericCode": "612",
+    "area": 47,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Argentina",
@@ -102,7 +132,12 @@
       }
     },
     "code": "AR",
-    "numericCode": "032"
+    "numericCode": "032",
+    "area": 2780400,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Guam",
@@ -117,7 +152,12 @@
       }
     },
     "code": "GU",
-    "numericCode": "316"
+    "numericCode": "316",
+    "area": 549,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Bulgaria",
@@ -132,7 +172,12 @@
       }
     },
     "code": "BG",
-    "numericCode": "100"
+    "numericCode": "100",
+    "area": 110879,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Dominica",
@@ -147,7 +192,12 @@
       }
     },
     "code": "DM",
-    "numericCode": "212"
+    "numericCode": "212",
+    "area": 751,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "United Kingdom",
@@ -162,7 +212,12 @@
       }
     },
     "code": "GB",
-    "numericCode": "826"
+    "numericCode": "826",
+    "area": 244376,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Micronesia",
@@ -177,7 +232,12 @@
       }
     },
     "code": "FM",
-    "numericCode": "583"
+    "numericCode": "583",
+    "area": 702,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Palestine",
@@ -200,7 +260,12 @@
       }
     },
     "code": "PS",
-    "numericCode": "275"
+    "numericCode": "275",
+    "area": 6220,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Curaçao",
@@ -215,7 +280,12 @@
       }
     },
     "code": "CW",
-    "numericCode": "531"
+    "numericCode": "531",
+    "area": 444,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Rwanda",
@@ -230,7 +300,12 @@
       }
     },
     "code": "RW",
-    "numericCode": "646"
+    "numericCode": "646",
+    "area": 26338,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Hong Kong",
@@ -245,7 +320,12 @@
       }
     },
     "code": "HK",
-    "numericCode": "344"
+    "numericCode": "344",
+    "area": 1104,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Uzbekistan",
@@ -260,7 +340,12 @@
       }
     },
     "code": "UZ",
-    "numericCode": "860"
+    "numericCode": "860",
+    "area": 447400,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "China",
@@ -275,7 +360,12 @@
       }
     },
     "code": "CN",
-    "numericCode": "156"
+    "numericCode": "156",
+    "area": 9706961,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Cyprus",
@@ -290,7 +380,12 @@
       }
     },
     "code": "CY",
-    "numericCode": "196"
+    "numericCode": "196",
+    "area": 9251,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Aruba",
@@ -305,7 +400,12 @@
       }
     },
     "code": "AW",
-    "numericCode": "533"
+    "numericCode": "533",
+    "area": 180,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Réunion",
@@ -320,7 +420,12 @@
       }
     },
     "code": "RE",
-    "numericCode": "638"
+    "numericCode": "638",
+    "area": 2511,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "South Korea",
@@ -335,7 +440,12 @@
       }
     },
     "code": "KR",
-    "numericCode": "410"
+    "numericCode": "410",
+    "area": 100210,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Somalia",
@@ -350,7 +460,12 @@
       }
     },
     "code": "SO",
-    "numericCode": "706"
+    "numericCode": "706",
+    "area": 637657,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Lebanon",
@@ -365,7 +480,12 @@
       }
     },
     "code": "LB",
-    "numericCode": "422"
+    "numericCode": "422",
+    "area": 10452,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Guinea",
@@ -380,7 +500,12 @@
       }
     },
     "code": "GN",
-    "numericCode": "324"
+    "numericCode": "324",
+    "area": 245857,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Tajikistan",
@@ -395,7 +520,12 @@
       }
     },
     "code": "TJ",
-    "numericCode": "762"
+    "numericCode": "762",
+    "area": 143100,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Malaysia",
@@ -410,7 +540,12 @@
       }
     },
     "code": "MY",
-    "numericCode": "458"
+    "numericCode": "458",
+    "area": 330803,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "North Korea",
@@ -425,7 +560,12 @@
       }
     },
     "code": "KP",
-    "numericCode": "408"
+    "numericCode": "408",
+    "area": 120538,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Sierra Leone",
@@ -440,7 +580,12 @@
       }
     },
     "code": "SL",
-    "numericCode": "694"
+    "numericCode": "694",
+    "area": 71740,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Benin",
@@ -455,7 +600,12 @@
       }
     },
     "code": "BJ",
-    "numericCode": "204"
+    "numericCode": "204",
+    "area": 112622,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Italy",
@@ -470,7 +620,12 @@
       }
     },
     "code": "IT",
-    "numericCode": "380"
+    "numericCode": "380",
+    "area": 301336,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Trinidad and Tobago",
@@ -485,7 +640,12 @@
       }
     },
     "code": "TT",
-    "numericCode": "780"
+    "numericCode": "780",
+    "area": 5130,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Saudi Arabia",
@@ -500,7 +660,12 @@
       }
     },
     "code": "SA",
-    "numericCode": "682"
+    "numericCode": "682",
+    "area": 2149690,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Costa Rica",
@@ -515,7 +680,12 @@
       }
     },
     "code": "CR",
-    "numericCode": "188"
+    "numericCode": "188",
+    "area": 51100,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Serbia",
@@ -530,7 +700,12 @@
       }
     },
     "code": "RS",
-    "numericCode": "688"
+    "numericCode": "688",
+    "area": 77589,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Tokelau",
@@ -545,7 +720,12 @@
       }
     },
     "code": "TK",
-    "numericCode": "772"
+    "numericCode": "772",
+    "area": 12,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Mongolia",
@@ -560,7 +740,12 @@
       }
     },
     "code": "MN",
-    "numericCode": "496"
+    "numericCode": "496",
+    "area": 1564110,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Brunei",
@@ -579,7 +764,12 @@
       }
     },
     "code": "BN",
-    "numericCode": "096"
+    "numericCode": "096",
+    "area": 5765,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Hungary",
@@ -594,7 +784,12 @@
       }
     },
     "code": "HU",
-    "numericCode": "348"
+    "numericCode": "348",
+    "area": 93028,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Mozambique",
@@ -609,7 +804,12 @@
       }
     },
     "code": "MZ",
-    "numericCode": "508"
+    "numericCode": "508",
+    "area": 801590,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Kiribati",
@@ -628,7 +828,12 @@
       }
     },
     "code": "KI",
-    "numericCode": "296"
+    "numericCode": "296",
+    "area": 811,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Haiti",
@@ -643,7 +848,12 @@
       }
     },
     "code": "HT",
-    "numericCode": "332"
+    "numericCode": "332",
+    "area": 27750,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Cambodia",
@@ -662,7 +872,12 @@
       }
     },
     "code": "KH",
-    "numericCode": "116"
+    "numericCode": "116",
+    "area": 181035,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Egypt",
@@ -677,7 +892,12 @@
       }
     },
     "code": "EG",
-    "numericCode": "818"
+    "numericCode": "818",
+    "area": 1002450,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Turkmenistan",
@@ -692,7 +912,12 @@
       }
     },
     "code": "TM",
-    "numericCode": "795"
+    "numericCode": "795",
+    "area": 488100,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Oman",
@@ -707,7 +932,12 @@
       }
     },
     "code": "OM",
-    "numericCode": "512"
+    "numericCode": "512",
+    "area": 309500,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Jamaica",
@@ -722,7 +952,12 @@
       }
     },
     "code": "JM",
-    "numericCode": "388"
+    "numericCode": "388",
+    "area": 10991,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Azerbaijan",
@@ -737,7 +972,12 @@
       }
     },
     "code": "AZ",
-    "numericCode": "031"
+    "numericCode": "031",
+    "area": 86600,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Slovakia",
@@ -752,7 +992,12 @@
       }
     },
     "code": "SK",
-    "numericCode": "703"
+    "numericCode": "703",
+    "area": 49037,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Belarus",
@@ -767,7 +1012,12 @@
       }
     },
     "code": "BY",
-    "numericCode": "112"
+    "numericCode": "112",
+    "area": 207600,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Vietnam",
@@ -782,7 +1032,12 @@
       }
     },
     "code": "VN",
-    "numericCode": "704"
+    "numericCode": "704",
+    "area": 331212,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "United States Virgin Islands",
@@ -797,7 +1052,12 @@
       }
     },
     "code": "VI",
-    "numericCode": "850"
+    "numericCode": "850",
+    "area": 347,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Gibraltar",
@@ -812,7 +1072,12 @@
       }
     },
     "code": "GI",
-    "numericCode": "292"
+    "numericCode": "292",
+    "area": 6,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Sint Maarten",
@@ -827,7 +1092,12 @@
       }
     },
     "code": "SX",
-    "numericCode": "534"
+    "numericCode": "534",
+    "area": 34,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Åland Islands",
@@ -842,7 +1112,12 @@
       }
     },
     "code": "AX",
-    "numericCode": "248"
+    "numericCode": "248",
+    "area": 1580,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Syria",
@@ -857,7 +1132,12 @@
       }
     },
     "code": "SY",
-    "numericCode": "760"
+    "numericCode": "760",
+    "area": 185180,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Martinique",
@@ -872,7 +1152,12 @@
       }
     },
     "code": "MQ",
-    "numericCode": "474"
+    "numericCode": "474",
+    "area": 1128,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Greenland",
@@ -887,7 +1172,12 @@
       }
     },
     "code": "GL",
-    "numericCode": "304"
+    "numericCode": "304",
+    "area": 2166086,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Honduras",
@@ -902,7 +1192,12 @@
       }
     },
     "code": "HN",
-    "numericCode": "340"
+    "numericCode": "340",
+    "area": 112492,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Tunisia",
@@ -917,7 +1212,12 @@
       }
     },
     "code": "TN",
-    "numericCode": "788"
+    "numericCode": "788",
+    "area": 163610,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Comoros",
@@ -932,7 +1232,12 @@
       }
     },
     "code": "KM",
-    "numericCode": "174"
+    "numericCode": "174",
+    "area": 1862,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Slovenia",
@@ -947,7 +1252,12 @@
       }
     },
     "code": "SI",
-    "numericCode": "705"
+    "numericCode": "705",
+    "area": 20273,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Switzerland",
@@ -962,7 +1272,12 @@
       }
     },
     "code": "CH",
-    "numericCode": "756"
+    "numericCode": "756",
+    "area": 41284,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Guernsey",
@@ -981,7 +1296,12 @@
       }
     },
     "code": "GG",
-    "numericCode": "831"
+    "numericCode": "831",
+    "area": 78,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Myanmar",
@@ -996,7 +1316,12 @@
       }
     },
     "code": "MM",
-    "numericCode": "104"
+    "numericCode": "104",
+    "area": 676578,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Paraguay",
@@ -1011,7 +1336,12 @@
       }
     },
     "code": "PY",
-    "numericCode": "600"
+    "numericCode": "600",
+    "area": 406752,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Caribbean Netherlands",
@@ -1026,7 +1356,12 @@
       }
     },
     "code": "BQ",
-    "numericCode": "535"
+    "numericCode": "535",
+    "area": 328,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Barbados",
@@ -1041,7 +1376,12 @@
       }
     },
     "code": "BB",
-    "numericCode": "052"
+    "numericCode": "052",
+    "area": 430,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Jordan",
@@ -1056,7 +1396,12 @@
       }
     },
     "code": "JO",
-    "numericCode": "400"
+    "numericCode": "400",
+    "area": 89342,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Laos",
@@ -1071,7 +1416,12 @@
       }
     },
     "code": "LA",
-    "numericCode": "418"
+    "numericCode": "418",
+    "area": 236800,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Togo",
@@ -1086,7 +1436,12 @@
       }
     },
     "code": "TG",
-    "numericCode": "768"
+    "numericCode": "768",
+    "area": 56785,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Morocco",
@@ -1101,7 +1456,12 @@
       }
     },
     "code": "MA",
-    "numericCode": "504"
+    "numericCode": "504",
+    "area": 446550,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Puerto Rico",
@@ -1116,7 +1476,12 @@
       }
     },
     "code": "PR",
-    "numericCode": "630"
+    "numericCode": "630",
+    "area": 8870,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "French Guiana",
@@ -1131,7 +1496,12 @@
       }
     },
     "code": "GF",
-    "numericCode": "254"
+    "numericCode": "254",
+    "area": 83534,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Saint Pierre and Miquelon",
@@ -1146,7 +1516,12 @@
       }
     },
     "code": "PM",
-    "numericCode": "666"
+    "numericCode": "666",
+    "area": 242,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Saint Martin",
@@ -1161,7 +1536,12 @@
       }
     },
     "code": "MF",
-    "numericCode": "663"
+    "numericCode": "663",
+    "area": 53,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Estonia",
@@ -1176,7 +1556,12 @@
       }
     },
     "code": "EE",
-    "numericCode": "233"
+    "numericCode": "233",
+    "area": 45227,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Indonesia",
@@ -1191,7 +1576,12 @@
       }
     },
     "code": "ID",
-    "numericCode": "360"
+    "numericCode": "360",
+    "area": 1904569,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Seychelles",
@@ -1206,7 +1596,12 @@
       }
     },
     "code": "SC",
-    "numericCode": "690"
+    "numericCode": "690",
+    "area": 452,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Mali",
@@ -1221,7 +1616,12 @@
       }
     },
     "code": "ML",
-    "numericCode": "466"
+    "numericCode": "466",
+    "area": 1240192,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Timor-Leste",
@@ -1236,7 +1636,12 @@
       }
     },
     "code": "TL",
-    "numericCode": "626"
+    "numericCode": "626",
+    "area": 14874,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Brazil",
@@ -1251,7 +1656,12 @@
       }
     },
     "code": "BR",
-    "numericCode": "076"
+    "numericCode": "076",
+    "area": 8515767,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Ghana",
@@ -1266,7 +1676,12 @@
       }
     },
     "code": "GH",
-    "numericCode": "288"
+    "numericCode": "288",
+    "area": 238533,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Kenya",
@@ -1281,7 +1696,12 @@
       }
     },
     "code": "KE",
-    "numericCode": "404"
+    "numericCode": "404",
+    "area": 580367,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Iceland",
@@ -1296,7 +1716,12 @@
       }
     },
     "code": "IS",
-    "numericCode": "352"
+    "numericCode": "352",
+    "area": 103000,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Madagascar",
@@ -1311,7 +1736,12 @@
       }
     },
     "code": "MG",
-    "numericCode": "450"
+    "numericCode": "450",
+    "area": 587041,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Bangladesh",
@@ -1326,7 +1756,12 @@
       }
     },
     "code": "BD",
-    "numericCode": "050"
+    "numericCode": "050",
+    "area": 147570,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "DR Congo",
@@ -1341,7 +1776,12 @@
       }
     },
     "code": "CD",
-    "numericCode": "180"
+    "numericCode": "180",
+    "area": 2344858,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Zimbabwe",
@@ -1356,7 +1796,12 @@
       }
     },
     "code": "ZW",
-    "numericCode": "716"
+    "numericCode": "716",
+    "area": 390757,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "French Polynesia",
@@ -1371,7 +1816,12 @@
       }
     },
     "code": "PF",
-    "numericCode": "258"
+    "numericCode": "258",
+    "area": 4167,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Turkey",
@@ -1386,7 +1836,12 @@
       }
     },
     "code": "TR",
-    "numericCode": "792"
+    "numericCode": "792",
+    "area": 783562,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Cape Verde",
@@ -1401,7 +1856,12 @@
       }
     },
     "code": "CV",
-    "numericCode": "132"
+    "numericCode": "132",
+    "area": 4033,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Dominican Republic",
@@ -1416,7 +1876,12 @@
       }
     },
     "code": "DO",
-    "numericCode": "214"
+    "numericCode": "214",
+    "area": 48671,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Bahamas",
@@ -1435,7 +1900,12 @@
       }
     },
     "code": "BS",
-    "numericCode": "044"
+    "numericCode": "044",
+    "area": 13943,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Germany",
@@ -1450,7 +1920,12 @@
       }
     },
     "code": "DE",
-    "numericCode": "276"
+    "numericCode": "276",
+    "area": 357114,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Suriname",
@@ -1465,7 +1940,12 @@
       }
     },
     "code": "SR",
-    "numericCode": "740"
+    "numericCode": "740",
+    "area": 163820,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Tonga",
@@ -1480,7 +1960,12 @@
       }
     },
     "code": "TO",
-    "numericCode": "776"
+    "numericCode": "776",
+    "area": 747,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "British Indian Ocean Territory",
@@ -1495,7 +1980,12 @@
       }
     },
     "code": "IO",
-    "numericCode": "086"
+    "numericCode": "086",
+    "area": 60,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Saint Lucia",
@@ -1510,7 +2000,12 @@
       }
     },
     "code": "LC",
-    "numericCode": "662"
+    "numericCode": "662",
+    "area": 616,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Ireland",
@@ -1525,7 +2020,12 @@
       }
     },
     "code": "IE",
-    "numericCode": "372"
+    "numericCode": "372",
+    "area": 70273,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Vatican City",
@@ -1540,7 +2040,12 @@
       }
     },
     "code": "VA",
-    "numericCode": "336"
+    "numericCode": "336",
+    "area": 0.49,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Colombia",
@@ -1555,7 +2060,12 @@
       }
     },
     "code": "CO",
-    "numericCode": "170"
+    "numericCode": "170",
+    "area": 1141748,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Portugal",
@@ -1570,7 +2080,12 @@
       }
     },
     "code": "PT",
-    "numericCode": "620"
+    "numericCode": "620",
+    "area": 92090,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Faroe Islands",
@@ -1589,7 +2104,12 @@
       }
     },
     "code": "FO",
-    "numericCode": "234"
+    "numericCode": "234",
+    "area": 1393,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "São Tomé and Príncipe",
@@ -1604,7 +2124,12 @@
       }
     },
     "code": "ST",
-    "numericCode": "678"
+    "numericCode": "678",
+    "area": 964,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Northern Mariana Islands",
@@ -1619,7 +2144,12 @@
       }
     },
     "code": "MP",
-    "numericCode": "580"
+    "numericCode": "580",
+    "area": 464,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Jersey",
@@ -1638,7 +2168,12 @@
       }
     },
     "code": "JE",
-    "numericCode": "832"
+    "numericCode": "832",
+    "area": 116,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Mayotte",
@@ -1653,7 +2188,12 @@
       }
     },
     "code": "YT",
-    "numericCode": "175"
+    "numericCode": "175",
+    "area": 374,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Yemen",
@@ -1668,7 +2208,12 @@
       }
     },
     "code": "YE",
-    "numericCode": "887"
+    "numericCode": "887",
+    "area": 527968,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Nigeria",
@@ -1683,7 +2228,12 @@
       }
     },
     "code": "NG",
-    "numericCode": "566"
+    "numericCode": "566",
+    "area": 923768,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Afghanistan",
@@ -1698,7 +2248,12 @@
       }
     },
     "code": "AF",
-    "numericCode": "004"
+    "numericCode": "004",
+    "area": 652230,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Botswana",
@@ -1713,7 +2268,12 @@
       }
     },
     "code": "BW",
-    "numericCode": "072"
+    "numericCode": "072",
+    "area": 582000,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Isle of Man",
@@ -1732,7 +2292,12 @@
       }
     },
     "code": "IM",
-    "numericCode": "833"
+    "numericCode": "833",
+    "area": 572,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "El Salvador",
@@ -1747,7 +2312,12 @@
       }
     },
     "code": "SV",
-    "numericCode": "222"
+    "numericCode": "222",
+    "area": 21041,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Uganda",
@@ -1762,7 +2332,12 @@
       }
     },
     "code": "UG",
-    "numericCode": "800"
+    "numericCode": "800",
+    "area": 241550,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Andorra",
@@ -1777,7 +2352,12 @@
       }
     },
     "code": "AD",
-    "numericCode": "020"
+    "numericCode": "020",
+    "area": 468,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Turks and Caicos Islands",
@@ -1792,7 +2372,12 @@
       }
     },
     "code": "TC",
-    "numericCode": "796"
+    "numericCode": "796",
+    "area": 948,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Chad",
@@ -1807,7 +2392,12 @@
       }
     },
     "code": "TD",
-    "numericCode": "148"
+    "numericCode": "148",
+    "area": 1284000,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Finland",
@@ -1822,7 +2412,12 @@
       }
     },
     "code": "FI",
-    "numericCode": "246"
+    "numericCode": "246",
+    "area": 338455,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Russia",
@@ -1837,7 +2432,12 @@
       }
     },
     "code": "RU",
-    "numericCode": "643"
+    "numericCode": "643",
+    "area": 17098246,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Kazakhstan",
@@ -1852,7 +2452,12 @@
       }
     },
     "code": "KZ",
-    "numericCode": "398"
+    "numericCode": "398",
+    "area": 2724900,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Svalbard and Jan Mayen",
@@ -1867,7 +2472,12 @@
       }
     },
     "code": "SJ",
-    "numericCode": "744"
+    "numericCode": "744",
+    "area": 61399,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Venezuela",
@@ -1882,7 +2492,12 @@
       }
     },
     "code": "VE",
-    "numericCode": "862"
+    "numericCode": "862",
+    "area": 916445,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Monaco",
@@ -1897,7 +2512,12 @@
       }
     },
     "code": "MC",
-    "numericCode": "492"
+    "numericCode": "492",
+    "area": 2.02,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Senegal",
@@ -1912,7 +2532,12 @@
       }
     },
     "code": "SN",
-    "numericCode": "686"
+    "numericCode": "686",
+    "area": 196722,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Nepal",
@@ -1927,7 +2552,12 @@
       }
     },
     "code": "NP",
-    "numericCode": "524"
+    "numericCode": "524",
+    "area": 147181,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "United Arab Emirates",
@@ -1942,7 +2572,12 @@
       }
     },
     "code": "AE",
-    "numericCode": "784"
+    "numericCode": "784",
+    "area": 83600,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Taiwan",
@@ -1957,7 +2592,12 @@
       }
     },
     "code": "TW",
-    "numericCode": "158"
+    "numericCode": "158",
+    "area": 36197,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "New Caledonia",
@@ -1972,7 +2612,12 @@
       }
     },
     "code": "NC",
-    "numericCode": "540"
+    "numericCode": "540",
+    "area": 18575,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Bolivia",
@@ -1987,7 +2632,12 @@
       }
     },
     "code": "BO",
-    "numericCode": "068"
+    "numericCode": "068",
+    "area": 1098581,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Chile",
@@ -2002,7 +2652,12 @@
       }
     },
     "code": "CL",
-    "numericCode": "152"
+    "numericCode": "152",
+    "area": 756102,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Ivory Coast",
@@ -2017,7 +2672,12 @@
       }
     },
     "code": "CI",
-    "numericCode": "384"
+    "numericCode": "384",
+    "area": 322463,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Libya",
@@ -2032,7 +2692,12 @@
       }
     },
     "code": "LY",
-    "numericCode": "434"
+    "numericCode": "434",
+    "area": 1759540,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Peru",
@@ -2047,7 +2712,12 @@
       }
     },
     "code": "PE",
-    "numericCode": "604"
+    "numericCode": "604",
+    "area": 1285216,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Canada",
@@ -2062,7 +2732,12 @@
       }
     },
     "code": "CA",
-    "numericCode": "124"
+    "numericCode": "124",
+    "area": 9984670,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "France",
@@ -2077,7 +2752,12 @@
       }
     },
     "code": "FR",
-    "numericCode": "250"
+    "numericCode": "250",
+    "area": 543908,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Djibouti",
@@ -2092,7 +2772,12 @@
       }
     },
     "code": "DJ",
-    "numericCode": "262"
+    "numericCode": "262",
+    "area": 23200,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Burundi",
@@ -2107,7 +2792,12 @@
       }
     },
     "code": "BI",
-    "numericCode": "108"
+    "numericCode": "108",
+    "area": 27834,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Kosovo",
@@ -2122,7 +2812,12 @@
       }
     },
     "code": "XK",
-    "numericCode": ""
+    "numericCode": "",
+    "area": 10908,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Denmark",
@@ -2137,7 +2832,12 @@
       }
     },
     "code": "DK",
-    "numericCode": "208"
+    "numericCode": "208",
+    "area": 43094,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Greece",
@@ -2152,7 +2852,12 @@
       }
     },
     "code": "GR",
-    "numericCode": "300"
+    "numericCode": "300",
+    "area": 131990,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Czechia",
@@ -2167,7 +2872,12 @@
       }
     },
     "code": "CZ",
-    "numericCode": "203"
+    "numericCode": "203",
+    "area": 78865,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Eritrea",
@@ -2182,7 +2892,12 @@
       }
     },
     "code": "ER",
-    "numericCode": "232"
+    "numericCode": "232",
+    "area": 117600,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Namibia",
@@ -2201,7 +2916,12 @@
       }
     },
     "code": "NA",
-    "numericCode": "516"
+    "numericCode": "516",
+    "area": 825615,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "British Virgin Islands",
@@ -2216,7 +2936,12 @@
       }
     },
     "code": "VG",
-    "numericCode": "092"
+    "numericCode": "092",
+    "area": 151,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Iran",
@@ -2231,7 +2956,12 @@
       }
     },
     "code": "IR",
-    "numericCode": "364"
+    "numericCode": "364",
+    "area": 1648195,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Equatorial Guinea",
@@ -2246,7 +2976,12 @@
       }
     },
     "code": "GQ",
-    "numericCode": "226"
+    "numericCode": "226",
+    "area": 28051,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Mauritania",
@@ -2261,7 +2996,12 @@
       }
     },
     "code": "MR",
-    "numericCode": "478"
+    "numericCode": "478",
+    "area": 1030700,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Bahrain",
@@ -2276,7 +3016,12 @@
       }
     },
     "code": "BH",
-    "numericCode": "048"
+    "numericCode": "048",
+    "area": 765,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Cocos (Keeling) Islands",
@@ -2291,7 +3036,12 @@
       }
     },
     "code": "CC",
-    "numericCode": "166"
+    "numericCode": "166",
+    "area": 14,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Ethiopia",
@@ -2306,7 +3056,12 @@
       }
     },
     "code": "ET",
-    "numericCode": "231"
+    "numericCode": "231",
+    "area": 1104300,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Zambia",
@@ -2321,7 +3076,12 @@
       }
     },
     "code": "ZM",
-    "numericCode": "894"
+    "numericCode": "894",
+    "area": 752612,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -2336,7 +3096,12 @@
       }
     },
     "code": "BA",
-    "numericCode": "070"
+    "numericCode": "070",
+    "area": 51209,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Falkland Islands",
@@ -2351,7 +3116,12 @@
       }
     },
     "code": "FK",
-    "numericCode": "238"
+    "numericCode": "238",
+    "area": 12173,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Grenada",
@@ -2366,7 +3136,12 @@
       }
     },
     "code": "GD",
-    "numericCode": "308"
+    "numericCode": "308",
+    "area": 344,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Thailand",
@@ -2381,7 +3156,12 @@
       }
     },
     "code": "TH",
-    "numericCode": "764"
+    "numericCode": "764",
+    "area": 513120,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Romania",
@@ -2396,7 +3176,12 @@
       }
     },
     "code": "RO",
-    "numericCode": "642"
+    "numericCode": "642",
+    "area": 238391,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Saint Vincent and the Grenadines",
@@ -2411,7 +3196,12 @@
       }
     },
     "code": "VC",
-    "numericCode": "670"
+    "numericCode": "670",
+    "area": 389,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Liberia",
@@ -2426,7 +3216,12 @@
       }
     },
     "code": "LR",
-    "numericCode": "430"
+    "numericCode": "430",
+    "area": 111369,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "United States",
@@ -2441,7 +3236,12 @@
       }
     },
     "code": "US",
-    "numericCode": "840"
+    "numericCode": "840",
+    "area": 9525067,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "South Sudan",
@@ -2456,7 +3256,12 @@
       }
     },
     "code": "SS",
-    "numericCode": "728"
+    "numericCode": "728",
+    "area": 619745,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Armenia",
@@ -2471,7 +3276,12 @@
       }
     },
     "code": "AM",
-    "numericCode": "051"
+    "numericCode": "051",
+    "area": 29743,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Japan",
@@ -2486,7 +3296,12 @@
       }
     },
     "code": "JP",
-    "numericCode": "392"
+    "numericCode": "392",
+    "area": 377930,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Pakistan",
@@ -2501,7 +3316,12 @@
       }
     },
     "code": "PK",
-    "numericCode": "586"
+    "numericCode": "586",
+    "area": 796095,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Eswatini",
@@ -2520,7 +3340,12 @@
       }
     },
     "code": "SZ",
-    "numericCode": "748"
+    "numericCode": "748",
+    "area": 17364,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Liechtenstein",
@@ -2535,7 +3360,12 @@
       }
     },
     "code": "LI",
-    "numericCode": "438"
+    "numericCode": "438",
+    "area": 160,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Israel",
@@ -2550,7 +3380,12 @@
       }
     },
     "code": "IL",
-    "numericCode": "376"
+    "numericCode": "376",
+    "area": 21937,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "American Samoa",
@@ -2565,7 +3400,12 @@
       }
     },
     "code": "AS",
-    "numericCode": "016"
+    "numericCode": "016",
+    "area": 199,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Sri Lanka",
@@ -2580,7 +3420,12 @@
       }
     },
     "code": "LK",
-    "numericCode": "144"
+    "numericCode": "144",
+    "area": 65610,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "South Georgia",
@@ -2595,7 +3440,12 @@
       }
     },
     "code": "GS",
-    "numericCode": "239"
+    "numericCode": "239",
+    "area": 3903,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Albania",
@@ -2610,7 +3460,12 @@
       }
     },
     "code": "AL",
-    "numericCode": "008"
+    "numericCode": "008",
+    "area": 28748,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Algeria",
@@ -2625,7 +3480,12 @@
       }
     },
     "code": "DZ",
-    "numericCode": "012"
+    "numericCode": "012",
+    "area": 2381741,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Ukraine",
@@ -2640,7 +3500,12 @@
       }
     },
     "code": "UA",
-    "numericCode": "804"
+    "numericCode": "804",
+    "area": 603550,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -2659,7 +3524,12 @@
       }
     },
     "code": "SH",
-    "numericCode": "654"
+    "numericCode": "654",
+    "area": 394,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "San Marino",
@@ -2674,7 +3544,12 @@
       }
     },
     "code": "SM",
-    "numericCode": "674"
+    "numericCode": "674",
+    "area": 61,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Cuba",
@@ -2693,7 +3568,12 @@
       }
     },
     "code": "CU",
-    "numericCode": "192"
+    "numericCode": "192",
+    "area": 109884,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Nauru",
@@ -2708,7 +3588,12 @@
       }
     },
     "code": "NR",
-    "numericCode": "520"
+    "numericCode": "520",
+    "area": 21,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Spain",
@@ -2723,7 +3608,12 @@
       }
     },
     "code": "ES",
-    "numericCode": "724"
+    "numericCode": "724",
+    "area": 505992,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Kuwait",
@@ -2738,7 +3628,12 @@
       }
     },
     "code": "KW",
-    "numericCode": "414"
+    "numericCode": "414",
+    "area": 17818,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Montserrat",
@@ -2753,7 +3648,12 @@
       }
     },
     "code": "MS",
-    "numericCode": "500"
+    "numericCode": "500",
+    "area": 102,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Mauritius",
@@ -2768,7 +3668,12 @@
       }
     },
     "code": "MU",
-    "numericCode": "480"
+    "numericCode": "480",
+    "area": 2040,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Sweden",
@@ -2783,7 +3688,12 @@
       }
     },
     "code": "SE",
-    "numericCode": "752"
+    "numericCode": "752",
+    "area": 450295,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Australia",
@@ -2798,7 +3708,12 @@
       }
     },
     "code": "AU",
-    "numericCode": "036"
+    "numericCode": "036",
+    "area": 7692024,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Cameroon",
@@ -2813,7 +3728,12 @@
       }
     },
     "code": "CM",
-    "numericCode": "120"
+    "numericCode": "120",
+    "area": 475442,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Ecuador",
@@ -2828,7 +3748,12 @@
       }
     },
     "code": "EC",
-    "numericCode": "218"
+    "numericCode": "218",
+    "area": 276841,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Qatar",
@@ -2843,7 +3768,12 @@
       }
     },
     "code": "QA",
-    "numericCode": "634"
+    "numericCode": "634",
+    "area": 11586,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Marshall Islands",
@@ -2858,7 +3788,12 @@
       }
     },
     "code": "MH",
-    "numericCode": "584"
+    "numericCode": "584",
+    "area": 181,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Poland",
@@ -2873,7 +3808,12 @@
       }
     },
     "code": "PL",
-    "numericCode": "616"
+    "numericCode": "616",
+    "area": 312679,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Cayman Islands",
@@ -2888,7 +3828,12 @@
       }
     },
     "code": "KY",
-    "numericCode": "136"
+    "numericCode": "136",
+    "area": 264,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "South Africa",
@@ -2903,7 +3848,12 @@
       }
     },
     "code": "ZA",
-    "numericCode": "710"
+    "numericCode": "710",
+    "area": 1221037,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Wallis and Futuna",
@@ -2918,7 +3868,12 @@
       }
     },
     "code": "WF",
-    "numericCode": "876"
+    "numericCode": "876",
+    "area": 142,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Samoa",
@@ -2933,7 +3888,12 @@
       }
     },
     "code": "WS",
-    "numericCode": "882"
+    "numericCode": "882",
+    "area": 2842,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Netherlands",
@@ -2948,7 +3908,12 @@
       }
     },
     "code": "NL",
-    "numericCode": "528"
+    "numericCode": "528",
+    "area": 41865,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Western Sahara",
@@ -2971,7 +3936,12 @@
       }
     },
     "code": "EH",
-    "numericCode": "732"
+    "numericCode": "732",
+    "area": 266000,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Montenegro",
@@ -2986,7 +3956,12 @@
       }
     },
     "code": "ME",
-    "numericCode": "499"
+    "numericCode": "499",
+    "area": 13812,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Bhutan",
@@ -3005,7 +3980,12 @@
       }
     },
     "code": "BT",
-    "numericCode": "064"
+    "numericCode": "064",
+    "area": 38394,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Malta",
@@ -3020,7 +4000,12 @@
       }
     },
     "code": "MT",
-    "numericCode": "470"
+    "numericCode": "470",
+    "area": 316,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Vanuatu",
@@ -3035,7 +4020,12 @@
       }
     },
     "code": "VU",
-    "numericCode": "548"
+    "numericCode": "548",
+    "area": 12189,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Tanzania",
@@ -3050,7 +4040,12 @@
       }
     },
     "code": "TZ",
-    "numericCode": "834"
+    "numericCode": "834",
+    "area": 947303,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "New Zealand",
@@ -3065,7 +4060,12 @@
       }
     },
     "code": "NZ",
-    "numericCode": "554"
+    "numericCode": "554",
+    "area": 268838,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Palau",
@@ -3080,7 +4080,12 @@
       }
     },
     "code": "PW",
-    "numericCode": "585"
+    "numericCode": "585",
+    "area": 459,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Panama",
@@ -3099,7 +4104,12 @@
       }
     },
     "code": "PA",
-    "numericCode": "591"
+    "numericCode": "591",
+    "area": 75417,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Tuvalu",
@@ -3118,7 +4128,12 @@
       }
     },
     "code": "TV",
-    "numericCode": "798"
+    "numericCode": "798",
+    "area": 26,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Fiji",
@@ -3133,7 +4148,12 @@
       }
     },
     "code": "FJ",
-    "numericCode": "242"
+    "numericCode": "242",
+    "area": 18272,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Nicaragua",
@@ -3148,7 +4168,12 @@
       }
     },
     "code": "NI",
-    "numericCode": "558"
+    "numericCode": "558",
+    "area": 130373,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Kyrgyzstan",
@@ -3163,7 +4188,12 @@
       }
     },
     "code": "KG",
-    "numericCode": "417"
+    "numericCode": "417",
+    "area": 199951,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "French Southern and Antarctic Lands",
@@ -3178,7 +4208,12 @@
       }
     },
     "code": "TF",
-    "numericCode": "260"
+    "numericCode": "260",
+    "area": 7747,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Latvia",
@@ -3193,7 +4228,12 @@
       }
     },
     "code": "LV",
-    "numericCode": "428"
+    "numericCode": "428",
+    "area": 64559,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Georgia",
@@ -3208,7 +4248,12 @@
       }
     },
     "code": "GE",
-    "numericCode": "268"
+    "numericCode": "268",
+    "area": 69700,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Luxembourg",
@@ -3223,7 +4268,12 @@
       }
     },
     "code": "LU",
-    "numericCode": "442"
+    "numericCode": "442",
+    "area": 2586,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Austria",
@@ -3238,7 +4288,12 @@
       }
     },
     "code": "AT",
-    "numericCode": "040"
+    "numericCode": "040",
+    "area": 83871,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "North Macedonia",
@@ -3253,7 +4308,12 @@
       }
     },
     "code": "MK",
-    "numericCode": "807"
+    "numericCode": "807",
+    "area": 25713,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Saint Barthélemy",
@@ -3268,7 +4328,12 @@
       }
     },
     "code": "BL",
-    "numericCode": "652"
+    "numericCode": "652",
+    "area": 21,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Christmas Island",
@@ -3283,7 +4348,12 @@
       }
     },
     "code": "CX",
-    "numericCode": "162"
+    "numericCode": "162",
+    "area": 135,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Solomon Islands",
@@ -3298,7 +4368,12 @@
       }
     },
     "code": "SB",
-    "numericCode": "090"
+    "numericCode": "090",
+    "area": 28896,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Antigua and Barbuda",
@@ -3313,7 +4388,12 @@
       }
     },
     "code": "AG",
-    "numericCode": "028"
+    "numericCode": "028",
+    "area": 442,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Iraq",
@@ -3328,7 +4408,12 @@
       }
     },
     "code": "IQ",
-    "numericCode": "368"
+    "numericCode": "368",
+    "area": 438317,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Moldova",
@@ -3343,7 +4428,12 @@
       }
     },
     "code": "MD",
-    "numericCode": "498"
+    "numericCode": "498",
+    "area": 33847,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Norfolk Island",
@@ -3358,7 +4448,12 @@
       }
     },
     "code": "NF",
-    "numericCode": "574"
+    "numericCode": "574",
+    "area": 36,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Republic of the Congo",
@@ -3373,7 +4468,12 @@
       }
     },
     "code": "CG",
-    "numericCode": "178"
+    "numericCode": "178",
+    "area": 342000,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Niue",
@@ -3388,7 +4488,12 @@
       }
     },
     "code": "NU",
-    "numericCode": "570"
+    "numericCode": "570",
+    "area": 260,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Lithuania",
@@ -3403,7 +4508,12 @@
       }
     },
     "code": "LT",
-    "numericCode": "440"
+    "numericCode": "440",
+    "area": 65300,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Niger",
@@ -3418,7 +4528,12 @@
       }
     },
     "code": "NE",
-    "numericCode": "562"
+    "numericCode": "562",
+    "area": 1267000,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Guyana",
@@ -3433,7 +4548,12 @@
       }
     },
     "code": "GY",
-    "numericCode": "328"
+    "numericCode": "328",
+    "area": 214969,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Bermuda",
@@ -3448,7 +4568,12 @@
       }
     },
     "code": "BM",
-    "numericCode": "060"
+    "numericCode": "060",
+    "area": 54,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Gabon",
@@ -3463,7 +4588,12 @@
       }
     },
     "code": "GA",
-    "numericCode": "266"
+    "numericCode": "266",
+    "area": 267668,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Cook Islands",
@@ -3482,7 +4612,12 @@
       }
     },
     "code": "CK",
-    "numericCode": "184"
+    "numericCode": "184",
+    "area": 236,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Angola",
@@ -3497,7 +4632,12 @@
       }
     },
     "code": "AO",
-    "numericCode": "024"
+    "numericCode": "024",
+    "area": 1246700,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Norway",
@@ -3512,7 +4652,12 @@
       }
     },
     "code": "NO",
-    "numericCode": "578"
+    "numericCode": "578",
+    "area": 386224,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Guadeloupe",
@@ -3527,7 +4672,12 @@
       }
     },
     "code": "GP",
-    "numericCode": "312"
+    "numericCode": "312",
+    "area": 1628,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Maldives",
@@ -3542,7 +4692,12 @@
       }
     },
     "code": "MV",
-    "numericCode": "462"
+    "numericCode": "462",
+    "area": 300,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Belgium",
@@ -3557,7 +4712,12 @@
       }
     },
     "code": "BE",
-    "numericCode": "056"
+    "numericCode": "056",
+    "area": 30528,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Croatia",
@@ -3572,7 +4732,12 @@
       }
     },
     "code": "HR",
-    "numericCode": "191"
+    "numericCode": "191",
+    "area": 56594,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Belize",
@@ -3587,7 +4752,12 @@
       }
     },
     "code": "BZ",
-    "numericCode": "084"
+    "numericCode": "084",
+    "area": 22966,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Saint Kitts and Nevis",
@@ -3602,7 +4772,12 @@
       }
     },
     "code": "KN",
-    "numericCode": "659"
+    "numericCode": "659",
+    "area": 261,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Singapore",
@@ -3617,7 +4792,12 @@
       }
     },
     "code": "SG",
-    "numericCode": "702"
+    "numericCode": "702",
+    "area": 710,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Lesotho",
@@ -3636,7 +4816,12 @@
       }
     },
     "code": "LS",
-    "numericCode": "426"
+    "numericCode": "426",
+    "area": 30355,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Uruguay",
@@ -3651,7 +4836,12 @@
       }
     },
     "code": "UY",
-    "numericCode": "858"
+    "numericCode": "858",
+    "area": 181034,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Burkina Faso",
@@ -3666,7 +4856,12 @@
       }
     },
     "code": "BF",
-    "numericCode": "854"
+    "numericCode": "854",
+    "area": 272967,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "India",
@@ -3681,7 +4876,12 @@
       }
     },
     "code": "IN",
-    "numericCode": "356"
+    "numericCode": "356",
+    "area": 3287263,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Philippines",
@@ -3696,7 +4896,12 @@
       }
     },
     "code": "PH",
-    "numericCode": "608"
+    "numericCode": "608",
+    "area": 342353,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Central African Republic",
@@ -3711,7 +4916,12 @@
       }
     },
     "code": "CF",
-    "numericCode": "140"
+    "numericCode": "140",
+    "area": 622984,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Sudan",
@@ -3726,7 +4936,12 @@
       }
     },
     "code": "SD",
-    "numericCode": "729"
+    "numericCode": "729",
+    "area": 1886068,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Guinea-Bissau",
@@ -3741,7 +4956,12 @@
       }
     },
     "code": "GW",
-    "numericCode": "624"
+    "numericCode": "624",
+    "area": 36125,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "Papua New Guinea",
@@ -3756,7 +4976,12 @@
       }
     },
     "code": "PG",
-    "numericCode": "598"
+    "numericCode": "598",
+    "area": 462840,
+    "latlng": [
+      0,
+      0
+    ]
   },
   {
     "name": "United States Minor Outlying Islands",
@@ -3771,6 +4996,11 @@
       }
     },
     "code": "UM",
-    "numericCode": "581"
+    "numericCode": "581",
+    "area": 34.2,
+    "latlng": [
+      0,
+      0
+    ]
   }
 ]

@@ -41,7 +41,11 @@ function GameRunner({ questions }) {
         <p style={{ color: '#94a3b8', marginBottom: '12px', fontSize: '0.9rem' }}>
           Which country is highlighted?
         </p>
-        <WorldMap numericCode={q.numericCode} region={q.region} />
+        <WorldMap
+          numericCode={q.numericCode}
+          latlng={q.latlng}
+          area={q.area}
+        />
       </div>
     )}
     />

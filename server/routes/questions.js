@@ -78,19 +78,25 @@ router.get('/capitals', (req, res) => {
 // GET /api/questions/map-location
 // Returns a highlighted country (by numeric code) → pick the country name
 router.get('/map-location', (req, res) => {
-  // Exclude microstates — too tiny to see on world map
-  const eligible = countries.filter(c => c.numericCode && c.numericCode !== '');
-  const shuffled  = getRandom(eligible, 10);
+  const eligible = countries.filter(c =>
+    c.numericCode &&
+    c.numericCode !== '' &&
+    c.area > 500        // filter out microstates (smaller than ~10,000 km²)
+  );
+
+  const shuffled = getRandom(eligible, 10);
 
   const questions = shuffled.map(correct => {
     const wrong   = getRandom(eligible.filter(c => c.code !== correct.code), 3);
     const options = getRandom([correct, ...wrong], 4);
 
     return {
-      numericCode: correct.numericCode,   // used to highlight on the map
-      answer: correct.name,
-      options: options.map(o => o.name),
-      region: correct.region,             // useful for zooming later
+      numericCode: correct.numericCode,
+      answer:      correct.name,
+      options:     options.map(o => o.name),
+      region:      correct.region,
+      latlng:      correct.latlng,              // ADD THIS
+      area:        correct.area,                // ADD THIS
     };
   });
 
