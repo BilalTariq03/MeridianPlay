@@ -14,64 +14,113 @@ const ICON_MAP = {
   'coin':          IconCoin,
 };
 
-const DIFFICULTIES = [
+const MODES = [
   {
-    id: 'easy',
-    label: 'Easy',
-    desc: '~50 major countries everyone knows',
+    id:    'classic',
+    name:  'Classic',
+    desc:  'Fixed questions, per-question timer',
     color: '#22C55E',
   },
   {
-    id: 'medium',
-    label: 'Medium',
-    desc: '~100 countries including less-known ones',
+    id:    'endless',
+    name:  'Endless',
+    desc:  'Play until you get one wrong',
     color: '#F59E0B',
   },
   {
-    id: 'hard',
-    label: 'Hard',
-    desc: '~150 fully independent nations',
-    color: '#F97316',
-  },
-  {
-    id: 'extreme',
-    label: 'Extreme',
-    desc: '~195 everything including territories',
+    id:    'speedrun',
+    name:  'Speedrun',
+    desc:  'Score as high as possible in time',
     color: '#EF4444',
   },
 ];
 
+const DIFFICULTIES = [
+  { id: 'easy',    label: 'Easy'    },
+  { id: 'medium',  label: 'Medium'  },
+  { id: 'hard',    label: 'Hard'    },
+  { id: 'extreme', label: 'Extreme' },
+];
+
+const QUESTION_OPTIONS = {
+  easy:    ['10', '20', '30', '50'],
+  medium:  ['25', '50', '75', '100'],
+  hard:    ['25', '50', '100', '150'],
+  extreme: ['50', '100', '150', '200'],
+};
+
+const DEFAULT_QUESTIONS = {
+  easy:    '10',
+  medium:  '25',
+  hard:    '25',
+  extreme: '50',
+};
+
+const TIMERS = [
+  { id: '5',  label: '5s'  },
+  { id: '10', label: '10s' },
+  { id: '15', label: '15s' },
+  { id: '0',  label: '∞'   },
+];
+
+const TIME_LIMITS = [
+  { id: '60',  label: '1 min' },
+  { id: '120', label: '2 min' },
+  { id: '300', label: '5 min' },
+];
+
 export default function GameSelect() {
-  const { gameId }              = useParams();
-  const navigate                = useNavigate();
-  const [difficulty, setDiff]   = useState('medium');
+  const { gameId } = useParams();
+  const navigate   = useNavigate();
+
+  const [mode,       setMode]       = useState('classic');
+  const [difficulty, setDifficulty] = useState('medium');
+  const [questions,  setQuestions]  = useState(DEFAULT_QUESTIONS['medium']);
+  const [timer,      setTimer]      = useState('10');
+  const [timeLimit,  setTimeLimit]  = useState('120');
+
+  // ✅ Bug 1 fixed — inside component so it can access state setters
+  const handleDifficulty = (d) => {
+    setDifficulty(d);
+    setQuestions(DEFAULT_QUESTIONS[d]);
+  };
 
   const game = games.find(g => g.id === gameId);
 
-  if (!game) {
-    return (
-      <div style={{ padding: 40, color: 'var(--text-400)' }}>
-        Game not found. <span
-          style={{ color: 'var(--accent)', cursor: 'pointer' }}
-          onClick={() => navigate('/')}
-        >Go home</span>
-      </div>
-    );
-  }
+  if (!game) return (
+    <div style={{ padding: 40, color: 'var(--text-400)' }}>
+      Game not found.{' '}
+      <span style={{ color: 'var(--accent)', cursor: 'pointer' }}
+        onClick={() => navigate('/')}>Go home</span>
+    </div>
+  );
 
   const Icon = ICON_MAP[game.icon];
 
   const handleStart = () => {
-    navigate(`${game.playPath}?difficulty=${difficulty}`);
+    const params = new URLSearchParams({
+      mode,
+      difficulty,
+      ...(mode === 'classic'  && { questions, timer }),
+      ...(mode === 'speedrun' && { timeLimit }),
+    });
+    navigate(`${game.playPath}?${params.toString()}`);
+  };
+
+  const getStartLabel = () => {
+    if (mode === 'classic')  return `Start · ${questions} questions`;
+    if (mode === 'endless')  return 'Start Endless Run';
+    if (mode === 'speedrun') {
+      const t = TIME_LIMITS.find(t => t.id === timeLimit);
+      return `Start Speedrun · ${t?.label}`;
+    }
   };
 
   return (
     <div className={styles.page}>
-
-      {/* Navbar */}
       <nav className={styles.nav}>
         <button className={styles.backBtn} onClick={() => navigate('/')}>←</button>
-        <span className={styles.navTitle}>Select Difficulty</span>
+        <span className={styles.navTitle}>Game Setup</span>
       </nav>
 
       <div className={styles.body}>
@@ -87,41 +136,112 @@ export default function GameSelect() {
           </div>
         </div>
 
-        {/* Difficulty picker */}
+        {/* Mode picker */}
         <div className={styles.section}>
-          <p className={styles.sectionLabel}>Difficulty</p>
-          <div className={styles.diffGrid}>
-            {DIFFICULTIES.map(d => (
+          <p className={styles.sectionLabel}>Mode</p>
+          <div className={styles.modeGrid}>
+            {MODES.map(m => (
               <button
-                key={d.id}
-                className={`${styles.diffBtn} ${difficulty === d.id ? styles.diffActive : ''}`}
-                style={difficulty === d.id ? { borderColor: d.color } : {}}
-                onClick={() => setDiff(d.id)}
+                key={m.id}
+                className={`${styles.modeBtn} ${mode === m.id ? styles.modeBtnActive : ''}`}
+                style={mode === m.id ? { borderColor: m.color } : {}}
+                onClick={() => setMode(m.id)}
               >
-                <div className={styles.diffTop}>
-                  <span
-                    className={styles.diffLabel}
-                    style={difficulty === d.id ? { color: d.color } : {}}
-                  >
-                    {d.label}
-                  </span>
-                  {difficulty === d.id && (
-                    <span className={styles.diffCheck} style={{ color: d.color }}>✓</span>
-                  )}
-                </div>
-                <p className={styles.diffDesc}>{d.desc}</p>
+                <div className={styles.modeIndicator} style={{ background: m.color }} />
+                <span
+                  className={styles.modeName}
+                  style={mode === m.id ? { color: m.color } : {}}
+                >
+                  {m.name}
+                </span>
+                <p className={styles.modeDesc}>{m.desc}</p>
               </button>
             ))}
           </div>
         </div>
 
-        {/* Start */}
-        <button className={styles.startBtn} onClick={handleStart}>
-          Start Round →
-        </button>
+        {/* Difficulty — all modes */}
+        {/* ✅ Bug 2 fixed — iterating DIFFICULTIES not QUESTION_OPTIONS */}
+        <div className={styles.section}>
+          <p className={styles.sectionLabel}>Difficulty</p>
+          <div className={styles.pillRow}>
+            {DIFFICULTIES.map(d => (
+              <button
+                key={d.id}
+                className={`${styles.pill} ${difficulty === d.id ? styles.pillActive : ''}`}
+                onClick={() => handleDifficulty(d.id)}
+              >
+                {d.label}
+              </button>
+            ))}
+          </div>
+        </div>
 
-        {/* Info */}
-        <p className={styles.info}>10 questions · 10 seconds each</p>
+        {/* Classic-only options */}
+        {mode === 'classic' && (
+          <>
+            {/* ✅ Bug 3 fixed — using QUESTION_OPTIONS[difficulty] */}
+            <div className={styles.section}>
+              <p className={styles.sectionLabel}>Questions</p>
+              <div className={styles.pillRow}>
+                {QUESTION_OPTIONS[difficulty].map(q => (
+                  <button
+                    key={q}
+                    className={`${styles.pill} ${questions === q ? styles.pillActive : ''}`}
+                    onClick={() => setQuestions(q)}
+                  >
+                    {q}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className={styles.section}>
+              <p className={styles.sectionLabel}>Timer per question</p>
+              <div className={styles.pillRow}>
+                {TIMERS.map(t => (
+                  <button
+                    key={t.id}
+                    className={`${styles.pill} ${timer === t.id ? styles.pillActive : ''}`}
+                    onClick={() => setTimer(t.id)}
+                  >
+                    {t.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </>
+        )}
+
+        {/* Speedrun-only options */}
+        {mode === 'speedrun' && (
+          <div className={styles.section}>
+            <p className={styles.sectionLabel}>Time limit</p>
+            <div className={styles.pillRow}>
+              {TIME_LIMITS.map(t => (
+                <button
+                  key={t.id}
+                  className={`${styles.pill} ${timeLimit === t.id ? styles.pillActive : ''}`}
+                  onClick={() => setTimeLimit(t.id)}
+                >
+                  {t.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Start */}
+        <div>
+          <button className={styles.startBtn} onClick={handleStart}>
+            {getStartLabel()} →
+          </button>
+          <p className={styles.startInfo} style={{ marginTop: 12 }}>
+            {mode === 'classic'  && `${questions} questions · ${timer === '0' ? 'No timer' : `${timer}s each`}`}
+            {mode === 'endless'  && 'One wrong answer ends the run'}
+            {mode === 'speedrun' && 'Answer as many as possible before time runs out'}
+          </p>
+        </div>
 
       </div>
     </div>

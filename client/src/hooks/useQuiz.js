@@ -1,8 +1,5 @@
 import { useReducer, useEffect } from 'react';
 
-const QUESTION_TIME = 10;
-
-// All state transitions in one place — explicit and predictable
 function reducer(state, action) {
   switch (action.type) {
     case 'ANSWER':
@@ -17,7 +14,7 @@ function reducer(state, action) {
         ...state,
         index: state.index + 1,
         selected: null,
-        timeLeft: QUESTION_TIME,
+        timeLeft: action.questionTime, // passed through action
         status: 'playing',
       };
     case 'FINISH':
@@ -29,48 +26,48 @@ function reducer(state, action) {
   }
 }
 
-const init = {
-  index: 0,
-  score: 0,
-  selected: null,
-  timeLeft: QUESTION_TIME,
-  status: 'playing',
-};
-
-export function useQuiz(questions) {
+export function useQuiz(questions, questionTime = 10) {
+  const init = {
+    index:    0,
+    score:    0,
+    selected: null,
+    timeLeft: questionTime > 0 ? questionTime : null, // null = no timer
+    status:   'playing',
+  };
+  
   const [state, dispatch] = useReducer(reducer, init);
   const { index, score, selected, timeLeft, status } = state;
 
-  // Timer — all dispatch calls are inside setTimeout (async, not in effect body directly)
+  // Timer effect — skip entirely if questionTime is 0 (no timer mode)
   useEffect(() => {
     if (status !== 'playing') return;
+    if (questionTime === 0) return;  // ∞ mode — no countdown
 
     const isTimeUp = timeLeft === 0;
     const t = setTimeout(() => {
       dispatch(
         isTimeUp
-          ? { type: 'ANSWER', choice: null, isCorrect: false } // time's up = wrong
+          ? { type: 'ANSWER', choice: null, isCorrect: false }
           : { type: 'TICK' }
       );
     }, isTimeUp ? 0 : 1000);
 
     return () => clearTimeout(t);
-  }, [timeLeft, status]);
+  }, [timeLeft, status, questionTime]);
 
-  // After feedback pause → next question or finish
+  // After feedback — next question or finish
   useEffect(() => {
     if (status !== 'feedback') return;
     const t = setTimeout(() => {
       dispatch(
         index + 1 >= questions.length
           ? { type: 'FINISH' }
-          : { type: 'NEXT' }
+          : { type: 'NEXT', questionTime } // pass questionTime so NEXT resets correctly
       );
     }, 1000);
     return () => clearTimeout(t);
-  }, [status, index, questions.length]);
+  }, [status, index, questions.length, questionTime]);
 
-  // Called by the UI when user clicks an option
   const handleAnswer = (choice) => {
     if (status !== 'playing') return;
     const isCorrect = choice === questions[index]?.answer;

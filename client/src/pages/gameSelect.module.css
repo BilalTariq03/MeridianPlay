@@ -34,9 +34,9 @@
 }
 
 .body {
-  max-width: 560px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 48px 24px;
+  padding: 40px 24px;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -47,6 +47,8 @@
   display: flex;
   align-items: center;
   gap: 16px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border);
 }
 
 .gameIcon {
@@ -72,7 +74,11 @@
 }
 
 /* Section */
-.section { display: flex; flex-direction: column; gap: 12px; }
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 
 .sectionLabel {
   font-size: 11px;
@@ -82,14 +88,14 @@
   color: var(--text-500);
 }
 
-/* Difficulty grid */
-.diffGrid {
+/* Mode cards */
+.modeGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
-.diffBtn {
+.modeBtn {
   background: var(--ink-800);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
@@ -97,34 +103,68 @@
   cursor: pointer;
   text-align: left;
   transition: border-color 0.15s, background 0.15s;
+  position: relative;
+  overflow: hidden;
 }
 
-.diffBtn:hover {
+.modeBtn:hover {
   background: var(--ink-700);
   border-color: var(--border-hover);
 }
 
-.diffActive { background: var(--ink-700); }
-
-.diffTop {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 6px;
+.modeBtnActive {
+  background: var(--ink-700);
 }
 
-.diffLabel {
+.modeIndicator {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.modeName {
   font-size: 14px;
   font-weight: 600;
-  color: var(--text-300);
+  color: var(--text-100);
+  margin-bottom: 4px;
+  display: block;
 }
 
-.diffCheck { font-size: 14px; }
-
-.diffDesc {
-  font-size: 12px;
+.modeDesc {
+  font-size: 11px;
   color: var(--text-500);
   line-height: 1.4;
+}
+
+/* Pill options (difficulty, questions, timer) */
+.pillRow {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  padding: 8px 16px;
+  background: var(--ink-800);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-300);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.pill:hover {
+  border-color: var(--border-hover);
+  background: var(--ink-700);
+}
+
+.pillActive {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(245, 158, 11, 0.08);
 }
 
 /* Start button */
@@ -140,11 +180,12 @@
   font-weight: 600;
   cursor: pointer;
   transition: background 0.15s;
+  margin-top: 8px;
 }
 
 .startBtn:hover { background: var(--accent-hover); }
 
-.info {
+.startInfo {
   font-size: 12px;
   color: var(--text-500);
   text-align: center;

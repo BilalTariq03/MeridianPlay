@@ -9,20 +9,24 @@ export default function QuizLayout({
   onAnswer, renderQuestion,
   gameTitle = 'Quiz',
   layout = 'default',
+  questionTime = 10,
 }) {
   const navigate  = useNavigate();
-  const isLow     = timeLeft <= 3;
-  const fillWidth = `${(timeLeft / 10) * 100}%`;
+  const isLow     = questionTime > 0 && timeLeft <= 3;
+  const fillWidth = questionTime > 0
+    ? `${(timeLeft / questionTime) * 100}%`
+    : '100%';
   const correct   = question?.answer;
 
   const getOptionClass = (option) => {
     if (status !== 'feedback') return styles.option;
-    if (option === correct)  return `${styles.option} ${styles.optionCorrect}`;
-    if (option === selected) return `${styles.option} ${styles.optionWrong}`;
+    if (option === correct)    return `${styles.option} ${styles.optionCorrect}`;
+    if (option === selected)   return `${styles.option} ${styles.optionWrong}`;
     return styles.option;
   };
 
-  const timerBar = (
+  // ✅ Fix 1 — no curly braces, plain expression
+  const timerBar = questionTime > 0 && (
     <div className={styles.timerRow}>
       <div className={styles.timerTrack}>
         <div
@@ -55,7 +59,6 @@ export default function QuizLayout({
   return (
     <div className={styles.page}>
 
-      {/* Navbar */}
       <nav className={styles.nav}>
         <button className={styles.backBtn} onClick={() => navigate('/')}>←</button>
         <span className={styles.navTitle}>{gameTitle}</span>
@@ -64,7 +67,6 @@ export default function QuizLayout({
         </span>
       </nav>
 
-      {/* Progress dots */}
       <div className={styles.progressRow}>
         {Array.from({ length: total }).map((_, i) => {
           let cls = styles.dot;
@@ -74,13 +76,12 @@ export default function QuizLayout({
         })}
       </div>
 
-      {/* SPLIT LAYOUT — map left, options right */}
+      {/* ✅ Fix 2 — layout always renders, timerBar is conditional inside */}
       {layout === 'split' ? (
         <div className={styles.splitBody}>
           <div className={styles.splitLeft}>
             {question && renderQuestion(question)}
           </div>
-
           <div className={styles.splitRight}>
             {timerBar}
             <p style={{ fontSize: '13px', color: 'var(--text-400)' }}>
@@ -88,14 +89,12 @@ export default function QuizLayout({
             </p>
             {optionButtons(true)}
             <div className={styles.splitScore}>
-              Score <span className={styles.splitScoreVal}>{score}</span> · 
+              Score <span className={styles.splitScoreVal}>{score}</span> ·
               Question {index + 1} of {total}
             </div>
           </div>
         </div>
-
       ) : (
-        /* DEFAULT LAYOUT — centered column */
         <div className={styles.body}>
           {timerBar}
           <div className={styles.questionArea}>

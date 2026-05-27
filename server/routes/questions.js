@@ -21,6 +21,11 @@ const filterByDifficulty = (countries, difficulty) => {
   }
 };
 
+const getCount = (query, pool) => {
+  const requested = parseInt(query.questions) || 10;
+  return Math.min(requested, pool.length); // never ask for more than pool has
+};
+
 // Extracts the base currency word: "Canadian dollar" → "Dollar"
 const simplifyCurrency = (name) => {
   const overrides = {
@@ -46,12 +51,13 @@ const simplifyCurrency = (name) => {
 router.get('/flags', (req, res) => {
   const difficulty = req.query.difficulty || 'medium';   // default medium
   const pool       = filterByDifficulty(countries, difficulty);
+  const count      = getCount(req.query, pool);
 
   if (pool.length < 4) {
     return res.status(400).json({ error: 'Not enough countries for this difficulty' });
   }
 
-  const shuffled = getRandom(pool, 10);
+  const shuffled = getRandom(pool, count);
 
   const questions = shuffled.map(correct => {
     const wrong = getRandom(
@@ -77,12 +83,13 @@ router.get('/flags', (req, res) => {
 router.get('/capitals', (req, res) => {
   const difficulty = req.query.difficulty || 'medium';   // default medium
   const pool       = filterByDifficulty(countries, difficulty);
+  const count      = getCount(req.query, pool);
 
   if (pool.length < 4) {
     return res.status(400).json({ error: 'Not enough countries for this difficulty' });
   }
 
-  const shuffled = getRandom(pool, 10);
+  const shuffled = getRandom(pool, count);
 
   const questions = shuffled.map(correct => {
     const wrong = getRandom(
@@ -108,6 +115,7 @@ router.get('/capitals', (req, res) => {
 router.get('/map-location', (req, res) => {
   const difficulty = req.query.difficulty || 'medium';   // default medium
   const pool       = filterByDifficulty(countries, difficulty);
+  const count      = getCount(req.query, pool);
 
   if (pool.length < 4) {
     return res.status(400).json({ error: 'Not enough countries for this difficulty' });
@@ -119,7 +127,7 @@ router.get('/map-location', (req, res) => {
     c.area > 500        // filter out microstates (smaller than ~10,000 km²)
   );
 
-  const shuffled = getRandom(eligible, 10);
+  const shuffled = getRandom(eligible, count);
 
   const questions = shuffled.map(correct => {
     const wrong   = getRandom(eligible.filter(c => c.code !== correct.code), 3);
@@ -142,6 +150,7 @@ router.get('/map-location', (req, res) => {
 router.get('/currencies', (req, res) => {
   const difficulty = req.query.difficulty || 'medium';   // default medium
   const pool       = filterByDifficulty(countries, difficulty);
+  const count      = getCount(req.query, pool);
 
   if (pool.length < 4) {
     return res.status(400).json({ error: 'Not enough countries for this difficulty' });
@@ -153,7 +162,7 @@ router.get('/currencies', (req, res) => {
     Object.values(c.currency)[0]?.name
   );
 
-  const shuffled = getRandom(eligible, 10);
+  const shuffled = getRandom(eligible, count);
 
   const questions = shuffled.map(correct => {
     const correctCurrencyName     = Object.values(correct.currency)[0].name;
