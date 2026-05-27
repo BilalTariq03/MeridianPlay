@@ -35,6 +35,7 @@ function GameRunner({ questions }) {
     <QuizLayout
       {...quiz}
       onAnswer={quiz.handleAnswer}
+      gameTitle="Guess the Capital"
       renderQuestion={(q) => (
         <div>
           <p style={{ color: '#94a3b8', marginBottom: '8px' }}>What is the capital of</p>

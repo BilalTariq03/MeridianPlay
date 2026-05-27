@@ -39,6 +39,7 @@ function GameRunner({ questions }) {
     <QuizLayout
       {...quiz}
       onAnswer={quiz.handleAnswer}
+      gameTitle="Guess the Flag"
       renderQuestion={(q) => (
         <img
           src={q.flag}

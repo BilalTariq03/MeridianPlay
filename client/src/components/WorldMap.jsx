@@ -55,8 +55,8 @@ function WorldMap({ numericCode, area }) {
 
   return (
     <div style={{
-      width: '200%',
-      maxWidth: '600px',
+      width: '100%',
+      aspectRatio: '4/3',
       margin: '0 auto',
       background: '#0f172a',
       borderRadius: '12px',

@@ -1,0 +1,244 @@
+.page {
+  min-height: 100vh;
+  background: var(--ink-900);
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 48px;
+  height: 56px;
+  border-bottom: 1px solid var(--border);
+  background: var(--ink-950);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navLogo { display: flex; align-items: center; gap: 10px; }
+
+.navIcon {
+  width: 32px; height: 32px;
+  background: var(--accent);
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+.navName {
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  color: var(--text-100);
+}
+
+.navTagline { font-size: 13px; color: var(--text-500); }
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 72px 48px 60px;
+  min-height: 620px;
+  position: relative;
+  overflow: hidden;       /* this clips the globe */
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 55% 75% at 75% 50%,
+    rgba(245, 158, 11, 0.06) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.heroLeft {
+  /* max-width: 560px; */
+  position: relative;
+  z-index: 2;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+
+.eyebrowDot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.heroTitle {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 0.95;
+  color: var(--text-100);
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
+}
+
+.heroTitleAccent { color: var(--accent); }
+
+.heroSub {
+  font-size: 16px;
+  color: var(--text-400);
+  line-height: 1.7;
+  margin-bottom: 40px;
+  max-width: 440px;
+}
+
+.heroCta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.heroMeta { font-size: 13px; color: var(--text-500); }
+
+.heroRight {
+  position: absolute;
+  right: -200px;          /* push it off screen by 200px */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Globe */
+.globeWrap {
+  width: 850px;
+  height: 850px;
+  animation: floatGlobe 8s ease-in-out infinite;
+}
+
+.globeSvg { width: 100%; height: 100%; }
+
+/* Dots + longitude lines all rotate together */
+.rotatingGroup {
+  animation: spinGlobe 25s linear infinite;
+  transform-origin: 450px 450px;   /* center of new canvas */
+}
+
+@keyframes floatGlobe {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-20px); }
+}
+
+@keyframes spinGlobe {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Games section */
+.gamesSection { padding: 0 48px 60px; }
+
+.categoryRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.categoryLine { flex: 1; height: 1px; background: var(--border); }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+/* Game card */
+.card {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.2s, background 0.2s, transform 0.2s;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(245,158,11,0.5), transparent);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.card:hover {
+  border-color: rgba(245, 158, 11, 0.2);
+  background: var(--ink-700);
+  transform: translateY(-2px);
+}
+
+.card:hover::before { opacity: 1; }
+
+.cardDisabled { opacity: 0.4; cursor: not-allowed; }
+
+.cardDisabled:hover {
+  border-color: var(--border);
+  background: var(--ink-800);
+  transform: none;
+}
+
+.cardDisabled:hover::before { opacity: 0; }
+
+.cardTop { padding: 24px 24px 0; }
+
+.cardIconWrap {
+  width: 52px; height: 52px;
+  background: var(--ink-700);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--accent);
+  transition: background 0.2s;
+}
+
+.card:hover .cardIconWrap {
+  background: rgba(245, 158, 11, 0.1);
+  border-color: rgba(245, 158, 11, 0.2);
+}
+
+.cardBody { padding: 16px 24px 24px; }
+
+.cardTitle {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text-100);
+  margin-bottom: 6px;
+}
+
+.cardDesc {
+  font-size: 13px;
+  color: var(--text-400);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardPlay {
+  font-size: 13px;
+  color: var(--text-500);
+  transition: color 0.15s;
+}
+
+.card:hover .cardPlay { color: var(--accent); }

@@ -35,6 +35,7 @@ function GameRunner({ questions }) {
     <QuizLayout
       {...quiz}
       onAnswer={quiz.handleAnswer}
+      gameTitle="Guess the Currency"
       renderQuestion={(q) => (
         <div style={{ textAlign: 'center' }}>
           <img
