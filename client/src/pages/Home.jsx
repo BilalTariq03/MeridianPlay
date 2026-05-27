@@ -10,11 +10,11 @@ import games from '../config/games.config';
 import styles from './Home.module.css';
 
 // Map game ID → Tabler icon component
-const GAME_ICONS = {
-  'guess-the-flag':        IconFlag2,
-  'guess-the-capital':     IconBuildingBank,
-  'guess-the-map-country': IconMap2,
-  'guess-the-currency':    IconCoin,
+const ICON_MAP = {
+  'flag':          IconFlag2,
+  'building-bank': IconBuildingBank,
+  'map-2':         IconMap2,
+  'coin':          IconCoin,
 };
 
 function Globe() {
@@ -165,7 +165,7 @@ export default function Home() {
 }
 
 function GameCard({ game, onClick }) {
-  const Icon = GAME_ICONS[game.id];
+  const Icon = ICON_MAP[game.icon];
 
   return (
     <div

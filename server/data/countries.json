@@ -4,7 +4,6 @@
     "capital": "The Valley",
     "flag": "https://flagcdn.com/w320/ai.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "XCD": {
         "name": "Eastern Caribbean dollar",
@@ -15,16 +14,17 @@
     "numericCode": "660",
     "area": 91,
     "latlng": [
-      0,
-      0
-    ]
+      18.25,
+      -63.16666666
+    ],
+    "population": 16010,
+    "independent": false
   },
   {
     "name": "Guatemala",
     "capital": "Guatemala City",
     "flag": "https://flagcdn.com/w320/gt.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "GTQ": {
         "name": "Guatemalan quetzal",
@@ -35,16 +35,17 @@
     "numericCode": "320",
     "area": 108889,
     "latlng": [
-      0,
-      0
-    ]
+      15.5,
+      -90.25
+    ],
+    "population": 18079810,
+    "independent": true
   },
   {
     "name": "Gambia",
     "capital": "Banjul",
     "flag": "https://flagcdn.com/w320/gm.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "GMD": {
         "name": "dalasi",
@@ -55,16 +56,17 @@
     "numericCode": "270",
     "area": 10689,
     "latlng": [
-      0,
-      0
-    ]
+      13.46666666,
+      -16.56666666
+    ],
+    "population": 2422712,
+    "independent": true
   },
   {
     "name": "Mexico",
     "capital": "Mexico City",
     "flag": "https://flagcdn.com/w320/mx.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "MXN": {
         "name": "Mexican peso",
@@ -75,16 +77,17 @@
     "numericCode": "484",
     "area": 1964375,
     "latlng": [
-      0,
-      0
-    ]
+      23,
+      -102
+    ],
+    "population": 130575786,
+    "independent": true
   },
   {
     "name": "Malawi",
     "capital": "Lilongwe",
     "flag": "https://flagcdn.com/w320/mw.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "MWK": {
         "name": "Malawian kwacha",
@@ -95,16 +98,17 @@
     "numericCode": "454",
     "area": 118484,
     "latlng": [
-      0,
-      0
-    ]
+      -13.5,
+      34
+    ],
+    "population": 20734262,
+    "independent": true
   },
   {
     "name": "Pitcairn Islands",
     "capital": "Adamstown",
     "flag": "https://flagcdn.com/w320/pn.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "NZD": {
         "name": "New Zealand dollar",
@@ -115,16 +119,17 @@
     "numericCode": "612",
     "area": 47,
     "latlng": [
-      0,
-      0
-    ]
+      -25.06666666,
+      -130.1
+    ],
+    "population": 35,
+    "independent": false
   },
   {
     "name": "Argentina",
     "capital": "Buenos Aires",
     "flag": "https://flagcdn.com/w320/ar.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "ARS": {
         "name": "Argentine peso",
@@ -135,16 +140,17 @@
     "numericCode": "032",
     "area": 2780400,
     "latlng": [
-      0,
-      0
-    ]
+      -34,
+      -64
+    ],
+    "population": 46735004,
+    "independent": true
   },
   {
     "name": "Guam",
     "capital": "Hagåtña",
     "flag": "https://flagcdn.com/w320/gu.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -155,16 +161,17 @@
     "numericCode": "316",
     "area": 549,
     "latlng": [
-      0,
-      0
-    ]
+      13.46666666,
+      144.78333333
+    ],
+    "population": 153836,
+    "independent": false
   },
   {
     "name": "Bulgaria",
     "capital": "Sofia",
     "flag": "https://flagcdn.com/w320/bg.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "BGN": {
         "name": "Bulgarian lev",
@@ -175,16 +182,17 @@
     "numericCode": "100",
     "area": 110879,
     "latlng": [
-      0,
-      0
-    ]
+      43,
+      25
+    ],
+    "population": 6437360,
+    "independent": true
   },
   {
     "name": "Dominica",
     "capital": "Roseau",
     "flag": "https://flagcdn.com/w320/dm.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "XCD": {
         "name": "Eastern Caribbean dollar",
@@ -195,16 +203,17 @@
     "numericCode": "212",
     "area": 751,
     "latlng": [
-      0,
-      0
-    ]
+      15.41666666,
+      -61.33333333
+    ],
+    "population": 67408,
+    "independent": true
   },
   {
     "name": "United Kingdom",
     "capital": "London",
     "flag": "https://flagcdn.com/w320/gb.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "GBP": {
         "name": "British pound",
@@ -215,16 +224,17 @@
     "numericCode": "826",
     "area": 244376,
     "latlng": [
-      0,
-      0
-    ]
+      54,
+      -2
+    ],
+    "population": 69281437,
+    "independent": true
   },
   {
     "name": "Micronesia",
     "capital": "Palikir",
     "flag": "https://flagcdn.com/w320/fm.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -235,16 +245,17 @@
     "numericCode": "583",
     "area": 702,
     "latlng": [
-      0,
-      0
-    ]
+      6.91666666,
+      158.25
+    ],
+    "population": 105564,
+    "independent": true
   },
   {
     "name": "Palestine",
     "capital": "Ramallah",
     "flag": "https://flagcdn.com/w320/ps.png",
     "region": "Asia",
-    "independent": false,
     "currency": {
       "EGP": {
         "name": "Egyptian pound",
@@ -263,16 +274,17 @@
     "numericCode": "275",
     "area": 6220,
     "latlng": [
-      0,
-      0
-    ]
+      31.9,
+      35.2
+    ],
+    "population": 5483450,
+    "independent": false
   },
   {
     "name": "Curaçao",
     "capital": "Willemstad",
     "flag": "https://flagcdn.com/w320/cw.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "ANG": {
         "name": "Netherlands Antillean guilder",
@@ -283,16 +295,17 @@
     "numericCode": "531",
     "area": 444,
     "latlng": [
-      0,
-      0
-    ]
+      12.116667,
+      -68.933333
+    ],
+    "population": 156115,
+    "independent": false
   },
   {
     "name": "Rwanda",
     "capital": "Kigali",
     "flag": "https://flagcdn.com/w320/rw.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "RWF": {
         "name": "Rwandan franc",
@@ -303,16 +316,17 @@
     "numericCode": "646",
     "area": 26338,
     "latlng": [
-      0,
-      0
-    ]
+      -2,
+      30
+    ],
+    "population": 14104969,
+    "independent": true
   },
   {
     "name": "Hong Kong",
     "capital": "City of Victoria",
     "flag": "https://flagcdn.com/w320/hk.png",
     "region": "Asia",
-    "independent": false,
     "currency": {
       "HKD": {
         "name": "Hong Kong dollar",
@@ -323,16 +337,17 @@
     "numericCode": "344",
     "area": 1104,
     "latlng": [
-      0,
-      0
-    ]
+      22.267,
+      114.188
+    ],
+    "population": 7527500,
+    "independent": false
   },
   {
     "name": "Uzbekistan",
     "capital": "Tashkent",
     "flag": "https://flagcdn.com/w320/uz.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "UZS": {
         "name": "Uzbekistani soʻm",
@@ -343,16 +358,17 @@
     "numericCode": "860",
     "area": 447400,
     "latlng": [
-      0,
-      0
-    ]
+      41,
+      64
+    ],
+    "population": 37859698,
+    "independent": true
   },
   {
     "name": "China",
     "capital": "Beijing",
     "flag": "https://flagcdn.com/w320/cn.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "CNY": {
         "name": "Chinese yuan",
@@ -363,16 +379,17 @@
     "numericCode": "156",
     "area": 9706961,
     "latlng": [
-      0,
-      0
-    ]
+      35,
+      105
+    ],
+    "population": 1408280000,
+    "independent": true
   },
   {
     "name": "Cyprus",
     "capital": "Nicosia",
     "flag": "https://flagcdn.com/w320/cy.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -383,16 +400,17 @@
     "numericCode": "196",
     "area": 9251,
     "latlng": [
-      0,
-      0
-    ]
+      35,
+      33
+    ],
+    "population": 1442614,
+    "independent": true
   },
   {
     "name": "Aruba",
     "capital": "Oranjestad",
     "flag": "https://flagcdn.com/w320/aw.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "AWG": {
         "name": "Aruban florin",
@@ -403,16 +421,17 @@
     "numericCode": "533",
     "area": 180,
     "latlng": [
-      0,
-      0
-    ]
+      12.5,
+      -69.96666666
+    ],
+    "population": 107566,
+    "independent": false
   },
   {
     "name": "Réunion",
     "capital": "Saint-Denis",
     "flag": "https://flagcdn.com/w320/re.png",
     "region": "Africa",
-    "independent": false,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -423,16 +442,17 @@
     "numericCode": "638",
     "area": 2511,
     "latlng": [
-      0,
-      0
-    ]
+      -21.15,
+      55.5
+    ],
+    "population": 896175,
+    "independent": false
   },
   {
     "name": "South Korea",
     "capital": "Seoul",
     "flag": "https://flagcdn.com/w320/kr.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "KRW": {
         "name": "South Korean won",
@@ -443,16 +463,17 @@
     "numericCode": "410",
     "area": 100210,
     "latlng": [
-      0,
-      0
-    ]
+      37,
+      127.5
+    ],
+    "population": 51159889,
+    "independent": true
   },
   {
     "name": "Somalia",
     "capital": "Mogadishu",
     "flag": "https://flagcdn.com/w320/so.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "SOS": {
         "name": "Somali shilling",
@@ -463,16 +484,17 @@
     "numericCode": "706",
     "area": 637657,
     "latlng": [
-      0,
-      0
-    ]
+      10,
+      49
+    ],
+    "population": 19655000,
+    "independent": true
   },
   {
     "name": "Lebanon",
     "capital": "Beirut",
     "flag": "https://flagcdn.com/w320/lb.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "LBP": {
         "name": "Lebanese pound",
@@ -483,16 +505,17 @@
     "numericCode": "422",
     "area": 10452,
     "latlng": [
-      0,
-      0
-    ]
+      33.83333333,
+      35.83333333
+    ],
+    "population": 5490000,
+    "independent": true
   },
   {
     "name": "Guinea",
     "capital": "Conakry",
     "flag": "https://flagcdn.com/w320/gn.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "GNF": {
         "name": "Guinean franc",
@@ -503,16 +526,17 @@
     "numericCode": "324",
     "area": 245857,
     "latlng": [
-      0,
-      0
-    ]
+      11,
+      -10
+    ],
+    "population": 14363931,
+    "independent": true
   },
   {
     "name": "Tajikistan",
     "capital": "Dushanbe",
     "flag": "https://flagcdn.com/w320/tj.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "TJS": {
         "name": "Tajikistani somoni",
@@ -523,16 +547,17 @@
     "numericCode": "762",
     "area": 143100,
     "latlng": [
-      0,
-      0
-    ]
+      39,
+      71
+    ],
+    "population": 10499000,
+    "independent": true
   },
   {
     "name": "Malaysia",
     "capital": "Kuala Lumpur",
     "flag": "https://flagcdn.com/w320/my.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "MYR": {
         "name": "Malaysian ringgit",
@@ -543,16 +568,17 @@
     "numericCode": "458",
     "area": 330803,
     "latlng": [
-      0,
-      0
-    ]
+      2.5,
+      112.5
+    ],
+    "population": 34231700,
+    "independent": true
   },
   {
     "name": "North Korea",
     "capital": "Pyongyang",
     "flag": "https://flagcdn.com/w320/kp.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "KPW": {
         "name": "North Korean won",
@@ -563,16 +589,17 @@
     "numericCode": "408",
     "area": 120538,
     "latlng": [
-      0,
-      0
-    ]
+      40,
+      127
+    ],
+    "population": 25950000,
+    "independent": true
   },
   {
     "name": "Sierra Leone",
     "capital": "Freetown",
     "flag": "https://flagcdn.com/w320/sl.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "SLE": {
         "name": "Leone",
@@ -583,16 +610,17 @@
     "numericCode": "694",
     "area": 71740,
     "latlng": [
-      0,
-      0
-    ]
+      8.5,
+      -11.5
+    ],
+    "population": 9077691,
+    "independent": true
   },
   {
     "name": "Benin",
     "capital": "Porto-Novo",
     "flag": "https://flagcdn.com/w320/bj.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XOF": {
         "name": "West African CFA franc",
@@ -603,16 +631,17 @@
     "numericCode": "204",
     "area": 112622,
     "latlng": [
-      0,
-      0
-    ]
+      9.5,
+      2.25
+    ],
+    "population": 13224860,
+    "independent": true
   },
   {
     "name": "Italy",
     "capital": "Rome",
     "flag": "https://flagcdn.com/w320/it.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -623,16 +652,17 @@
     "numericCode": "380",
     "area": 301336,
     "latlng": [
-      0,
-      0
-    ]
+      42.83333333,
+      12.83333333
+    ],
+    "population": 58927633,
+    "independent": true
   },
   {
     "name": "Trinidad and Tobago",
     "capital": "Port of Spain",
     "flag": "https://flagcdn.com/w320/tt.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "TTD": {
         "name": "Trinidad and Tobago dollar",
@@ -643,16 +673,17 @@
     "numericCode": "780",
     "area": 5130,
     "latlng": [
-      0,
-      0
-    ]
+      10.6918,
+      -61.2225
+    ],
+    "population": 1367764,
+    "independent": true
   },
   {
     "name": "Saudi Arabia",
     "capital": "Riyadh",
     "flag": "https://flagcdn.com/w320/sa.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "SAR": {
         "name": "Saudi riyal",
@@ -663,16 +694,17 @@
     "numericCode": "682",
     "area": 2149690,
     "latlng": [
-      0,
-      0
-    ]
+      25,
+      45
+    ],
+    "population": 35300280,
+    "independent": true
   },
   {
     "name": "Costa Rica",
     "capital": "San José",
     "flag": "https://flagcdn.com/w320/cr.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "CRC": {
         "name": "Costa Rican colón",
@@ -683,16 +715,17 @@
     "numericCode": "188",
     "area": 51100,
     "latlng": [
-      0,
-      0
-    ]
+      10,
+      -84
+    ],
+    "population": 5309625,
+    "independent": true
   },
   {
     "name": "Serbia",
     "capital": "Belgrade",
     "flag": "https://flagcdn.com/w320/rs.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "RSD": {
         "name": "Serbian dinar",
@@ -703,16 +736,17 @@
     "numericCode": "688",
     "area": 77589,
     "latlng": [
-      0,
-      0
-    ]
+      44,
+      21
+    ],
+    "population": 6567783,
+    "independent": true
   },
   {
     "name": "Tokelau",
     "capital": "Fakaofo",
     "flag": "https://flagcdn.com/w320/tk.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "NZD": {
         "name": "New Zealand dollar",
@@ -723,16 +757,17 @@
     "numericCode": "772",
     "area": 12,
     "latlng": [
-      0,
-      0
-    ]
+      -9,
+      -172
+    ],
+    "population": 2608,
+    "independent": false
   },
   {
     "name": "Mongolia",
     "capital": "Ulan Bator",
     "flag": "https://flagcdn.com/w320/mn.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "MNT": {
         "name": "Mongolian tögrög",
@@ -743,16 +778,17 @@
     "numericCode": "496",
     "area": 1564110,
     "latlng": [
-      0,
-      0
-    ]
+      46,
+      105
+    ],
+    "population": 3544835,
+    "independent": true
   },
   {
     "name": "Brunei",
     "capital": "Bandar Seri Begawan",
     "flag": "https://flagcdn.com/w320/bn.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "BND": {
         "name": "Brunei dollar",
@@ -767,16 +803,17 @@
     "numericCode": "096",
     "area": 5765,
     "latlng": [
-      0,
-      0
-    ]
+      4.5,
+      114.66666666
+    ],
+    "population": 455500,
+    "independent": true
   },
   {
     "name": "Hungary",
     "capital": "Budapest",
     "flag": "https://flagcdn.com/w320/hu.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "HUF": {
         "name": "Hungarian forint",
@@ -787,16 +824,17 @@
     "numericCode": "348",
     "area": 93028,
     "latlng": [
-      0,
-      0
-    ]
+      47,
+      20
+    ],
+    "population": 9539502,
+    "independent": true
   },
   {
     "name": "Mozambique",
     "capital": "Maputo",
     "flag": "https://flagcdn.com/w320/mz.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "MZN": {
         "name": "Mozambican metical",
@@ -807,16 +845,17 @@
     "numericCode": "508",
     "area": 801590,
     "latlng": [
-      0,
-      0
-    ]
+      -18.25,
+      35
+    ],
+    "population": 34090466,
+    "independent": true
   },
   {
     "name": "Kiribati",
     "capital": "South Tarawa",
     "flag": "https://flagcdn.com/w320/ki.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "AUD": {
         "name": "Australian dollar",
@@ -831,16 +870,17 @@
     "numericCode": "296",
     "area": 811,
     "latlng": [
-      0,
-      0
-    ]
+      1.41666666,
+      173
+    ],
+    "population": 120740,
+    "independent": true
   },
   {
     "name": "Haiti",
     "capital": "Port-au-Prince",
     "flag": "https://flagcdn.com/w320/ht.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "HTG": {
         "name": "Haitian gourde",
@@ -851,16 +891,17 @@
     "numericCode": "332",
     "area": 27750,
     "latlng": [
-      0,
-      0
-    ]
+      19,
+      -72.41666666
+    ],
+    "population": 11867032,
+    "independent": true
   },
   {
     "name": "Cambodia",
     "capital": "Phnom Penh",
     "flag": "https://flagcdn.com/w320/kh.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "KHR": {
         "name": "Cambodian riel",
@@ -875,16 +916,17 @@
     "numericCode": "116",
     "area": 181035,
     "latlng": [
-      0,
-      0
-    ]
+      13,
+      105
+    ],
+    "population": 17577760,
+    "independent": true
   },
   {
     "name": "Egypt",
     "capital": "Cairo",
     "flag": "https://flagcdn.com/w320/eg.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "EGP": {
         "name": "Egyptian pound",
@@ -895,16 +937,17 @@
     "numericCode": "818",
     "area": 1002450,
     "latlng": [
-      0,
-      0
-    ]
+      27,
+      30
+    ],
+    "population": 107271260,
+    "independent": true
   },
   {
     "name": "Turkmenistan",
     "capital": "Ashgabat",
     "flag": "https://flagcdn.com/w320/tm.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "TMT": {
         "name": "Turkmenistan manat",
@@ -915,16 +958,17 @@
     "numericCode": "795",
     "area": 488100,
     "latlng": [
-      0,
-      0
-    ]
+      40,
+      60
+    ],
+    "population": 7057841,
+    "independent": true
   },
   {
     "name": "Oman",
     "capital": "Muscat",
     "flag": "https://flagcdn.com/w320/om.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "OMR": {
         "name": "Omani rial",
@@ -935,16 +979,17 @@
     "numericCode": "512",
     "area": 309500,
     "latlng": [
-      0,
-      0
-    ]
+      21,
+      57
+    ],
+    "population": 5343630,
+    "independent": true
   },
   {
     "name": "Jamaica",
     "capital": "Kingston",
     "flag": "https://flagcdn.com/w320/jm.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "JMD": {
         "name": "Jamaican dollar",
@@ -955,16 +1000,17 @@
     "numericCode": "388",
     "area": 10991,
     "latlng": [
-      0,
-      0
-    ]
+      18.25,
+      -77.5
+    ],
+    "population": 2825544,
+    "independent": true
   },
   {
     "name": "Azerbaijan",
     "capital": "Baku",
     "flag": "https://flagcdn.com/w320/az.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "AZN": {
         "name": "Azerbaijani manat",
@@ -975,16 +1021,17 @@
     "numericCode": "031",
     "area": 86600,
     "latlng": [
-      0,
-      0
-    ]
+      40.5,
+      47.5
+    ],
+    "population": 10241722,
+    "independent": true
   },
   {
     "name": "Slovakia",
     "capital": "Bratislava",
     "flag": "https://flagcdn.com/w320/sk.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -995,16 +1042,17 @@
     "numericCode": "703",
     "area": 49037,
     "latlng": [
-      0,
-      0
-    ]
+      48.66666666,
+      19.5
+    ],
+    "population": 5413813,
+    "independent": true
   },
   {
     "name": "Belarus",
     "capital": "Minsk",
     "flag": "https://flagcdn.com/w320/by.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "BYN": {
         "name": "Belarusian ruble",
@@ -1015,16 +1063,17 @@
     "numericCode": "112",
     "area": 207600,
     "latlng": [
-      0,
-      0
-    ]
+      53,
+      28
+    ],
+    "population": 9109280,
+    "independent": true
   },
   {
     "name": "Vietnam",
     "capital": "Hanoi",
     "flag": "https://flagcdn.com/w320/vn.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "VND": {
         "name": "Vietnamese đồng",
@@ -1035,16 +1084,17 @@
     "numericCode": "704",
     "area": 331212,
     "latlng": [
-      0,
-      0
-    ]
+      16.16666666,
+      107.83333333
+    ],
+    "population": 101343800,
+    "independent": true
   },
   {
     "name": "United States Virgin Islands",
     "capital": "Charlotte Amalie",
     "flag": "https://flagcdn.com/w320/vi.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -1055,16 +1105,17 @@
     "numericCode": "850",
     "area": 347,
     "latlng": [
-      0,
-      0
-    ]
+      18.35,
+      -64.933333
+    ],
+    "population": 87146,
+    "independent": false
   },
   {
     "name": "Gibraltar",
     "capital": "Gibraltar",
     "flag": "https://flagcdn.com/w320/gi.png",
     "region": "Europe",
-    "independent": false,
     "currency": {
       "GIP": {
         "name": "Gibraltar pound",
@@ -1075,16 +1126,17 @@
     "numericCode": "292",
     "area": 6,
     "latlng": [
-      0,
-      0
-    ]
+      36.13333333,
+      -5.35
+    ],
+    "population": 38000,
+    "independent": false
   },
   {
     "name": "Sint Maarten",
     "capital": "Philipsburg",
     "flag": "https://flagcdn.com/w320/sx.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "ANG": {
         "name": "Netherlands Antillean guilder",
@@ -1095,16 +1147,17 @@
     "numericCode": "534",
     "area": 34,
     "latlng": [
-      0,
-      0
-    ]
+      18.033333,
+      -63.05
+    ],
+    "population": 41349,
+    "independent": false
   },
   {
     "name": "Åland Islands",
     "capital": "Mariehamn",
     "flag": "https://flagcdn.com/w320/ax.png",
     "region": "Europe",
-    "independent": false,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -1115,16 +1168,17 @@
     "numericCode": "248",
     "area": 1580,
     "latlng": [
-      0,
-      0
-    ]
+      60.116667,
+      19.9
+    ],
+    "population": 30654,
+    "independent": false
   },
   {
     "name": "Syria",
     "capital": "Damascus",
     "flag": "https://flagcdn.com/w320/sy.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "SYP": {
         "name": "Syrian pound",
@@ -1135,16 +1189,17 @@
     "numericCode": "760",
     "area": 185180,
     "latlng": [
-      0,
-      0
-    ]
+      35,
+      38
+    ],
+    "population": 25620000,
+    "independent": true
   },
   {
     "name": "Martinique",
     "capital": "Fort-de-France",
     "flag": "https://flagcdn.com/w320/mq.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -1155,16 +1210,17 @@
     "numericCode": "474",
     "area": 1128,
     "latlng": [
-      0,
-      0
-    ]
+      14.666667,
+      -61
+    ],
+    "population": 349925,
+    "independent": false
   },
   {
     "name": "Greenland",
     "capital": "Nuuk",
     "flag": "https://flagcdn.com/w320/gl.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "DKK": {
         "name": "krone",
@@ -1175,16 +1231,17 @@
     "numericCode": "304",
     "area": 2166086,
     "latlng": [
-      0,
-      0
-    ]
+      72,
+      -40
+    ],
+    "population": 56542,
+    "independent": false
   },
   {
     "name": "Honduras",
     "capital": "Tegucigalpa",
     "flag": "https://flagcdn.com/w320/hn.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "HNL": {
         "name": "Honduran lempira",
@@ -1195,16 +1252,17 @@
     "numericCode": "340",
     "area": 112492,
     "latlng": [
-      0,
-      0
-    ]
+      15,
+      -86.5
+    ],
+    "population": 9892632,
+    "independent": true
   },
   {
     "name": "Tunisia",
     "capital": "Tunis",
     "flag": "https://flagcdn.com/w320/tn.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "TND": {
         "name": "Tunisian dinar",
@@ -1215,16 +1273,17 @@
     "numericCode": "788",
     "area": 163610,
     "latlng": [
-      0,
-      0
-    ]
+      34,
+      9
+    ],
+    "population": 11972169,
+    "independent": true
   },
   {
     "name": "Comoros",
     "capital": "Moroni",
     "flag": "https://flagcdn.com/w320/km.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "KMF": {
         "name": "Comorian franc",
@@ -1235,16 +1294,17 @@
     "numericCode": "174",
     "area": 1862,
     "latlng": [
-      0,
-      0
-    ]
+      -12.16666666,
+      44.25
+    ],
+    "population": 919901,
+    "independent": true
   },
   {
     "name": "Slovenia",
     "capital": "Ljubljana",
     "flag": "https://flagcdn.com/w320/si.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -1255,16 +1315,17 @@
     "numericCode": "705",
     "area": 20273,
     "latlng": [
-      0,
-      0
-    ]
+      46.11666666,
+      14.81666666
+    ],
+    "population": 2130638,
+    "independent": true
   },
   {
     "name": "Switzerland",
     "capital": "Bern",
     "flag": "https://flagcdn.com/w320/ch.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "CHF": {
         "name": "Swiss franc",
@@ -1275,16 +1336,17 @@
     "numericCode": "756",
     "area": 41284,
     "latlng": [
-      0,
-      0
-    ]
+      47,
+      8
+    ],
+    "population": 9082848,
+    "independent": true
   },
   {
     "name": "Guernsey",
     "capital": "St. Peter Port",
     "flag": "https://flagcdn.com/w320/gg.png",
     "region": "Europe",
-    "independent": false,
     "currency": {
       "GBP": {
         "name": "British pound",
@@ -1299,16 +1361,17 @@
     "numericCode": "831",
     "area": 78,
     "latlng": [
-      0,
-      0
-    ]
+      49.46666666,
+      -2.58333333
+    ],
+    "population": 64781,
+    "independent": false
   },
   {
     "name": "Myanmar",
     "capital": "Naypyidaw",
     "flag": "https://flagcdn.com/w320/mm.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "MMK": {
         "name": "Burmese kyat",
@@ -1319,16 +1382,17 @@
     "numericCode": "104",
     "area": 676578,
     "latlng": [
-      0,
-      0
-    ]
+      22,
+      98
+    ],
+    "population": 51316756,
+    "independent": true
   },
   {
     "name": "Paraguay",
     "capital": "Asunción",
     "flag": "https://flagcdn.com/w320/py.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "PYG": {
         "name": "Paraguayan guaraní",
@@ -1339,16 +1403,17 @@
     "numericCode": "600",
     "area": 406752,
     "latlng": [
-      0,
-      0
-    ]
+      -23,
+      -58
+    ],
+    "population": 6109644,
+    "independent": true
   },
   {
     "name": "Caribbean Netherlands",
     "capital": "Kralendijk",
     "flag": "https://flagcdn.com/w320/bq.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -1359,16 +1424,17 @@
     "numericCode": "535",
     "area": 328,
     "latlng": [
-      0,
-      0
-    ]
+      12.18,
+      -68.25
+    ],
+    "population": 31980,
+    "independent": false
   },
   {
     "name": "Barbados",
     "capital": "Bridgetown",
     "flag": "https://flagcdn.com/w320/bb.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "BBD": {
         "name": "Barbadian dollar",
@@ -1379,16 +1445,17 @@
     "numericCode": "052",
     "area": 430,
     "latlng": [
-      0,
-      0
-    ]
+      13.16666666,
+      -59.53333333
+    ],
+    "population": 267800,
+    "independent": true
   },
   {
     "name": "Jordan",
     "capital": "Amman",
     "flag": "https://flagcdn.com/w320/jo.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "JOD": {
         "name": "Jordanian dinar",
@@ -1399,16 +1466,17 @@
     "numericCode": "400",
     "area": 89342,
     "latlng": [
-      0,
-      0
-    ]
+      31,
+      36
+    ],
+    "population": 11734000,
+    "independent": true
   },
   {
     "name": "Laos",
     "capital": "Vientiane",
     "flag": "https://flagcdn.com/w320/la.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "LAK": {
         "name": "Lao kip",
@@ -1419,16 +1487,17 @@
     "numericCode": "418",
     "area": 236800,
     "latlng": [
-      0,
-      0
-    ]
+      18,
+      105
+    ],
+    "population": 7647000,
+    "independent": true
   },
   {
     "name": "Togo",
     "capital": "Lomé",
     "flag": "https://flagcdn.com/w320/tg.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XOF": {
         "name": "West African CFA franc",
@@ -1439,16 +1508,17 @@
     "numericCode": "768",
     "area": 56785,
     "latlng": [
-      0,
-      0
-    ]
+      8,
+      1.16666666
+    ],
+    "population": 8095498,
+    "independent": true
   },
   {
     "name": "Morocco",
     "capital": "Rabat",
     "flag": "https://flagcdn.com/w320/ma.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "MAD": {
         "name": "Moroccan dirham",
@@ -1459,16 +1529,17 @@
     "numericCode": "504",
     "area": 446550,
     "latlng": [
-      0,
-      0
-    ]
+      32,
+      -5
+    ],
+    "population": 36828330,
+    "independent": true
   },
   {
     "name": "Puerto Rico",
     "capital": "San Juan",
     "flag": "https://flagcdn.com/w320/pr.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -1479,16 +1550,17 @@
     "numericCode": "630",
     "area": 8870,
     "latlng": [
-      0,
-      0
-    ]
+      18.25,
+      -66.5
+    ],
+    "population": 3203295,
+    "independent": false
   },
   {
     "name": "French Guiana",
     "capital": "Cayenne",
     "flag": "https://flagcdn.com/w320/gf.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -1499,16 +1571,17 @@
     "numericCode": "254",
     "area": 83534,
     "latlng": [
-      0,
-      0
-    ]
+      4,
+      -53
+    ],
+    "population": 292354,
+    "independent": false
   },
   {
     "name": "Saint Pierre and Miquelon",
     "capital": "Saint-Pierre",
     "flag": "https://flagcdn.com/w320/pm.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -1519,16 +1592,17 @@
     "numericCode": "666",
     "area": 242,
     "latlng": [
-      0,
-      0
-    ]
+      46.83333333,
+      -56.33333333
+    ],
+    "population": 5819,
+    "independent": false
   },
   {
     "name": "Saint Martin",
     "capital": "Marigot",
     "flag": "https://flagcdn.com/w320/mf.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -1539,16 +1613,17 @@
     "numericCode": "663",
     "area": 53,
     "latlng": [
-      0,
-      0
-    ]
+      18.0708,
+      -63.0501
+    ],
+    "population": 31496,
+    "independent": false
   },
   {
     "name": "Estonia",
     "capital": "Tallinn",
     "flag": "https://flagcdn.com/w320/ee.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -1559,16 +1634,17 @@
     "numericCode": "233",
     "area": 45227,
     "latlng": [
-      0,
-      0
-    ]
+      59,
+      26
+    ],
+    "population": 1369995,
+    "independent": true
   },
   {
     "name": "Indonesia",
     "capital": "Jakarta",
     "flag": "https://flagcdn.com/w320/id.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "IDR": {
         "name": "Indonesian rupiah",
@@ -1579,16 +1655,17 @@
     "numericCode": "360",
     "area": 1904569,
     "latlng": [
-      0,
-      0
-    ]
+      -5,
+      120
+    ],
+    "population": 284438782,
+    "independent": true
   },
   {
     "name": "Seychelles",
     "capital": "Victoria",
     "flag": "https://flagcdn.com/w320/sc.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "SCR": {
         "name": "Seychellois rupee",
@@ -1599,16 +1676,17 @@
     "numericCode": "690",
     "area": 452,
     "latlng": [
-      0,
-      0
-    ]
+      -4.58333333,
+      55.66666666
+    ],
+    "population": 122729,
+    "independent": true
   },
   {
     "name": "Mali",
     "capital": "Bamako",
     "flag": "https://flagcdn.com/w320/ml.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XOF": {
         "name": "West African CFA franc",
@@ -1619,16 +1697,17 @@
     "numericCode": "466",
     "area": 1240192,
     "latlng": [
-      0,
-      0
-    ]
+      17,
+      -4
+    ],
+    "population": 22395489,
+    "independent": true
   },
   {
     "name": "Timor-Leste",
     "capital": "Dili",
     "flag": "https://flagcdn.com/w320/tl.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -1639,16 +1718,17 @@
     "numericCode": "626",
     "area": 14874,
     "latlng": [
-      0,
-      0
-    ]
+      -8.83333333,
+      125.91666666
+    ],
+    "population": 1391221,
+    "independent": true
   },
   {
     "name": "Brazil",
     "capital": "Brasília",
     "flag": "https://flagcdn.com/w320/br.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "BRL": {
         "name": "Brazilian real",
@@ -1659,16 +1739,17 @@
     "numericCode": "076",
     "area": 8515767,
     "latlng": [
-      0,
-      0
-    ]
+      -10,
+      -55
+    ],
+    "population": 213421037,
+    "independent": true
   },
   {
     "name": "Ghana",
     "capital": "Accra",
     "flag": "https://flagcdn.com/w320/gh.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "GHS": {
         "name": "Ghanaian cedi",
@@ -1679,16 +1760,17 @@
     "numericCode": "288",
     "area": 238533,
     "latlng": [
-      0,
-      0
-    ]
+      8,
+      -2
+    ],
+    "population": 33742380,
+    "independent": true
   },
   {
     "name": "Kenya",
     "capital": "Nairobi",
     "flag": "https://flagcdn.com/w320/ke.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "KES": {
         "name": "Kenyan shilling",
@@ -1699,16 +1781,17 @@
     "numericCode": "404",
     "area": 580367,
     "latlng": [
-      0,
-      0
-    ]
+      1,
+      38
+    ],
+    "population": 53330978,
+    "independent": true
   },
   {
     "name": "Iceland",
     "capital": "Reykjavik",
     "flag": "https://flagcdn.com/w320/is.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "ISK": {
         "name": "Icelandic króna",
@@ -1719,16 +1802,17 @@
     "numericCode": "352",
     "area": 103000,
     "latlng": [
-      0,
-      0
-    ]
+      65,
+      -18
+    ],
+    "population": 391810,
+    "independent": true
   },
   {
     "name": "Madagascar",
     "capital": "Antananarivo",
     "flag": "https://flagcdn.com/w320/mg.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "MGA": {
         "name": "Malagasy ariary",
@@ -1739,16 +1823,17 @@
     "numericCode": "450",
     "area": 587041,
     "latlng": [
-      0,
-      0
-    ]
+      -20,
+      47
+    ],
+    "population": 31727042,
+    "independent": true
   },
   {
     "name": "Bangladesh",
     "capital": "Dhaka",
     "flag": "https://flagcdn.com/w320/bd.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "BDT": {
         "name": "Bangladeshi taka",
@@ -1759,16 +1844,17 @@
     "numericCode": "050",
     "area": 147570,
     "latlng": [
-      0,
-      0
-    ]
+      24,
+      90
+    ],
+    "population": 169828911,
+    "independent": true
   },
   {
     "name": "DR Congo",
     "capital": "Kinshasa",
     "flag": "https://flagcdn.com/w320/cd.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "CDF": {
         "name": "Congolese franc",
@@ -1780,15 +1866,16 @@
     "area": 2344858,
     "latlng": [
       0,
-      0
-    ]
+      25
+    ],
+    "population": 112832000,
+    "independent": true
   },
   {
     "name": "Zimbabwe",
     "capital": "Harare",
     "flag": "https://flagcdn.com/w320/zw.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "ZWL": {
         "name": "Zimbabwean dollar",
@@ -1799,16 +1886,17 @@
     "numericCode": "716",
     "area": 390757,
     "latlng": [
-      0,
-      0
-    ]
+      -20,
+      30
+    ],
+    "population": 17073087,
+    "independent": true
   },
   {
     "name": "French Polynesia",
     "capital": "Papeetē",
     "flag": "https://flagcdn.com/w320/pf.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "XPF": {
         "name": "CFP franc",
@@ -1819,16 +1907,17 @@
     "numericCode": "258",
     "area": 4167,
     "latlng": [
-      0,
-      0
-    ]
+      -17.6797,
+      -149.4068
+    ],
+    "population": 279500,
+    "independent": false
   },
   {
     "name": "Turkey",
     "capital": "Ankara",
     "flag": "https://flagcdn.com/w320/tr.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "TRY": {
         "name": "Turkish lira",
@@ -1839,16 +1928,17 @@
     "numericCode": "792",
     "area": 783562,
     "latlng": [
-      0,
-      0
-    ]
+      39,
+      35
+    ],
+    "population": 85664944,
+    "independent": true
   },
   {
     "name": "Cape Verde",
     "capital": "Praia",
     "flag": "https://flagcdn.com/w320/cv.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "CVE": {
         "name": "Cape Verdean escudo",
@@ -1859,16 +1949,17 @@
     "numericCode": "132",
     "area": 4033,
     "latlng": [
-      0,
-      0
-    ]
+      16.5388,
+      -23.0418
+    ],
+    "population": 491233,
+    "independent": true
   },
   {
     "name": "Dominican Republic",
     "capital": "Santo Domingo",
     "flag": "https://flagcdn.com/w320/do.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "DOP": {
         "name": "Dominican peso",
@@ -1879,16 +1970,17 @@
     "numericCode": "214",
     "area": 48671,
     "latlng": [
-      0,
-      0
-    ]
+      19,
+      -70.66666666
+    ],
+    "population": 10771504,
+    "independent": true
   },
   {
     "name": "Bahamas",
     "capital": "Nassau",
     "flag": "https://flagcdn.com/w320/bs.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "BSD": {
         "name": "Bahamian dollar",
@@ -1903,16 +1995,17 @@
     "numericCode": "044",
     "area": 13943,
     "latlng": [
-      0,
-      0
-    ]
+      25.0343,
+      -77.3963
+    ],
+    "population": 398165,
+    "independent": true
   },
   {
     "name": "Germany",
     "capital": "Berlin",
     "flag": "https://flagcdn.com/w320/de.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -1923,16 +2016,17 @@
     "numericCode": "276",
     "area": 357114,
     "latlng": [
-      0,
-      0
-    ]
+      51,
+      9
+    ],
+    "population": 83491249,
+    "independent": true
   },
   {
     "name": "Suriname",
     "capital": "Paramaribo",
     "flag": "https://flagcdn.com/w320/sr.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "SRD": {
         "name": "Surinamese dollar",
@@ -1943,16 +2037,17 @@
     "numericCode": "740",
     "area": 163820,
     "latlng": [
-      0,
-      0
-    ]
+      4,
+      -56
+    ],
+    "population": 616500,
+    "independent": true
   },
   {
     "name": "Tonga",
     "capital": "Nuku'alofa",
     "flag": "https://flagcdn.com/w320/to.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "TOP": {
         "name": "Tongan paʻanga",
@@ -1963,16 +2058,17 @@
     "numericCode": "776",
     "area": 747,
     "latlng": [
-      0,
-      0
-    ]
+      -20,
+      -175
+    ],
+    "population": 100179,
+    "independent": true
   },
   {
     "name": "British Indian Ocean Territory",
     "capital": "Diego Garcia",
     "flag": "https://flagcdn.com/w320/io.png",
     "region": "Africa",
-    "independent": false,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -1983,16 +2079,17 @@
     "numericCode": "086",
     "area": 60,
     "latlng": [
-      0,
-      0
-    ]
+      -6,
+      71.5
+    ],
+    "population": 0,
+    "independent": false
   },
   {
     "name": "Saint Lucia",
     "capital": "Castries",
     "flag": "https://flagcdn.com/w320/lc.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "XCD": {
         "name": "Eastern Caribbean dollar",
@@ -2003,16 +2100,17 @@
     "numericCode": "662",
     "area": 616,
     "latlng": [
-      0,
-      0
-    ]
+      13.88333333,
+      -60.96666666
+    ],
+    "population": 184100,
+    "independent": true
   },
   {
     "name": "Ireland",
     "capital": "Dublin",
     "flag": "https://flagcdn.com/w320/ie.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -2023,16 +2121,17 @@
     "numericCode": "372",
     "area": 70273,
     "latlng": [
-      0,
-      0
-    ]
+      53,
+      -8
+    ],
+    "population": 5458600,
+    "independent": true
   },
   {
     "name": "Vatican City",
     "capital": "Vatican City",
     "flag": "https://flagcdn.com/w320/va.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -2043,16 +2142,17 @@
     "numericCode": "336",
     "area": 0.49,
     "latlng": [
-      0,
-      0
-    ]
+      41.9,
+      12.45
+    ],
+    "population": 882,
+    "independent": true
   },
   {
     "name": "Colombia",
     "capital": "Bogotá",
     "flag": "https://flagcdn.com/w320/co.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "COP": {
         "name": "Colombian peso",
@@ -2063,16 +2163,17 @@
     "numericCode": "170",
     "area": 1141748,
     "latlng": [
-      0,
-      0
-    ]
+      4,
+      -72
+    ],
+    "population": 53057212,
+    "independent": true
   },
   {
     "name": "Portugal",
     "capital": "Lisbon",
     "flag": "https://flagcdn.com/w320/pt.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -2083,16 +2184,17 @@
     "numericCode": "620",
     "area": 92090,
     "latlng": [
-      0,
-      0
-    ]
+      39.5,
+      -8
+    ],
+    "population": 10749635,
+    "independent": true
   },
   {
     "name": "Faroe Islands",
     "capital": "Tórshavn",
     "flag": "https://flagcdn.com/w320/fo.png",
     "region": "Europe",
-    "independent": false,
     "currency": {
       "DKK": {
         "name": "Danish krone",
@@ -2107,16 +2209,17 @@
     "numericCode": "234",
     "area": 1393,
     "latlng": [
-      0,
-      0
-    ]
+      62,
+      -7
+    ],
+    "population": 54885,
+    "independent": false
   },
   {
     "name": "São Tomé and Príncipe",
     "capital": "São Tomé",
     "flag": "https://flagcdn.com/w320/st.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "STN": {
         "name": "São Tomé and Príncipe dobra",
@@ -2127,16 +2230,17 @@
     "numericCode": "678",
     "area": 964,
     "latlng": [
-      0,
-      0
-    ]
+      1,
+      7
+    ],
+    "population": 209607,
+    "independent": true
   },
   {
     "name": "Northern Mariana Islands",
     "capital": "Saipan",
     "flag": "https://flagcdn.com/w320/mp.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -2147,16 +2251,17 @@
     "numericCode": "580",
     "area": 464,
     "latlng": [
-      0,
-      0
-    ]
+      15.2,
+      145.75
+    ],
+    "population": 47329,
+    "independent": false
   },
   {
     "name": "Jersey",
     "capital": "Saint Helier",
     "flag": "https://flagcdn.com/w320/je.png",
     "region": "Europe",
-    "independent": false,
     "currency": {
       "GBP": {
         "name": "British pound",
@@ -2171,16 +2276,17 @@
     "numericCode": "832",
     "area": 116,
     "latlng": [
-      0,
-      0
-    ]
+      49.25,
+      -2.16666666
+    ],
+    "population": 103267,
+    "independent": false
   },
   {
     "name": "Mayotte",
     "capital": "Mamoudzou",
     "flag": "https://flagcdn.com/w320/yt.png",
     "region": "Africa",
-    "independent": false,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -2191,16 +2297,17 @@
     "numericCode": "175",
     "area": 374,
     "latlng": [
-      0,
-      0
-    ]
+      -12.83333333,
+      45.16666666
+    ],
+    "population": 320901,
+    "independent": false
   },
   {
     "name": "Yemen",
     "capital": "Sana'a",
     "flag": "https://flagcdn.com/w320/ye.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "YER": {
         "name": "Yemeni rial",
@@ -2211,16 +2318,17 @@
     "numericCode": "887",
     "area": 527968,
     "latlng": [
-      0,
-      0
-    ]
+      15,
+      48
+    ],
+    "population": 32684503,
+    "independent": true
   },
   {
     "name": "Nigeria",
     "capital": "Abuja",
     "flag": "https://flagcdn.com/w320/ng.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "NGN": {
         "name": "Nigerian naira",
@@ -2231,16 +2339,17 @@
     "numericCode": "566",
     "area": 923768,
     "latlng": [
-      0,
-      0
-    ]
+      10,
+      8
+    ],
+    "population": 223800000,
+    "independent": true
   },
   {
     "name": "Afghanistan",
     "capital": "Kabul",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "AFN": {
         "name": "Afghan afghani",
@@ -2251,16 +2360,17 @@
     "numericCode": "004",
     "area": 652230,
     "latlng": [
-      0,
-      0
-    ]
+      33,
+      65
+    ],
+    "population": 43844000,
+    "independent": true
   },
   {
     "name": "Botswana",
     "capital": "Gaborone",
     "flag": "https://flagcdn.com/w320/bw.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "BWP": {
         "name": "Botswana pula",
@@ -2271,16 +2381,17 @@
     "numericCode": "072",
     "area": 582000,
     "latlng": [
-      0,
-      0
-    ]
+      -22,
+      24
+    ],
+    "population": 2359609,
+    "independent": true
   },
   {
     "name": "Isle of Man",
     "capital": "Douglas",
     "flag": "https://flagcdn.com/w320/im.png",
     "region": "Europe",
-    "independent": false,
     "currency": {
       "GBP": {
         "name": "British pound",
@@ -2295,16 +2406,17 @@
     "numericCode": "833",
     "area": 572,
     "latlng": [
-      0,
-      0
-    ]
+      54.25,
+      -4.5
+    ],
+    "population": 84530,
+    "independent": false
   },
   {
     "name": "El Salvador",
     "capital": "San Salvador",
     "flag": "https://flagcdn.com/w320/sv.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -2315,16 +2427,17 @@
     "numericCode": "222",
     "area": 21041,
     "latlng": [
-      0,
-      0
-    ]
+      13.83333333,
+      -88.91666666
+    ],
+    "population": 6029976,
+    "independent": true
   },
   {
     "name": "Uganda",
     "capital": "Kampala",
     "flag": "https://flagcdn.com/w320/ug.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "UGX": {
         "name": "Ugandan shilling",
@@ -2335,16 +2448,17 @@
     "numericCode": "800",
     "area": 241550,
     "latlng": [
-      0,
-      0
-    ]
+      1,
+      32
+    ],
+    "population": 45905417,
+    "independent": true
   },
   {
     "name": "Andorra",
     "capital": "Andorra la Vella",
     "flag": "https://flagcdn.com/w320/ad.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -2355,16 +2469,17 @@
     "numericCode": "020",
     "area": 468,
     "latlng": [
-      0,
-      0
-    ]
+      42.5,
+      1.5
+    ],
+    "population": 88406,
+    "independent": true
   },
   {
     "name": "Turks and Caicos Islands",
     "capital": "Cockburn Town",
     "flag": "https://flagcdn.com/w320/tc.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -2375,16 +2490,17 @@
     "numericCode": "796",
     "area": 948,
     "latlng": [
-      0,
-      0
-    ]
+      21.75,
+      -71.58333333
+    ],
+    "population": 50828,
+    "independent": false
   },
   {
     "name": "Chad",
     "capital": "N'Djamena",
     "flag": "https://flagcdn.com/w320/td.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XAF": {
         "name": "Central African CFA franc",
@@ -2395,16 +2511,17 @@
     "numericCode": "148",
     "area": 1284000,
     "latlng": [
-      0,
-      0
-    ]
+      15,
+      19
+    ],
+    "population": 19340757,
+    "independent": true
   },
   {
     "name": "Finland",
     "capital": "Helsinki",
     "flag": "https://flagcdn.com/w320/fi.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -2415,16 +2532,17 @@
     "numericCode": "246",
     "area": 338455,
     "latlng": [
-      0,
-      0
-    ]
+      64,
+      26
+    ],
+    "population": 5650325,
+    "independent": true
   },
   {
     "name": "Russia",
     "capital": "Moscow",
     "flag": "https://flagcdn.com/w320/ru.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "RUB": {
         "name": "Russian ruble",
@@ -2435,16 +2553,17 @@
     "numericCode": "643",
     "area": 17098246,
     "latlng": [
-      0,
-      0
-    ]
+      60,
+      100
+    ],
+    "population": 146028325,
+    "independent": true
   },
   {
     "name": "Kazakhstan",
     "capital": "Astana",
     "flag": "https://flagcdn.com/w320/kz.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "KZT": {
         "name": "Kazakhstani tenge",
@@ -2455,16 +2574,17 @@
     "numericCode": "398",
     "area": 2724900,
     "latlng": [
-      0,
-      0
-    ]
+      48.0196,
+      66.9237
+    ],
+    "population": 20426568,
+    "independent": true
   },
   {
     "name": "Svalbard and Jan Mayen",
     "capital": "Longyearbyen",
     "flag": "https://flagcdn.com/w320/sj.png",
     "region": "Europe",
-    "independent": false,
     "currency": {
       "NOK": {
         "name": "krone",
@@ -2475,16 +2595,17 @@
     "numericCode": "744",
     "area": 61399,
     "latlng": [
-      0,
-      0
-    ]
+      78,
+      20
+    ],
+    "population": 2530,
+    "independent": false
   },
   {
     "name": "Venezuela",
     "capital": "Caracas",
     "flag": "https://flagcdn.com/w320/ve.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "VES": {
         "name": "Venezuelan bolívar soberano",
@@ -2495,16 +2616,17 @@
     "numericCode": "862",
     "area": 916445,
     "latlng": [
-      0,
-      0
-    ]
+      8,
+      -66
+    ],
+    "population": 28517000,
+    "independent": true
   },
   {
     "name": "Monaco",
     "capital": "Monaco",
     "flag": "https://flagcdn.com/w320/mc.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -2515,16 +2637,17 @@
     "numericCode": "492",
     "area": 2.02,
     "latlng": [
-      0,
-      0
-    ]
+      43.73333333,
+      7.4
+    ],
+    "population": 38423,
+    "independent": true
   },
   {
     "name": "Senegal",
     "capital": "Dakar",
     "flag": "https://flagcdn.com/w320/sn.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XOF": {
         "name": "West African CFA franc",
@@ -2535,16 +2658,17 @@
     "numericCode": "686",
     "area": 196722,
     "latlng": [
-      0,
-      0
-    ]
+      14,
+      -14
+    ],
+    "population": 18593258,
+    "independent": true
   },
   {
     "name": "Nepal",
     "capital": "Kathmandu",
     "flag": "https://flagcdn.com/w320/np.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "NPR": {
         "name": "Nepalese rupee",
@@ -2555,16 +2679,17 @@
     "numericCode": "524",
     "area": 147181,
     "latlng": [
-      0,
-      0
-    ]
+      28,
+      84
+    ],
+    "population": 29911840,
+    "independent": true
   },
   {
     "name": "United Arab Emirates",
     "capital": "Abu Dhabi",
     "flag": "https://flagcdn.com/w320/ae.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "AED": {
         "name": "United Arab Emirates dirham",
@@ -2575,16 +2700,17 @@
     "numericCode": "784",
     "area": 83600,
     "latlng": [
-      0,
-      0
-    ]
+      24,
+      54
+    ],
+    "population": 11294243,
+    "independent": true
   },
   {
     "name": "Taiwan",
     "capital": "Taipei",
     "flag": "https://flagcdn.com/w320/tw.png",
     "region": "Asia",
-    "independent": false,
     "currency": {
       "TWD": {
         "name": "New Taiwan dollar",
@@ -2595,16 +2721,17 @@
     "numericCode": "158",
     "area": 36197,
     "latlng": [
-      0,
-      0
-    ]
+      23.5,
+      121
+    ],
+    "population": 23317031,
+    "independent": false
   },
   {
     "name": "New Caledonia",
     "capital": "Nouméa",
     "flag": "https://flagcdn.com/w320/nc.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "XPF": {
         "name": "CFP franc",
@@ -2615,16 +2742,17 @@
     "numericCode": "540",
     "area": 18575,
     "latlng": [
-      0,
-      0
-    ]
+      -21.5,
+      165.5
+    ],
+    "population": 264596,
+    "independent": false
   },
   {
     "name": "Bolivia",
     "capital": "Sucre",
     "flag": "https://flagcdn.com/w320/bo.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "BOB": {
         "name": "Bolivian boliviano",
@@ -2635,16 +2763,17 @@
     "numericCode": "068",
     "area": 1098581,
     "latlng": [
-      0,
-      0
-    ]
+      -17,
+      -65
+    ],
+    "population": 11365333,
+    "independent": true
   },
   {
     "name": "Chile",
     "capital": "Santiago",
     "flag": "https://flagcdn.com/w320/cl.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "CLP": {
         "name": "Chilean peso",
@@ -2655,16 +2784,17 @@
     "numericCode": "152",
     "area": 756102,
     "latlng": [
-      0,
-      0
-    ]
+      -30,
+      -71
+    ],
+    "population": 20206953,
+    "independent": true
   },
   {
     "name": "Ivory Coast",
     "capital": "Yamoussoukro",
     "flag": "https://flagcdn.com/w320/ci.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XOF": {
         "name": "West African CFA franc",
@@ -2675,16 +2805,17 @@
     "numericCode": "384",
     "area": 322463,
     "latlng": [
-      0,
-      0
-    ]
+      8,
+      -5
+    ],
+    "population": 31719275,
+    "independent": true
   },
   {
     "name": "Libya",
     "capital": "Tripoli",
     "flag": "https://flagcdn.com/w320/ly.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "LYD": {
         "name": "Libyan dinar",
@@ -2695,16 +2826,17 @@
     "numericCode": "434",
     "area": 1759540,
     "latlng": [
-      0,
-      0
-    ]
+      25,
+      17
+    ],
+    "population": 7459000,
+    "independent": true
   },
   {
     "name": "Peru",
     "capital": "Lima",
     "flag": "https://flagcdn.com/w320/pe.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "PEN": {
         "name": "Peruvian sol",
@@ -2715,16 +2847,17 @@
     "numericCode": "604",
     "area": 1285216,
     "latlng": [
-      0,
-      0
-    ]
+      -10,
+      -76
+    ],
+    "population": 34350244,
+    "independent": true
   },
   {
     "name": "Canada",
     "capital": "Ottawa",
     "flag": "https://flagcdn.com/w320/ca.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "CAD": {
         "name": "Canadian dollar",
@@ -2735,16 +2868,17 @@
     "numericCode": "124",
     "area": 9984670,
     "latlng": [
-      0,
-      0
-    ]
+      60,
+      -95
+    ],
+    "population": 41651653,
+    "independent": true
   },
   {
     "name": "France",
     "capital": "Paris",
     "flag": "https://flagcdn.com/w320/fr.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -2755,16 +2889,17 @@
     "numericCode": "250",
     "area": 543908,
     "latlng": [
-      0,
-      0
-    ]
+      46,
+      2
+    ],
+    "population": 66351959,
+    "independent": true
   },
   {
     "name": "Djibouti",
     "capital": "Djibouti",
     "flag": "https://flagcdn.com/w320/dj.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "DJF": {
         "name": "Djiboutian franc",
@@ -2775,16 +2910,17 @@
     "numericCode": "262",
     "area": 23200,
     "latlng": [
-      0,
-      0
-    ]
+      11.5,
+      43
+    ],
+    "population": 1066809,
+    "independent": true
   },
   {
     "name": "Burundi",
     "capital": "Gitega",
     "flag": "https://flagcdn.com/w320/bi.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "BIF": {
         "name": "Burundian franc",
@@ -2795,16 +2931,17 @@
     "numericCode": "108",
     "area": 27834,
     "latlng": [
-      0,
-      0
-    ]
+      -3.5,
+      30
+    ],
+    "population": 12332788,
+    "independent": true
   },
   {
     "name": "Kosovo",
     "capital": "Pristina",
     "flag": "https://flagcdn.com/w320/xk.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -2815,16 +2952,17 @@
     "numericCode": "",
     "area": 10908,
     "latlng": [
-      0,
-      0
-    ]
+      42.666667,
+      21.166667
+    ],
+    "population": 1585566,
+    "independent": true
   },
   {
     "name": "Denmark",
     "capital": "Copenhagen",
     "flag": "https://flagcdn.com/w320/dk.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "DKK": {
         "name": "Danish krone",
@@ -2835,16 +2973,17 @@
     "numericCode": "208",
     "area": 43094,
     "latlng": [
-      0,
-      0
-    ]
+      56,
+      10
+    ],
+    "population": 6011488,
+    "independent": true
   },
   {
     "name": "Greece",
     "capital": "Athens",
     "flag": "https://flagcdn.com/w320/gr.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -2855,16 +2994,17 @@
     "numericCode": "300",
     "area": 131990,
     "latlng": [
-      0,
-      0
-    ]
+      39,
+      22
+    ],
+    "population": 10400720,
+    "independent": true
   },
   {
     "name": "Czechia",
     "capital": "Prague",
     "flag": "https://flagcdn.com/w320/cz.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "CZK": {
         "name": "Czech koruna",
@@ -2875,16 +3015,17 @@
     "numericCode": "203",
     "area": 78865,
     "latlng": [
-      0,
-      0
-    ]
+      49.75,
+      15.5
+    ],
+    "population": 10882341,
+    "independent": true
   },
   {
     "name": "Eritrea",
     "capital": "Asmara",
     "flag": "https://flagcdn.com/w320/er.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "ERN": {
         "name": "Eritrean nakfa",
@@ -2895,16 +3036,17 @@
     "numericCode": "232",
     "area": 117600,
     "latlng": [
-      0,
-      0
-    ]
+      15,
+      39
+    ],
+    "population": 3607000,
+    "independent": true
   },
   {
     "name": "Namibia",
     "capital": "Windhoek",
     "flag": "https://flagcdn.com/w320/na.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "NAD": {
         "name": "Namibian dollar",
@@ -2919,16 +3061,17 @@
     "numericCode": "516",
     "area": 825615,
     "latlng": [
-      0,
-      0
-    ]
+      -22,
+      17
+    ],
+    "population": 3022401,
+    "independent": true
   },
   {
     "name": "British Virgin Islands",
     "capital": "Road Town",
     "flag": "https://flagcdn.com/w320/vg.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -2939,16 +3082,17 @@
     "numericCode": "092",
     "area": 151,
     "latlng": [
-      0,
-      0
-    ]
+      18.431383,
+      -64.62305
+    ],
+    "population": 39471,
+    "independent": false
   },
   {
     "name": "Iran",
     "capital": "Tehran",
     "flag": "https://flagcdn.com/w320/ir.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "IRR": {
         "name": "Iranian rial",
@@ -2959,16 +3103,17 @@
     "numericCode": "364",
     "area": 1648195,
     "latlng": [
-      0,
-      0
-    ]
+      32,
+      53
+    ],
+    "population": 85961000,
+    "independent": true
   },
   {
     "name": "Equatorial Guinea",
     "capital": "Ciudad de la Paz",
     "flag": "https://flagcdn.com/w320/gq.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XAF": {
         "name": "Central African CFA franc",
@@ -2979,16 +3124,17 @@
     "numericCode": "226",
     "area": 28051,
     "latlng": [
-      0,
-      0
-    ]
+      2,
+      10
+    ],
+    "population": 1668768,
+    "independent": true
   },
   {
     "name": "Mauritania",
     "capital": "Nouakchott",
     "flag": "https://flagcdn.com/w320/mr.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "MRU": {
         "name": "Mauritanian ouguiya",
@@ -2999,16 +3145,17 @@
     "numericCode": "478",
     "area": 1030700,
     "latlng": [
-      0,
-      0
-    ]
+      20,
+      -12
+    ],
+    "population": 4927532,
+    "independent": true
   },
   {
     "name": "Bahrain",
     "capital": "Manama",
     "flag": "https://flagcdn.com/w320/bh.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "BHD": {
         "name": "Bahraini dinar",
@@ -3019,16 +3166,17 @@
     "numericCode": "048",
     "area": 765,
     "latlng": [
-      0,
-      0
-    ]
+      26,
+      50.55
+    ],
+    "population": 1594654,
+    "independent": true
   },
   {
     "name": "Cocos (Keeling) Islands",
     "capital": "West Island",
     "flag": "https://flagcdn.com/w320/cc.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "AUD": {
         "name": "Australian dollar",
@@ -3039,16 +3187,17 @@
     "numericCode": "166",
     "area": 14,
     "latlng": [
-      0,
-      0
-    ]
+      -12.1642,
+      96.871
+    ],
+    "population": 593,
+    "independent": false
   },
   {
     "name": "Ethiopia",
     "capital": "Addis Ababa",
     "flag": "https://flagcdn.com/w320/et.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "ETB": {
         "name": "Ethiopian birr",
@@ -3059,16 +3208,17 @@
     "numericCode": "231",
     "area": 1104300,
     "latlng": [
-      0,
-      0
-    ]
+      8,
+      38
+    ],
+    "population": 111652998,
+    "independent": true
   },
   {
     "name": "Zambia",
     "capital": "Lusaka",
     "flag": "https://flagcdn.com/w320/zm.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "ZMW": {
         "name": "Zambian kwacha",
@@ -3079,16 +3229,17 @@
     "numericCode": "894",
     "area": 752612,
     "latlng": [
-      0,
-      0
-    ]
+      -15,
+      30
+    ],
+    "population": 19693423,
+    "independent": true
   },
   {
     "name": "Bosnia and Herzegovina",
     "capital": "Sarajevo",
     "flag": "https://flagcdn.com/w320/ba.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "BAM": {
         "name": "Bosnia and Herzegovina convertible mark",
@@ -3099,16 +3250,17 @@
     "numericCode": "070",
     "area": 51209,
     "latlng": [
-      0,
-      0
-    ]
+      44,
+      18
+    ],
+    "population": 3422000,
+    "independent": true
   },
   {
     "name": "Falkland Islands",
     "capital": "Stanley",
     "flag": "https://flagcdn.com/w320/fk.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "FKP": {
         "name": "Falkland Islands pound",
@@ -3119,16 +3271,17 @@
     "numericCode": "238",
     "area": 12173,
     "latlng": [
-      0,
-      0
-    ]
+      -51.75,
+      -59
+    ],
+    "population": 3662,
+    "independent": false
   },
   {
     "name": "Grenada",
     "capital": "St. George's",
     "flag": "https://flagcdn.com/w320/gd.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "XCD": {
         "name": "Eastern Caribbean dollar",
@@ -3139,16 +3292,17 @@
     "numericCode": "308",
     "area": 344,
     "latlng": [
-      0,
-      0
-    ]
+      12.11666666,
+      -61.66666666
+    ],
+    "population": 109021,
+    "independent": true
   },
   {
     "name": "Thailand",
     "capital": "Bangkok",
     "flag": "https://flagcdn.com/w320/th.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "THB": {
         "name": "Thai baht",
@@ -3159,16 +3313,17 @@
     "numericCode": "764",
     "area": 513120,
     "latlng": [
-      0,
-      0
-    ]
+      15,
+      100
+    ],
+    "population": 65859640,
+    "independent": true
   },
   {
     "name": "Romania",
     "capital": "Bucharest",
     "flag": "https://flagcdn.com/w320/ro.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "RON": {
         "name": "Romanian leu",
@@ -3179,16 +3334,17 @@
     "numericCode": "642",
     "area": 238391,
     "latlng": [
-      0,
-      0
-    ]
+      46,
+      25
+    ],
+    "population": 19036031,
+    "independent": true
   },
   {
     "name": "Saint Vincent and the Grenadines",
     "capital": "Kingstown",
     "flag": "https://flagcdn.com/w320/vc.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "XCD": {
         "name": "Eastern Caribbean dollar",
@@ -3199,16 +3355,17 @@
     "numericCode": "670",
     "area": 389,
     "latlng": [
-      0,
-      0
-    ]
+      13.25,
+      -61.2
+    ],
+    "population": 110872,
+    "independent": true
   },
   {
     "name": "Liberia",
     "capital": "Monrovia",
     "flag": "https://flagcdn.com/w320/lr.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "LRD": {
         "name": "Liberian dollar",
@@ -3219,16 +3376,17 @@
     "numericCode": "430",
     "area": 111369,
     "latlng": [
-      0,
-      0
-    ]
+      6.5,
+      -9.5
+    ],
+    "population": 5248621,
+    "independent": true
   },
   {
     "name": "United States",
     "capital": "Washington, D.C.",
     "flag": "https://flagcdn.com/w320/us.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -3239,16 +3397,17 @@
     "numericCode": "840",
     "area": 9525067,
     "latlng": [
-      0,
-      0
-    ]
+      38,
+      -97
+    ],
+    "population": 340110988,
+    "independent": true
   },
   {
     "name": "South Sudan",
     "capital": "Juba",
     "flag": "https://flagcdn.com/w320/ss.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "SSP": {
         "name": "South Sudanese pound",
@@ -3259,16 +3418,17 @@
     "numericCode": "728",
     "area": 619745,
     "latlng": [
-      0,
-      0
-    ]
+      7,
+      30
+    ],
+    "population": 15786898,
+    "independent": true
   },
   {
     "name": "Armenia",
     "capital": "Yerevan",
     "flag": "https://flagcdn.com/w320/am.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "AMD": {
         "name": "Armenian dram",
@@ -3279,16 +3439,17 @@
     "numericCode": "051",
     "area": 29743,
     "latlng": [
-      0,
-      0
-    ]
+      40,
+      45
+    ],
+    "population": 3076200,
+    "independent": true
   },
   {
     "name": "Japan",
     "capital": "Tokyo",
     "flag": "https://flagcdn.com/w320/jp.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "JPY": {
         "name": "Japanese yen",
@@ -3299,16 +3460,17 @@
     "numericCode": "392",
     "area": 377930,
     "latlng": [
-      0,
-      0
-    ]
+      36,
+      138
+    ],
+    "population": 123210000,
+    "independent": true
   },
   {
     "name": "Pakistan",
     "capital": "Islamabad",
     "flag": "https://flagcdn.com/w320/pk.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "PKR": {
         "name": "Pakistani rupee",
@@ -3319,16 +3481,17 @@
     "numericCode": "586",
     "area": 796095,
     "latlng": [
-      0,
-      0
-    ]
+      30,
+      70
+    ],
+    "population": 241499431,
+    "independent": true
   },
   {
     "name": "Eswatini",
     "capital": "Mbabane",
     "flag": "https://flagcdn.com/w320/sz.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "SZL": {
         "name": "Swazi lilangeni",
@@ -3343,16 +3506,17 @@
     "numericCode": "748",
     "area": 17364,
     "latlng": [
-      0,
-      0
-    ]
+      -26.5,
+      31.5
+    ],
+    "population": 1235549,
+    "independent": true
   },
   {
     "name": "Liechtenstein",
     "capital": "Vaduz",
     "flag": "https://flagcdn.com/w320/li.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "CHF": {
         "name": "Swiss franc",
@@ -3363,16 +3527,17 @@
     "numericCode": "438",
     "area": 160,
     "latlng": [
-      0,
-      0
-    ]
+      47.26666666,
+      9.53333333
+    ],
+    "population": 40900,
+    "independent": true
   },
   {
     "name": "Israel",
     "capital": "Jerusalem",
     "flag": "https://flagcdn.com/w320/il.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "ILS": {
         "name": "Israeli new shekel",
@@ -3383,16 +3548,17 @@
     "numericCode": "376",
     "area": 21937,
     "latlng": [
-      0,
-      0
-    ]
+      31.47,
+      35.13
+    ],
+    "population": 10134800,
+    "independent": true
   },
   {
     "name": "American Samoa",
     "capital": "Pago Pago",
     "flag": "https://flagcdn.com/w320/as.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -3403,16 +3569,17 @@
     "numericCode": "016",
     "area": 199,
     "latlng": [
-      0,
-      0
-    ]
+      -14.33333333,
+      -170
+    ],
+    "population": 49710,
+    "independent": false
   },
   {
     "name": "Sri Lanka",
     "capital": "Sri Jayawardenepura Kotte",
     "flag": "https://flagcdn.com/w320/lk.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "LKR": {
         "name": "Sri Lankan rupee",
@@ -3423,16 +3590,17 @@
     "numericCode": "144",
     "area": 65610,
     "latlng": [
-      0,
-      0
-    ]
+      7,
+      81
+    ],
+    "population": 21763170,
+    "independent": true
   },
   {
     "name": "South Georgia",
     "capital": "King Edward Point",
     "flag": "https://flagcdn.com/w320/gs.png",
     "region": "Antarctic",
-    "independent": false,
     "currency": {
       "GBP": {
         "name": "British pound",
@@ -3443,16 +3611,17 @@
     "numericCode": "239",
     "area": 3903,
     "latlng": [
-      0,
-      0
-    ]
+      -54.5,
+      -37
+    ],
+    "population": 0,
+    "independent": false
   },
   {
     "name": "Albania",
     "capital": "Tirana",
     "flag": "https://flagcdn.com/w320/al.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "ALL": {
         "name": "Albanian lek",
@@ -3463,16 +3632,17 @@
     "numericCode": "008",
     "area": 28748,
     "latlng": [
-      0,
-      0
-    ]
+      41,
+      20
+    ],
+    "population": 2363314,
+    "independent": true
   },
   {
     "name": "Algeria",
     "capital": "Algiers",
     "flag": "https://flagcdn.com/w320/dz.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "DZD": {
         "name": "Algerian dinar",
@@ -3483,16 +3653,17 @@
     "numericCode": "012",
     "area": 2381741,
     "latlng": [
-      0,
-      0
-    ]
+      28,
+      3
+    ],
+    "population": 47400000,
+    "independent": true
   },
   {
     "name": "Ukraine",
     "capital": "Kyiv",
     "flag": "https://flagcdn.com/w320/ua.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "UAH": {
         "name": "Ukrainian hryvnia",
@@ -3503,16 +3674,17 @@
     "numericCode": "804",
     "area": 603550,
     "latlng": [
-      0,
-      0
-    ]
+      49,
+      32
+    ],
+    "population": 32862000,
+    "independent": true
   },
   {
     "name": "Saint Helena, Ascension and Tristan da Cunha",
     "capital": "Jamestown",
     "flag": "https://flagcdn.com/w320/sh.png",
     "region": "Africa",
-    "independent": false,
     "currency": {
       "GBP": {
         "name": "Pound sterling",
@@ -3527,16 +3699,17 @@
     "numericCode": "654",
     "area": 394,
     "latlng": [
-      0,
-      0
-    ]
+      -15.95,
+      -5.72
+    ],
+    "population": 5651,
+    "independent": false
   },
   {
     "name": "San Marino",
     "capital": "City of San Marino",
     "flag": "https://flagcdn.com/w320/sm.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -3547,16 +3720,17 @@
     "numericCode": "674",
     "area": 61,
     "latlng": [
-      0,
-      0
-    ]
+      43.76666666,
+      12.41666666
+    ],
+    "population": 34132,
+    "independent": true
   },
   {
     "name": "Cuba",
     "capital": "Havana",
     "flag": "https://flagcdn.com/w320/cu.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "CUC": {
         "name": "Cuban convertible peso",
@@ -3571,16 +3745,17 @@
     "numericCode": "192",
     "area": 109884,
     "latlng": [
-      0,
-      0
-    ]
+      21.5,
+      -80
+    ],
+    "population": 9748007,
+    "independent": true
   },
   {
     "name": "Nauru",
     "capital": "Yaren",
     "flag": "https://flagcdn.com/w320/nr.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "AUD": {
         "name": "Australian dollar",
@@ -3591,16 +3766,17 @@
     "numericCode": "520",
     "area": 21,
     "latlng": [
-      0,
-      0
-    ]
+      -0.53333333,
+      166.91666666
+    ],
+    "population": 11680,
+    "independent": true
   },
   {
     "name": "Spain",
     "capital": "Madrid",
     "flag": "https://flagcdn.com/w320/es.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -3611,16 +3787,17 @@
     "numericCode": "724",
     "area": 505992,
     "latlng": [
-      0,
-      0
-    ]
+      40,
+      -4
+    ],
+    "population": 49315949,
+    "independent": true
   },
   {
     "name": "Kuwait",
     "capital": "Kuwait City",
     "flag": "https://flagcdn.com/w320/kw.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "KWD": {
         "name": "Kuwaiti dinar",
@@ -3631,16 +3808,17 @@
     "numericCode": "414",
     "area": 17818,
     "latlng": [
-      0,
-      0
-    ]
+      29.5,
+      45.75
+    ],
+    "population": 4881254,
+    "independent": true
   },
   {
     "name": "Montserrat",
     "capital": "Plymouth",
     "flag": "https://flagcdn.com/w320/ms.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "XCD": {
         "name": "Eastern Caribbean dollar",
@@ -3651,16 +3829,17 @@
     "numericCode": "500",
     "area": 102,
     "latlng": [
-      0,
-      0
-    ]
+      16.75,
+      -62.2
+    ],
+    "population": 4386,
+    "independent": false
   },
   {
     "name": "Mauritius",
     "capital": "Port Louis",
     "flag": "https://flagcdn.com/w320/mu.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "MUR": {
         "name": "Mauritian rupee",
@@ -3671,16 +3850,17 @@
     "numericCode": "480",
     "area": 2040,
     "latlng": [
-      0,
-      0
-    ]
+      -20.28333333,
+      57.55
+    ],
+    "population": 1243741,
+    "independent": true
   },
   {
     "name": "Sweden",
     "capital": "Stockholm",
     "flag": "https://flagcdn.com/w320/se.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "SEK": {
         "name": "Swedish krona",
@@ -3691,16 +3871,17 @@
     "numericCode": "752",
     "area": 450295,
     "latlng": [
-      0,
-      0
-    ]
+      62,
+      15
+    ],
+    "population": 10605098,
+    "independent": true
   },
   {
     "name": "Australia",
     "capital": "Canberra",
     "flag": "https://flagcdn.com/w320/au.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "AUD": {
         "name": "Australian dollar",
@@ -3711,16 +3892,17 @@
     "numericCode": "036",
     "area": 7692024,
     "latlng": [
-      0,
-      0
-    ]
+      -27,
+      133
+    ],
+    "population": 27536874,
+    "independent": true
   },
   {
     "name": "Cameroon",
     "capital": "Yaoundé",
     "flag": "https://flagcdn.com/w320/cm.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XAF": {
         "name": "Central African CFA franc",
@@ -3731,16 +3913,17 @@
     "numericCode": "120",
     "area": 475442,
     "latlng": [
-      0,
-      0
-    ]
+      6,
+      12
+    ],
+    "population": 29442327,
+    "independent": true
   },
   {
     "name": "Ecuador",
     "capital": "Quito",
     "flag": "https://flagcdn.com/w320/ec.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -3751,16 +3934,17 @@
     "numericCode": "218",
     "area": 276841,
     "latlng": [
-      0,
-      0
-    ]
+      -2,
+      -77.5
+    ],
+    "population": 18103660,
+    "independent": true
   },
   {
     "name": "Qatar",
     "capital": "Doha",
     "flag": "https://flagcdn.com/w320/qa.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "QAR": {
         "name": "Qatari riyal",
@@ -3771,16 +3955,17 @@
     "numericCode": "634",
     "area": 11586,
     "latlng": [
-      0,
-      0
-    ]
+      25.5,
+      51.25
+    ],
+    "population": 3173024,
+    "independent": true
   },
   {
     "name": "Marshall Islands",
     "capital": "Majuro",
     "flag": "https://flagcdn.com/w320/mh.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -3791,16 +3976,17 @@
     "numericCode": "584",
     "area": 181,
     "latlng": [
-      0,
-      0
-    ]
+      9,
+      168
+    ],
+    "population": 42418,
+    "independent": true
   },
   {
     "name": "Poland",
     "capital": "Warsaw",
     "flag": "https://flagcdn.com/w320/pl.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "PLN": {
         "name": "Polish złoty",
@@ -3811,16 +3997,17 @@
     "numericCode": "616",
     "area": 312679,
     "latlng": [
-      0,
-      0
-    ]
+      52,
+      20
+    ],
+    "population": 37392000,
+    "independent": true
   },
   {
     "name": "Cayman Islands",
     "capital": "George Town",
     "flag": "https://flagcdn.com/w320/ky.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "KYD": {
         "name": "Cayman Islands dollar",
@@ -3831,16 +4018,17 @@
     "numericCode": "136",
     "area": 264,
     "latlng": [
-      0,
-      0
-    ]
+      19.3133,
+      -81.2546
+    ],
+    "population": 84738,
+    "independent": false
   },
   {
     "name": "South Africa",
     "capital": "Pretoria",
     "flag": "https://flagcdn.com/w320/za.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "ZAR": {
         "name": "South African rand",
@@ -3851,16 +4039,17 @@
     "numericCode": "710",
     "area": 1221037,
     "latlng": [
-      0,
-      0
-    ]
+      -29,
+      24
+    ],
+    "population": 63100945,
+    "independent": true
   },
   {
     "name": "Wallis and Futuna",
     "capital": "Mata-Utu",
     "flag": "https://flagcdn.com/w320/wf.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "XPF": {
         "name": "CFP franc",
@@ -3871,16 +4060,17 @@
     "numericCode": "876",
     "area": 142,
     "latlng": [
-      0,
-      0
-    ]
+      -13.3,
+      -176.2
+    ],
+    "population": 11620,
+    "independent": false
   },
   {
     "name": "Samoa",
     "capital": "Apia",
     "flag": "https://flagcdn.com/w320/ws.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "WST": {
         "name": "Samoan tālā",
@@ -3891,16 +4081,17 @@
     "numericCode": "882",
     "area": 2842,
     "latlng": [
-      0,
-      0
-    ]
+      -13.58333333,
+      -172.33333333
+    ],
+    "population": 205557,
+    "independent": true
   },
   {
     "name": "Netherlands",
     "capital": "Amsterdam",
     "flag": "https://flagcdn.com/w320/nl.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -3911,16 +4102,17 @@
     "numericCode": "528",
     "area": 41865,
     "latlng": [
-      0,
-      0
-    ]
+      52.5,
+      5.75
+    ],
+    "population": 18100436,
+    "independent": true
   },
   {
     "name": "Western Sahara",
     "capital": "El Aaiún",
     "flag": "https://flagcdn.com/w320/eh.png",
     "region": "Africa",
-    "independent": false,
     "currency": {
       "DZD": {
         "name": "Algerian dinar",
@@ -3939,16 +4131,17 @@
     "numericCode": "732",
     "area": 266000,
     "latlng": [
-      0,
-      0
-    ]
+      24.5,
+      -13
+    ],
+    "population": 600904,
+    "independent": false
   },
   {
     "name": "Montenegro",
     "capital": "Podgorica",
     "flag": "https://flagcdn.com/w320/me.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -3959,16 +4152,17 @@
     "numericCode": "499",
     "area": 13812,
     "latlng": [
-      0,
-      0
-    ]
+      42.5,
+      19.3
+    ],
+    "population": 623327,
+    "independent": true
   },
   {
     "name": "Bhutan",
     "capital": "Thimphu",
     "flag": "https://flagcdn.com/w320/bt.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "BTN": {
         "name": "Bhutanese ngultrum",
@@ -3983,16 +4177,17 @@
     "numericCode": "064",
     "area": 38394,
     "latlng": [
-      0,
-      0
-    ]
+      27.5,
+      90.5
+    ],
+    "population": 784043,
+    "independent": true
   },
   {
     "name": "Malta",
     "capital": "Valletta",
     "flag": "https://flagcdn.com/w320/mt.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -4003,16 +4198,17 @@
     "numericCode": "470",
     "area": 316,
     "latlng": [
-      0,
-      0
-    ]
+      35.9375,
+      14.3754
+    ],
+    "population": 574250,
+    "independent": true
   },
   {
     "name": "Vanuatu",
     "capital": "Port Vila",
     "flag": "https://flagcdn.com/w320/vu.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "VUV": {
         "name": "Vanuatu vatu",
@@ -4023,16 +4219,17 @@
     "numericCode": "548",
     "area": 12189,
     "latlng": [
-      0,
-      0
-    ]
+      -16,
+      167
+    ],
+    "population": 321409,
+    "independent": true
   },
   {
     "name": "Tanzania",
     "capital": "Dodoma",
     "flag": "https://flagcdn.com/w320/tz.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "TZS": {
         "name": "Tanzanian shilling",
@@ -4043,16 +4240,17 @@
     "numericCode": "834",
     "area": 947303,
     "latlng": [
-      0,
-      0
-    ]
+      -6,
+      35
+    ],
+    "population": 68153004,
+    "independent": true
   },
   {
     "name": "New Zealand",
     "capital": "Wellington",
     "flag": "https://flagcdn.com/w320/nz.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "NZD": {
         "name": "New Zealand dollar",
@@ -4063,16 +4261,17 @@
     "numericCode": "554",
     "area": 268838,
     "latlng": [
-      0,
-      0
-    ]
+      -41,
+      174
+    ],
+    "population": 5324700,
+    "independent": true
   },
   {
     "name": "Palau",
     "capital": "Ngerulmud",
     "flag": "https://flagcdn.com/w320/pw.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -4083,16 +4282,17 @@
     "numericCode": "585",
     "area": 459,
     "latlng": [
-      0,
-      0
-    ]
+      7.5,
+      134.5
+    ],
+    "population": 16733,
+    "independent": true
   },
   {
     "name": "Panama",
     "capital": "Panama City",
     "flag": "https://flagcdn.com/w320/pa.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "PAB": {
         "name": "Panamanian balboa",
@@ -4107,16 +4307,17 @@
     "numericCode": "591",
     "area": 75417,
     "latlng": [
-      0,
-      0
-    ]
+      9,
+      -80
+    ],
+    "population": 4064780,
+    "independent": true
   },
   {
     "name": "Tuvalu",
     "capital": "Funafuti",
     "flag": "https://flagcdn.com/w320/tv.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "AUD": {
         "name": "Australian dollar",
@@ -4131,16 +4332,17 @@
     "numericCode": "798",
     "area": 26,
     "latlng": [
-      0,
-      0
-    ]
+      -8,
+      178
+    ],
+    "population": 10643,
+    "independent": true
   },
   {
     "name": "Fiji",
     "capital": "Suva",
     "flag": "https://flagcdn.com/w320/fj.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "FJD": {
         "name": "Fijian dollar",
@@ -4151,16 +4353,17 @@
     "numericCode": "242",
     "area": 18272,
     "latlng": [
-      0,
-      0
-    ]
+      -17.7134,
+      178.065
+    ],
+    "population": 900869,
+    "independent": true
   },
   {
     "name": "Nicaragua",
     "capital": "Managua",
     "flag": "https://flagcdn.com/w320/ni.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "NIO": {
         "name": "Nicaraguan córdoba",
@@ -4171,16 +4374,17 @@
     "numericCode": "558",
     "area": 130373,
     "latlng": [
-      0,
-      0
-    ]
+      13,
+      -85
+    ],
+    "population": 6803886,
+    "independent": true
   },
   {
     "name": "Kyrgyzstan",
     "capital": "Bishkek",
     "flag": "https://flagcdn.com/w320/kg.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "KGS": {
         "name": "Kyrgyzstani som",
@@ -4191,16 +4395,17 @@
     "numericCode": "417",
     "area": 199951,
     "latlng": [
-      0,
-      0
-    ]
+      41,
+      75
+    ],
+    "population": 7281800,
+    "independent": true
   },
   {
     "name": "French Southern and Antarctic Lands",
     "capital": "Port-aux-Français",
     "flag": "https://flagcdn.com/w320/tf.png",
     "region": "Antarctic",
-    "independent": false,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -4211,16 +4416,17 @@
     "numericCode": "260",
     "area": 7747,
     "latlng": [
-      0,
-      0
-    ]
+      -49.25,
+      69.167
+    ],
+    "population": 400,
+    "independent": false
   },
   {
     "name": "Latvia",
     "capital": "Riga",
     "flag": "https://flagcdn.com/w320/lv.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -4231,16 +4437,17 @@
     "numericCode": "428",
     "area": 64559,
     "latlng": [
-      0,
-      0
-    ]
+      57,
+      25
+    ],
+    "population": 1829000,
+    "independent": true
   },
   {
     "name": "Georgia",
     "capital": "Tbilisi",
     "flag": "https://flagcdn.com/w320/ge.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "GEL": {
         "name": "lari",
@@ -4251,16 +4458,17 @@
     "numericCode": "268",
     "area": 69700,
     "latlng": [
-      0,
-      0
-    ]
+      42,
+      43.5
+    ],
+    "population": 4000921,
+    "independent": true
   },
   {
     "name": "Luxembourg",
     "capital": "Luxembourg",
     "flag": "https://flagcdn.com/w320/lu.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -4271,16 +4479,17 @@
     "numericCode": "442",
     "area": 2586,
     "latlng": [
-      0,
-      0
-    ]
+      49.75,
+      6.16666666
+    ],
+    "population": 681973,
+    "independent": true
   },
   {
     "name": "Austria",
     "capital": "Vienna",
     "flag": "https://flagcdn.com/w320/at.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -4291,16 +4500,17 @@
     "numericCode": "040",
     "area": 83871,
     "latlng": [
-      0,
-      0
-    ]
+      47.33333333,
+      13.33333333
+    ],
+    "population": 9200931,
+    "independent": true
   },
   {
     "name": "North Macedonia",
     "capital": "Skopje",
     "flag": "https://flagcdn.com/w320/mk.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "MKD": {
         "name": "denar",
@@ -4311,16 +4521,17 @@
     "numericCode": "807",
     "area": 25713,
     "latlng": [
-      0,
-      0
-    ]
+      41.83333333,
+      22
+    ],
+    "population": 1822612,
+    "independent": true
   },
   {
     "name": "Saint Barthélemy",
     "capital": "Gustavia",
     "flag": "https://flagcdn.com/w320/bl.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -4331,16 +4542,17 @@
     "numericCode": "652",
     "area": 21,
     "latlng": [
-      0,
-      0
-    ]
+      18.5,
+      -63.41666666
+    ],
+    "population": 10562,
+    "independent": false
   },
   {
     "name": "Christmas Island",
     "capital": "Flying Fish Cove",
     "flag": "https://flagcdn.com/w320/cx.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "AUD": {
         "name": "Australian dollar",
@@ -4351,16 +4563,17 @@
     "numericCode": "162",
     "area": 135,
     "latlng": [
-      0,
-      0
-    ]
+      -10.5,
+      105.66666666
+    ],
+    "population": 1692,
+    "independent": false
   },
   {
     "name": "Solomon Islands",
     "capital": "Honiara",
     "flag": "https://flagcdn.com/w320/sb.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "SBD": {
         "name": "Solomon Islands dollar",
@@ -4371,16 +4584,17 @@
     "numericCode": "090",
     "area": 28896,
     "latlng": [
-      0,
-      0
-    ]
+      -8,
+      159
+    ],
+    "population": 750325,
+    "independent": true
   },
   {
     "name": "Antigua and Barbuda",
     "capital": "Saint John's",
     "flag": "https://flagcdn.com/w320/ag.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "XCD": {
         "name": "Eastern Caribbean dollar",
@@ -4391,16 +4605,17 @@
     "numericCode": "028",
     "area": 442,
     "latlng": [
-      0,
-      0
-    ]
+      17.05,
+      -61.8
+    ],
+    "population": 103603,
+    "independent": true
   },
   {
     "name": "Iraq",
     "capital": "Baghdad",
     "flag": "https://flagcdn.com/w320/iq.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "IQD": {
         "name": "Iraqi dinar",
@@ -4411,16 +4626,17 @@
     "numericCode": "368",
     "area": 438317,
     "latlng": [
-      0,
-      0
-    ]
+      33,
+      44
+    ],
+    "population": 46118793,
+    "independent": true
   },
   {
     "name": "Moldova",
     "capital": "Chișinău",
     "flag": "https://flagcdn.com/w320/md.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "MDL": {
         "name": "Moldovan leu",
@@ -4431,16 +4647,17 @@
     "numericCode": "498",
     "area": 33847,
     "latlng": [
-      0,
-      0
-    ]
+      47,
+      29
+    ],
+    "population": 2749076,
+    "independent": true
   },
   {
     "name": "Norfolk Island",
     "capital": "Kingston",
     "flag": "https://flagcdn.com/w320/nf.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "AUD": {
         "name": "Australian dollar",
@@ -4451,16 +4668,17 @@
     "numericCode": "574",
     "area": 36,
     "latlng": [
-      0,
-      0
-    ]
+      -29.03333333,
+      167.95
+    ],
+    "population": 2188,
+    "independent": false
   },
   {
     "name": "Republic of the Congo",
     "capital": "Brazzaville",
     "flag": "https://flagcdn.com/w320/cg.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XAF": {
         "name": "Central African CFA franc",
@@ -4471,16 +4689,17 @@
     "numericCode": "178",
     "area": 342000,
     "latlng": [
-      0,
-      0
-    ]
+      -1,
+      15
+    ],
+    "population": 6142180,
+    "independent": true
   },
   {
     "name": "Niue",
     "capital": "Alofi",
     "flag": "https://flagcdn.com/w320/nu.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "NZD": {
         "name": "New Zealand dollar",
@@ -4491,16 +4710,17 @@
     "numericCode": "570",
     "area": 260,
     "latlng": [
-      0,
-      0
-    ]
+      -19.03333333,
+      -169.86666666
+    ],
+    "population": 1681,
+    "independent": false
   },
   {
     "name": "Lithuania",
     "capital": "Vilnius",
     "flag": "https://flagcdn.com/w320/lt.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -4511,16 +4731,17 @@
     "numericCode": "440",
     "area": 65300,
     "latlng": [
-      0,
-      0
-    ]
+      56,
+      24
+    ],
+    "population": 2894886,
+    "independent": true
   },
   {
     "name": "Niger",
     "capital": "Niamey",
     "flag": "https://flagcdn.com/w320/ne.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XOF": {
         "name": "West African CFA franc",
@@ -4531,16 +4752,17 @@
     "numericCode": "562",
     "area": 1267000,
     "latlng": [
-      0,
-      0
-    ]
+      16,
+      8
+    ],
+    "population": 26312034,
+    "independent": true
   },
   {
     "name": "Guyana",
     "capital": "Georgetown",
     "flag": "https://flagcdn.com/w320/gy.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "GYD": {
         "name": "Guyanese dollar",
@@ -4551,16 +4773,17 @@
     "numericCode": "328",
     "area": 214969,
     "latlng": [
-      0,
-      0
-    ]
+      5,
+      -59
+    ],
+    "population": 772975,
+    "independent": true
   },
   {
     "name": "Bermuda",
     "capital": "Hamilton",
     "flag": "https://flagcdn.com/w320/bm.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "BMD": {
         "name": "Bermudian dollar",
@@ -4571,16 +4794,17 @@
     "numericCode": "060",
     "area": 54,
     "latlng": [
-      0,
-      0
-    ]
+      32.33333333,
+      -64.75
+    ],
+    "population": 64055,
+    "independent": false
   },
   {
     "name": "Gabon",
     "capital": "Libreville",
     "flag": "https://flagcdn.com/w320/ga.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XAF": {
         "name": "Central African CFA franc",
@@ -4591,16 +4815,17 @@
     "numericCode": "266",
     "area": 267668,
     "latlng": [
-      0,
-      0
-    ]
+      -1,
+      11.75
+    ],
+    "population": 2469296,
+    "independent": true
   },
   {
     "name": "Cook Islands",
     "capital": "Avarua",
     "flag": "https://flagcdn.com/w320/ck.png",
     "region": "Oceania",
-    "independent": false,
     "currency": {
       "CKD": {
         "name": "Cook Islands dollar",
@@ -4615,16 +4840,17 @@
     "numericCode": "184",
     "area": 236,
     "latlng": [
-      0,
-      0
-    ]
+      -21.23333333,
+      -159.76666666
+    ],
+    "population": 15040,
+    "independent": false
   },
   {
     "name": "Angola",
     "capital": "Luanda",
     "flag": "https://flagcdn.com/w320/ao.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "AOA": {
         "name": "Angolan kwanza",
@@ -4635,16 +4861,17 @@
     "numericCode": "024",
     "area": 1246700,
     "latlng": [
-      0,
-      0
-    ]
+      -12.5,
+      18.5
+    ],
+    "population": 36170961,
+    "independent": true
   },
   {
     "name": "Norway",
     "capital": "Oslo",
     "flag": "https://flagcdn.com/w320/no.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "NOK": {
         "name": "Norwegian krone",
@@ -4655,16 +4882,17 @@
     "numericCode": "578",
     "area": 386224,
     "latlng": [
-      0,
-      0
-    ]
+      62,
+      10
+    ],
+    "population": 5606944,
+    "independent": true
   },
   {
     "name": "Guadeloupe",
     "capital": "Basse-Terre",
     "flag": "https://flagcdn.com/w320/gp.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -4675,16 +4903,17 @@
     "numericCode": "312",
     "area": 1628,
     "latlng": [
-      0,
-      0
-    ]
+      16.25,
+      -61.583333
+    ],
+    "population": 378561,
+    "independent": false
   },
   {
     "name": "Maldives",
     "capital": "Malé",
     "flag": "https://flagcdn.com/w320/mv.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "MVR": {
         "name": "Maldivian rufiyaa",
@@ -4695,16 +4924,17 @@
     "numericCode": "462",
     "area": 300,
     "latlng": [
-      0,
-      0
-    ]
+      3.25,
+      73
+    ],
+    "population": 515132,
+    "independent": true
   },
   {
     "name": "Belgium",
     "capital": "Brussels",
     "flag": "https://flagcdn.com/w320/be.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -4715,16 +4945,17 @@
     "numericCode": "056",
     "area": 30528,
     "latlng": [
-      0,
-      0
-    ]
+      50.83333333,
+      4
+    ],
+    "population": 11825551,
+    "independent": true
   },
   {
     "name": "Croatia",
     "capital": "Zagreb",
     "flag": "https://flagcdn.com/w320/hr.png",
     "region": "Europe",
-    "independent": true,
     "currency": {
       "EUR": {
         "name": "euro",
@@ -4735,16 +4966,17 @@
     "numericCode": "191",
     "area": 56594,
     "latlng": [
-      0,
-      0
-    ]
+      45.16666666,
+      15.5
+    ],
+    "population": 3866233,
+    "independent": true
   },
   {
     "name": "Belize",
     "capital": "Belmopan",
     "flag": "https://flagcdn.com/w320/bz.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "BZD": {
         "name": "Belize dollar",
@@ -4755,16 +4987,17 @@
     "numericCode": "084",
     "area": 22966,
     "latlng": [
-      0,
-      0
-    ]
+      17.25,
+      -88.75
+    ],
+    "population": 417634,
+    "independent": true
   },
   {
     "name": "Saint Kitts and Nevis",
     "capital": "Basseterre",
     "flag": "https://flagcdn.com/w320/kn.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "XCD": {
         "name": "Eastern Caribbean dollar",
@@ -4775,16 +5008,17 @@
     "numericCode": "659",
     "area": 261,
     "latlng": [
-      0,
-      0
-    ]
+      17.33333333,
+      -62.75
+    ],
+    "population": 51320,
+    "independent": true
   },
   {
     "name": "Singapore",
     "capital": "Singapore",
     "flag": "https://flagcdn.com/w320/sg.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "SGD": {
         "name": "Singapore dollar",
@@ -4795,16 +5029,17 @@
     "numericCode": "702",
     "area": 710,
     "latlng": [
-      0,
-      0
-    ]
+      1.36666666,
+      103.8
+    ],
+    "population": 6110200,
+    "independent": true
   },
   {
     "name": "Lesotho",
     "capital": "Maseru",
     "flag": "https://flagcdn.com/w320/ls.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "LSL": {
         "name": "Lesotho loti",
@@ -4819,16 +5054,17 @@
     "numericCode": "426",
     "area": 30355,
     "latlng": [
-      0,
-      0
-    ]
+      -29.5,
+      28.5
+    ],
+    "population": 2116427,
+    "independent": true
   },
   {
     "name": "Uruguay",
     "capital": "Montevideo",
     "flag": "https://flagcdn.com/w320/uy.png",
     "region": "Americas",
-    "independent": true,
     "currency": {
       "UYU": {
         "name": "Uruguayan peso",
@@ -4839,16 +5075,17 @@
     "numericCode": "858",
     "area": 181034,
     "latlng": [
-      0,
-      0
-    ]
+      -33,
+      -56
+    ],
+    "population": 3499451,
+    "independent": true
   },
   {
     "name": "Burkina Faso",
     "capital": "Ouagadougou",
     "flag": "https://flagcdn.com/w320/bf.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XOF": {
         "name": "West African CFA franc",
@@ -4859,16 +5096,17 @@
     "numericCode": "854",
     "area": 272967,
     "latlng": [
-      0,
-      0
-    ]
+      13,
+      -2
+    ],
+    "population": 24070553,
+    "independent": true
   },
   {
     "name": "India",
     "capital": "New Delhi",
     "flag": "https://flagcdn.com/w320/in.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "INR": {
         "name": "Indian rupee",
@@ -4879,16 +5117,17 @@
     "numericCode": "356",
     "area": 3287263,
     "latlng": [
-      0,
-      0
-    ]
+      20,
+      77
+    ],
+    "population": 1417492000,
+    "independent": true
   },
   {
     "name": "Philippines",
     "capital": "Manila",
     "flag": "https://flagcdn.com/w320/ph.png",
     "region": "Asia",
-    "independent": true,
     "currency": {
       "PHP": {
         "name": "Philippine peso",
@@ -4899,16 +5138,17 @@
     "numericCode": "608",
     "area": 342353,
     "latlng": [
-      0,
-      0
-    ]
+      13,
+      122
+    ],
+    "population": 114123600,
+    "independent": true
   },
   {
     "name": "Central African Republic",
     "capital": "Bangui",
     "flag": "https://flagcdn.com/w320/cf.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XAF": {
         "name": "Central African CFA franc",
@@ -4919,16 +5159,17 @@
     "numericCode": "140",
     "area": 622984,
     "latlng": [
-      0,
-      0
-    ]
+      7,
+      21
+    ],
+    "population": 6470307,
+    "independent": true
   },
   {
     "name": "Sudan",
     "capital": "Khartoum",
     "flag": "https://flagcdn.com/w320/sd.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "SDG": {
         "name": "Sudanese pound",
@@ -4939,16 +5180,17 @@
     "numericCode": "729",
     "area": 1886068,
     "latlng": [
-      0,
-      0
-    ]
+      15,
+      30
+    ],
+    "population": 51662000,
+    "independent": true
   },
   {
     "name": "Guinea-Bissau",
     "capital": "Bissau",
     "flag": "https://flagcdn.com/w320/gw.png",
     "region": "Africa",
-    "independent": true,
     "currency": {
       "XOF": {
         "name": "West African CFA franc",
@@ -4959,16 +5201,17 @@
     "numericCode": "624",
     "area": 36125,
     "latlng": [
-      0,
-      0
-    ]
+      12,
+      -15
+    ],
+    "population": 1781308,
+    "independent": true
   },
   {
     "name": "Papua New Guinea",
     "capital": "Port Moresby",
     "flag": "https://flagcdn.com/w320/pg.png",
     "region": "Oceania",
-    "independent": true,
     "currency": {
       "PGK": {
         "name": "Papua New Guinean kina",
@@ -4979,16 +5222,17 @@
     "numericCode": "598",
     "area": 462840,
     "latlng": [
-      0,
-      0
-    ]
+      -6,
+      147
+    ],
+    "population": 11781559,
+    "independent": true
   },
   {
     "name": "United States Minor Outlying Islands",
     "capital": "Washington DC",
     "flag": "https://flagcdn.com/w320/um.png",
     "region": "Americas",
-    "independent": false,
     "currency": {
       "USD": {
         "name": "United States dollar",
@@ -4999,8 +5243,10 @@
     "numericCode": "581",
     "area": 34.2,
     "latlng": [
-      0,
-      0
-    ]
+      19.3,
+      166.633333
+    ],
+    "population": 0,
+    "independent": false
   }
 ]

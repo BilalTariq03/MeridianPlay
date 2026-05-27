@@ -6,6 +6,20 @@ const countries = require('../data/countries.json');
 const getRandom = (arr, n) => [...arr].sort(() => Math.random() - 0.5).slice(0, n);
 
 
+// Filter countries by difficulty
+const filterByDifficulty = (countries, difficulty) => {
+  switch (difficulty) {
+    case 'easy':
+      return countries.filter(c => c.population >= 30000000);   // 50M+  (~50 countries)
+    case 'medium':
+      return countries.filter(c => c.population >= 5000000);   // 10M+  (~100 countries)
+    case 'hard':
+      return countries.filter(c => c.independent === true);     // all independent (~195)
+    case 'extreme':
+    default:
+      return countries;                                          // everything (~246)
+  }
+};
 
 // Extracts the base currency word: "Canadian dollar" → "Dollar"
 const simplifyCurrency = (name) => {
@@ -30,11 +44,18 @@ const simplifyCurrency = (name) => {
 // GET /api/questions/flags
 // Returns 10 questions: each has a correct country + 3 wrong options
 router.get('/flags', (req, res) => {
-  const shuffled = getRandom(countries, 10);
+  const difficulty = req.query.difficulty || 'medium';   // default medium
+  const pool       = filterByDifficulty(countries, difficulty);
+
+  if (pool.length < 4) {
+    return res.status(400).json({ error: 'Not enough countries for this difficulty' });
+  }
+
+  const shuffled = getRandom(pool, 10);
 
   const questions = shuffled.map(correct => {
     const wrong = getRandom(
-      countries.filter(c => c.code !== correct.code),
+      pool.filter(c => c.code !== correct.code),
       3
     );
 
@@ -54,11 +75,18 @@ router.get('/flags', (req, res) => {
 // GET /api/questions/capitals
 // Shows country name → pick the correct capital
 router.get('/capitals', (req, res) => {
-  const shuffled = getRandom(countries, 10);
+  const difficulty = req.query.difficulty || 'medium';   // default medium
+  const pool       = filterByDifficulty(countries, difficulty);
+
+  if (pool.length < 4) {
+    return res.status(400).json({ error: 'Not enough countries for this difficulty' });
+  }
+
+  const shuffled = getRandom(pool, 10);
 
   const questions = shuffled.map(correct => {
     const wrong = getRandom(
-      countries.filter(c => c.code !== correct.code),
+      pool.filter(c => c.code !== correct.code),
       3
     );
 
@@ -78,7 +106,14 @@ router.get('/capitals', (req, res) => {
 // GET /api/questions/map-location
 // Returns a highlighted country (by numeric code) → pick the country name
 router.get('/map-location', (req, res) => {
-  const eligible = countries.filter(c =>
+  const difficulty = req.query.difficulty || 'medium';   // default medium
+  const pool       = filterByDifficulty(countries, difficulty);
+
+  if (pool.length < 4) {
+    return res.status(400).json({ error: 'Not enough countries for this difficulty' });
+  }
+
+  const eligible = pool.filter(c =>
     c.numericCode &&
     c.numericCode !== '' &&
     c.area > 500        // filter out microstates (smaller than ~10,000 km²)
@@ -105,7 +140,14 @@ router.get('/map-location', (req, res) => {
 
 // Get currencies
 router.get('/currencies', (req, res) => {
-  const eligible = countries.filter(c =>
+  const difficulty = req.query.difficulty || 'medium';   // default medium
+  const pool       = filterByDifficulty(countries, difficulty);
+
+  if (pool.length < 4) {
+    return res.status(400).json({ error: 'Not enough countries for this difficulty' });
+  }
+
+  const eligible = pool.filter(c =>
     c.currency &&
     Object.keys(c.currency).length > 0 &&
     Object.values(c.currency)[0]?.name
@@ -121,9 +163,9 @@ router.get('/currencies', (req, res) => {
     const used = new Set([correctCurrencySimple]);
     const wrong = [];
 
-    const pool = getRandom(eligible.filter(c => c.code !== correct.code), 50);
+    const candidates = getRandom(eligible.filter(c => c.code !== correct.code), 50);
 
-    for (const country of pool) {
+    for (const country of candidates) {
       if (wrong.length === 3) break;
       const name   = Object.values(country.currency)[0]?.name;
       if (!name) continue;
@@ -146,5 +188,6 @@ router.get('/currencies', (req, res) => {
 
   res.json(questions);
 });
+
 
 module.exports = router;

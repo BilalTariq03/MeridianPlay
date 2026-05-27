@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 import { useQuiz } from '../../hooks/useQuiz';
 import QuizLayout from '../../components/QuizLayout';
@@ -11,8 +12,11 @@ function GuessTheCurrency() {
   const [loading, setLoading]     = useState(true);
   const [error, setError]         = useState(null);
 
+  const location   = useLocation();
+  const difficulty = new URLSearchParams(location.search).get('difficulty') || 'medium';
+
   useEffect(() => {
-    axios.get(`${API_URL}/api/questions/currencies`)
+    axios.get(`${API_URL}/api/questions/currencies?difficulty=${difficulty}`)
       .then(res => setQuestions(res.data))
       .catch(() => setError('Failed to load questions.'))
       .finally(() => setLoading(false));

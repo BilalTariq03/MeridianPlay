@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 import { useQuiz } from '../../hooks/useQuiz';
 import QuizLayout from '../../components/QuizLayout';
@@ -10,9 +11,11 @@ function GuessTheFlag() {
   const [questions, setQuestions] = useState([]);
   const [loading, setLoading]     = useState(true);
   const [error, setError]         = useState(null);
+  const location   = useLocation();
+  const difficulty = new URLSearchParams(location.search).get('difficulty') || 'medium';
 
   useEffect(() => {
-    axios.get(`${API_URL}/api/questions/flags`)
+    axios.get(`${API_URL}/api/questions/flags?difficulty=${difficulty}`)
       .then(res => {
         console.log('API response:', res.data); 
         setQuestions(res.data)}
