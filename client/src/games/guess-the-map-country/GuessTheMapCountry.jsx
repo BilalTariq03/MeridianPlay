@@ -11,6 +11,7 @@ import EndlessResults from '../../components/EndlessResults';
 import { useSpeedrun } from '../../hooks/useSpeedrun';
 import SpeedrunLayout from '../../components/SpeedrunLayout';
 import SpeedrunResults from '../../components/SpeedrunResults';
+import LoadingScreen from '../../components/LoadingScreen';
 
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
@@ -34,7 +35,7 @@ function GuessTheMapCountry() {
       .finally(() => setLoading(false));
   }, [difficulty, questionCount, mode]);
 
-  if (loading) return <p style={{ padding: 40 }}>Loading...</p>;
+  if (loading) return <LoadingScreen />;
   if (error)   return <p style={{ padding: 40, color: 'red' }}>{error}</p>;
 
   if (mode === 'endless') {
@@ -52,8 +53,15 @@ function GameRunner({ questions, questionTime }) {
   const quiz = useQuiz(questions, questionTime);
 
   if (quiz.status === 'finished') {
-    return <Results score={quiz.score} total={quiz.total} />;
-  }
+    return(
+    <Results
+      score={quiz.score}
+      total={quiz.total}
+      history={quiz.history}
+      questions={questions}
+      gameTitle="Guess the Country"
+    />
+  )}
 
   return (
     <QuizLayout
@@ -87,7 +95,7 @@ function EndlessRunner({ difficulty, questionTime }) {
   }
 
   if (endless.loading || !endless.question) {
-    return <p style={{ padding: 40 }}>Loading...</p>;
+    return <LoadingScreen />;
   }
 
   return (
@@ -128,7 +136,7 @@ function SpeedrunRunner({ difficulty, timeLimit }) {
   }
 
   if (speedrun.loading || !speedrun.question) {
-    return <p style={{ padding: 40 }}>Loading...</p>;
+    return <LoadingScreen />;
   }
 
   return (

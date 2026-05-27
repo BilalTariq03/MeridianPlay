@@ -3,12 +3,19 @@ import { useReducer, useEffect } from 'react';
 function reducer(state, action) {
   switch (action.type) {
     case 'ANSWER':
-      return {
-        ...state,
-        selected: action.choice,
-        score: action.isCorrect ? state.score + 1 : state.score,
-        status: 'feedback',
-      };
+    return {
+      ...state,
+      selected: action.choice,
+      score:    action.isCorrect ? state.score + 1 : state.score,
+      status:   'feedback',
+      history:  [...state.history, {
+        question:  action.question,   // the question text/flag
+        answer:    action.answer,     // correct answer
+        chosen:    action.choice,     // what player picked
+        correct:   action.isCorrect,
+        timeSpent: action.timeSpent,  // how long they took
+      }],
+    };
     case 'NEXT':
       return {
         ...state,
@@ -33,8 +40,9 @@ export function useQuiz(questions, questionTime = 10) {
     selected: null,
     timeLeft: questionTime > 0 ? questionTime : null, // null = no timer
     status:   'playing',
+    history: [],
   };
-  
+
   const [state, dispatch] = useReducer(reducer, init);
   const { index, score, selected, timeLeft, status } = state;
 
@@ -70,8 +78,19 @@ export function useQuiz(questions, questionTime = 10) {
 
   const handleAnswer = (choice) => {
     if (status !== 'playing') return;
-    const isCorrect = choice === questions[index]?.answer;
-    dispatch({ type: 'ANSWER', choice, isCorrect });
+    const isCorrect  = choice === questions[index]?.answer;
+    const timeSpent  = questionTime > 0
+      ? questionTime - timeLeft
+      : null;
+
+    dispatch({
+      type:      'ANSWER',
+      choice,
+      isCorrect,
+      answer:    questions[index]?.answer,
+      question:  questions[index]?.question || questions[index]?.flag || questions[index]?.numericCode,
+      timeSpent,
+    });
   };
 
   return {
@@ -82,6 +101,7 @@ export function useQuiz(questions, questionTime = 10) {
     timeLeft,
     status,
     total: questions.length,
+    history: state.history,
     handleAnswer,
   };
 }

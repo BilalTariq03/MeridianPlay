@@ -97,10 +97,12 @@ export default function QuizLayout({
       ) : (
         <div className={styles.body}>
           {timerBar}
-          <div className={styles.questionArea}>
-            {question && renderQuestion(question)}
+          <div className={styles.card}>
+            <div className={styles.questionArea}>
+              {question && renderQuestion(question)}
+            </div>
+            {optionButtons(false)}
           </div>
-          {optionButtons(false)}
         </div>
       )}
 

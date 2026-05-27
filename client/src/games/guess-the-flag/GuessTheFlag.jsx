@@ -10,6 +10,7 @@ import EndlessResults from '../../components/EndlessResults';
 import { useSpeedrun } from '../../hooks/useSpeedrun';
 import SpeedrunLayout from '../../components/SpeedrunLayout';
 import SpeedrunResults from '../../components/SpeedrunResults';
+import LoadingScreen from '../../components/LoadingScreen';
 
 const API_URL = import.meta.env.VITE_API_URL;
 
@@ -32,7 +33,7 @@ function GuessTheFlag() {
       .finally(() => setLoading(false));
   }, [difficulty, questionCount, mode]);
 
-  if (loading) return <p style={{ padding: 40 }}>Loading...</p>;
+  if (loading) return <LoadingScreen />;
   if (error)   return <p style={{ padding: 40, color: 'red' }}>{error}</p>;
 
   if (mode === 'endless') {
@@ -50,9 +51,16 @@ function GuessTheFlag() {
 // Separate component so useQuiz only mounts when questions are ready
 function GameRunner({ questions, questionTime }) {
   const quiz = useQuiz(questions, questionTime);
-
+  
   if (quiz.status === 'finished') {
-    return <Results score={quiz.score} total={quiz.total} />;
+    return(
+    <Results
+      score={quiz.score}
+      total={quiz.total}
+      history={quiz.history}
+      questions={questions}
+      gameTitle="Guess the Flag"
+    />)
   }
 
   return (
@@ -65,7 +73,7 @@ function GameRunner({ questions, questionTime }) {
         <img
           src={q.flag}
           alt="Guess this flag"
-          style={{ width: '240px', borderRadius: '8px', boxShadow: '0 4px 20px rgba(0,0,0,0.4)' }}
+          style={{ width: '280px', borderRadius: '8px', boxShadow: '0 4px 20px rgba(0,0,0,0.4)' }}
         />
       )}
     />
@@ -86,7 +94,7 @@ function EndlessRunner({ difficulty, questionTime }) {
   }
 
   if (endless.loading || !endless.question) {
-    return <p style={{ padding: 40 }}>Loading...</p>;
+    return <LoadingScreen />;
   }
 
   return (
@@ -97,7 +105,7 @@ function EndlessRunner({ difficulty, questionTime }) {
       questionTime={questionTime}
       renderQuestion={(q) => (
         <img src={q.flag} alt="flag"
-          style={{ width: '240px', borderRadius: '8px' }} />
+          style={{ width: '280px', borderRadius: '8px' }} />
       )}
     />
   );
@@ -124,7 +132,7 @@ function SpeedrunRunner({ difficulty, timeLimit }) {
   }
 
   if (speedrun.loading || !speedrun.question) {
-    return <p style={{ padding: 40 }}>Loading...</p>;
+    return <LoadingScreen />;
   }
 
   return (
@@ -136,7 +144,7 @@ function SpeedrunRunner({ difficulty, timeLimit }) {
         <img
           src={q.flag}
           alt="flag"
-          style={{ width: '240px', borderRadius: '8px' }}
+          style={{ width: '280px', borderRadius: '8px' }}
         />
       )}
     />
