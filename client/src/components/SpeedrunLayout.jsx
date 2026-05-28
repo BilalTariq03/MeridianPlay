@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { IconArrowLeft } from '@tabler/icons-react';
 import styles from './SpeedrunLayout.module.css';
 
 const KEYS = ['A', 'B', 'C', 'D'];
@@ -33,7 +34,7 @@ export default function SpeedrunLayout({
 
       {/* Navbar */}
       <nav className={styles.nav}>
-        <button className={styles.backBtn} onClick={() => navigate('/')}>←</button>
+        <button className={styles.backBtn} onClick={() => navigate('/')}><IconArrowLeft size={16} /></button>
         <span className={styles.navTitle}>{gameTitle} · Speedrun</span>
         <div className={styles.navStats}>
           <span className={styles.navCorrect}>{correct} correct</span>

@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { IconBolt } from '@tabler/icons-react';
 import styles from './SpeedrunResults.module.css';
 
 export default function SpeedrunResults({ score, correct, total, timeLimit }) {
@@ -11,7 +12,7 @@ export default function SpeedrunResults({ score, correct, total, timeLimit }) {
   return (
     <div className={styles.page}>
       <div className={styles.card}>
-        <p className={styles.icon}>⚡</p>
+        <div className={styles.icon}><IconBolt size={48} /></div>
         <h1 className={styles.title}>Time's up!</h1>
         <p className={styles.subtitle}>Here's how you did</p>
 

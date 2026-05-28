@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { IconArrowLeft } from '@tabler/icons-react';
 import styles from './QuizLayout.module.css';
 
 const KEYS = ['A', 'B', 'C', 'D'];
@@ -60,7 +61,7 @@ export default function QuizLayout({
     <div className={styles.page}>
 
       <nav className={styles.nav}>
-        <button className={styles.backBtn} onClick={() => navigate('/')}>←</button>
+        <button className={styles.backBtn} onClick={() => navigate('/')}><IconArrowLeft size={16} /></button>
         <span className={styles.navTitle}>{gameTitle}</span>
         <span className={styles.navScore}>
           Score <span className={styles.navScoreVal}>{score}</span>

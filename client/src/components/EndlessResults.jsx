@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { IconTrophy, IconSkull } from '@tabler/icons-react';
 import styles from './EndlessResults.module.css';
 
 export default function EndlessResults({ score, streak, best, completed }) {
@@ -7,7 +8,7 @@ export default function EndlessResults({ score, streak, best, completed }) {
   return (
     <div className={styles.page}>
       <div className={styles.card}>
-        <p className={styles.icon}>{completed ? '🏆' : '💀'}</p>
+        <div className={styles.icon}>{completed ? <IconTrophy size={48} /> : <IconSkull size={48} />}</div>
         <h1 className={styles.title}>
           {completed ? 'You beat it!' : 'Game Over'}
         </h1>

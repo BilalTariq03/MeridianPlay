@@ -1,12 +1,16 @@
 import { useNavigate } from 'react-router-dom';
+import {
+  IconTrophy, IconTarget, IconThumbUp,
+  IconBook, IconMoodSad, IconCheck, IconX,
+} from '@tabler/icons-react';
 import styles from './Results.module.css';
 
 const getMessage = (percent) => {
-  if (percent === 100) return { text: 'Perfect score!',    emoji: '🏆' };
-  if (percent >= 80)   return { text: 'Excellent!',        emoji: '🎯' };
-  if (percent >= 60)   return { text: 'Good job!',         emoji: '👍' };
-  if (percent >= 40)   return { text: 'Keep practicing!',  emoji: '📚' };
-  return                      { text: 'Better luck next time!', emoji: '💪' };
+  if (percent === 100) return { text: 'Perfect score!',         icon: <IconTrophy  size={48} /> };
+  if (percent >= 80)   return { text: 'Excellent!',             icon: <IconTarget  size={48} /> };
+  if (percent >= 60)   return { text: 'Good job!',              icon: <IconThumbUp size={48} /> };
+  if (percent >= 40)   return { text: 'Keep practicing!',       icon: <IconBook    size={48} /> };
+  return               { text: 'Better luck next time!',        icon: <IconMoodSad size={48} /> };
 };
 
 export default function Results({ score, total, history = [], gameTitle = 'Quiz' }) {
@@ -25,7 +29,7 @@ export default function Results({ score, total, history = [], gameTitle = 'Quiz'
 
         {/* Header */}
         <div className={styles.header}>
-          <p className={styles.emoji}>{msg.emoji}</p>
+          <div className={styles.emoji}>{msg.icon}</div>
           <h1 className={styles.title}>{msg.text}</h1>
           <p className={styles.subtitle}>{gameTitle} · Classic</p>
         </div>
@@ -61,7 +65,7 @@ export default function Results({ score, total, history = [], gameTitle = 'Quiz'
                 <div key={i} className={`${styles.row} ${h.correct ? styles.rowCorrect : styles.rowWrong}`}>
                   <div className={styles.rowLeft}>
                     <span className={`${styles.tick} ${h.correct ? styles.tickCorrect : styles.tickWrong}`}>
-                      {h.correct ? '✓' : '✗'}
+                      {h.correct ? <IconCheck size={12} /> : <IconX size={12} />}
                     </span>
                     <span className={styles.rowNum}>Q{i + 1}</span>
                     <span className={styles.rowAnswer}>{h.answer}</span>

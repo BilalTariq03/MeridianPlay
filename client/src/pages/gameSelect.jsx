@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import {
   IconFlag2, IconBuildingBank,
   IconMap2, IconCoin,
+  IconArrowLeft, IconArrowRight,
 } from '@tabler/icons-react';
 import games from '../config/games.config';
 import styles from './GameSelect.module.css';
@@ -119,7 +120,7 @@ export default function GameSelect() {
   return (
     <div className={styles.page}>
       <nav className={styles.nav}>
-        <button className={styles.backBtn} onClick={() => navigate('/')}>←</button>
+        <button className={styles.backBtn} onClick={() => navigate('/')}><IconArrowLeft size={16} /></button>
         <span className={styles.navTitle}>Game Setup</span>
       </nav>
 
@@ -234,7 +235,7 @@ export default function GameSelect() {
         {/* Start */}
         <div>
           <button className={styles.startBtn} onClick={handleStart}>
-            {getStartLabel()} →
+            {getStartLabel()} <IconArrowRight size={16} style={{ verticalAlign: 'middle' }} />
           </button>
           <p className={styles.startInfo} style={{ marginTop: 12 }}>
             {mode === 'classic'  && `${questions} questions · ${timer === '0' ? 'No timer' : `${timer}s each`}`}

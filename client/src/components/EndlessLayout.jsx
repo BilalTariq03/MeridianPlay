@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { IconArrowLeft, IconFlame } from '@tabler/icons-react';
 import styles from './EndlessLayout.module.css';
 
 const KEYS = ['A', 'B', 'C', 'D'];
@@ -26,7 +27,7 @@ export default function EndlessLayout({
 
       {/* Navbar */}
       <nav className={styles.nav}>
-        <button className={styles.backBtn} onClick={() => navigate('/')}>←</button>
+        <button className={styles.backBtn} onClick={() => navigate('/')}><IconArrowLeft size={16} /></button>
         <span className={styles.navTitle}>{gameTitle} · Endless</span>
         <div className={styles.navStats}>
           {multiplier > 1 && (
@@ -39,7 +40,8 @@ export default function EndlessLayout({
       {/* Streak bar */}
       <div className={styles.streakBar}>
         <span className={styles.streakLabel}>
-          🔥 Streak <span className={styles.streakNum}>{streak}</span>
+          <IconFlame size={15} style={{ verticalAlign: 'middle', marginRight: 4 }} />
+          Streak <span className={styles.streakNum}>{streak}</span>
         </span>
         <span className={styles.bestLabel}>
           Best <span className={styles.bestNum}>{best}</span>

@@ -8,6 +8,7 @@ import {
   IconWorld,
 } from '@tabler/icons-react';
 import GlobeGL from 'react-globe.gl';
+import { IconArrowRight } from '@tabler/icons-react';
 import games from '../config/games.config';
 import styles from './Home.module.css';
 
@@ -84,7 +85,7 @@ export default function Home() {
               className="btn btn-primary"
               onClick={() => navigate('/games/guess-the-flag')}
             >
-              Play now →
+              Play now <IconArrowRight size={15} style={{ verticalAlign: 'middle' }} />
             </button>
             <span className={styles.heroMeta}>No account needed</span>
           </div>
@@ -136,7 +137,7 @@ function GameCard({ game, onClick }) {
           <span className={`badge ${game.available ? 'badge-accent' : 'badge-muted'}`}>
             {game.available ? game.category : 'Coming soon'}
           </span>
-          {game.available && <span className={styles.cardPlay}>Play →</span>}
+          {game.available && <span className={styles.cardPlay}>Play <IconArrowRight size={13} style={{ verticalAlign: 'middle' }} /></span>}
         </div>
       </div>
     </div>
