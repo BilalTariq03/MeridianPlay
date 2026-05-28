@@ -9,7 +9,8 @@ const PORT = process.env.PORT || 5000;  // ← missing
 
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://meridian-play-gecgx3f98-bilals-projects-3c25aa00.vercel.app', // ← add https://
+  'https://meridian-play.vercel.app',
+  'https://meridianplay.vercel.app',
 ];
 
 app.use(cors({
