@@ -1,4 +1,5 @@
-import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { IconArrowLeft, IconFlame } from '@tabler/icons-react';
 import styles from './EndlessLayout.module.css';
 
@@ -12,6 +13,18 @@ export default function EndlessLayout({
   questionTime = 10,
 }) {
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const goBack = () => {
+    const back = location.pathname.replace('/play/', '/games/');
+    if (back !== location.pathname) navigate(back);
+    else navigate(-1);
+  };
+
+  useEffect(() => {
+    document.title = `MeridianPlay · ${gameTitle}`;
+  }, [gameTitle]);
+
   const isLow    = questionTime > 0 && timeLeft <= 3;
   const correct  = question?.answer;
 
@@ -27,7 +40,7 @@ export default function EndlessLayout({
 
       {/* Navbar */}
       <nav className={styles.nav}>
-        <button className={styles.backBtn} onClick={() => navigate('/')}><IconArrowLeft size={16} /></button>
+        <button className={styles.backBtn} onClick={goBack}><IconArrowLeft size={16} /></button>
         <span className={styles.navTitle}>{gameTitle} · Endless</span>
         <div className={styles.navStats}>
           {multiplier > 1 && (
@@ -65,22 +78,24 @@ export default function EndlessLayout({
 
       {/* Body */}
       <div className={styles.body}>
-        <div className={styles.questionArea}>
-          {question && renderQuestion(question)}
-        </div>
+        <div className={styles.card}>
+          <div className={styles.questionArea}>
+            {question && renderQuestion(question)}
+          </div>
 
-        <div className={styles.options}>
-          {question?.options.map((option, i) => (
-            <button
-              key={option}
-              className={getOptionClass(option)}
-              onClick={() => onAnswer(option)}
-              disabled={status === 'feedback'}
-            >
-              <span className={styles.optionKey}>{KEYS[i]}</span>
-              {option}
-            </button>
-          ))}
+          <div className={styles.options}>
+            {question?.options.map((option, i) => (
+              <button
+                key={option}
+                className={getOptionClass(option)}
+                onClick={() => onAnswer(option)}
+                disabled={status === 'feedback'}
+              >
+                <span className={styles.optionKey}>{KEYS[i]}</span>
+                {option}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </div>

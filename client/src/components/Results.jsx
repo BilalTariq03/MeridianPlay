@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   IconTrophy, IconTarget, IconThumbUp,
@@ -15,6 +16,8 @@ const getMessage = (percent) => {
 
 export default function Results({ score, total, history = [], gameTitle = 'Quiz' }) {
   const navigate  = useNavigate();
+
+  useEffect(() => { document.title = 'MeridianPlay · Results'; }, []);
   const percent   = Math.round((score / total) * 100);
   const accuracy  = percent;
   const avgTime   = history.length > 0

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import {
   IconFlag2, IconBuildingBank,
@@ -88,6 +88,10 @@ export default function GameSelect() {
 
   const game = games.find(g => g.id === gameId);
 
+  useEffect(() => {
+    document.title = game ? `MeridianPlay · ${game.title}` : 'MeridianPlay';
+  }, [game]);
+
   if (!game) return (
     <div style={{ padding: 40, color: 'var(--text-400)' }}>
       Game not found.{' '}
@@ -103,6 +107,7 @@ export default function GameSelect() {
       mode,
       difficulty,
       ...(mode === 'classic'  && { questions, timer }),
+      ...(mode === 'endless'  && { timer }),
       ...(mode === 'speedrun' && { timeLimit }),
     });
     navigate(`${game.playPath}?${params.toString()}`);
@@ -212,6 +217,24 @@ export default function GameSelect() {
               </div>
             </div>
           </>
+        )}
+
+        {/* Endless-only options */}
+        {mode === 'endless' && (
+          <div className={styles.section}>
+            <p className={styles.sectionLabel}>Timer per question</p>
+            <div className={styles.pillRow}>
+              {TIMERS.map(t => (
+                <button
+                  key={t.id}
+                  className={`${styles.pill} ${timer === t.id ? styles.pillActive : ''}`}
+                  onClick={() => setTimer(t.id)}
+                >
+                  {t.label}
+                </button>
+              ))}
+            </div>
+          </div>
         )}
 
         {/* Speedrun-only options */}

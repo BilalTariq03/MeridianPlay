@@ -52,6 +52,8 @@ function Globe() {
 export default function Home() {
   const navigate = useNavigate();
 
+  useEffect(() => { document.title = 'MeridianPlay · Geography Trivia'; }, []);
+
   return (
     <div className={styles.page}>
 

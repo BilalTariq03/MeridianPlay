@@ -1,4 +1,5 @@
-import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { IconArrowLeft } from '@tabler/icons-react';
 import styles from './QuizLayout.module.css';
 
@@ -13,6 +14,18 @@ export default function QuizLayout({
   questionTime = 10,
 }) {
   const navigate  = useNavigate();
+  const location  = useLocation();
+
+  const goBack = () => {
+    const back = location.pathname.replace('/play/', '/games/');
+    if (back !== location.pathname) navigate(back);
+    else navigate(-1);
+  };
+
+  useEffect(() => {
+    document.title = `MeridianPlay · ${gameTitle}`;
+  }, [gameTitle]);
+
   const isLow     = questionTime > 0 && timeLeft <= 3;
   const fillWidth = questionTime > 0
     ? `${(timeLeft / questionTime) * 100}%`
@@ -61,7 +74,7 @@ export default function QuizLayout({
     <div className={styles.page}>
 
       <nav className={styles.nav}>
-        <button className={styles.backBtn} onClick={() => navigate('/')}><IconArrowLeft size={16} /></button>
+        <button className={styles.backBtn} onClick={goBack}><IconArrowLeft size={16} /></button>
         <span className={styles.navTitle}>{gameTitle}</span>
         <span className={styles.navScore}>
           Score <span className={styles.navScoreVal}>{score}</span>

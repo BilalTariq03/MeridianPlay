@@ -1,29 +1,45 @@
 import { useReducer, useEffect, useRef, useState } from 'react';
 
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 function reducer(state, action) {
   switch (action.type) {
     case 'ANSWER':
       return {
         ...state,
-        selected:  action.choice,
-        score:     action.isCorrect ? state.score + 1 : state.score,
-        correct:   action.isCorrect ? state.correct + 1 : state.correct,
-        total:     state.total + 1,
-        status:    'feedback',
+        selected: action.choice,
+        score:    action.isCorrect ? state.score + 1 : state.score,
+        correct:  action.isCorrect ? state.correct + 1 : state.correct,
+        total:    state.total + 1,
+        status:   'feedback',
       };
-    case 'NEXT':
-      return {
-        ...state,
-        index:    state.index + 1,
-        selected: null,
-        status:   'playing',
-      };
+    case 'NEXT': {
+      const next = state.index + 1;
+      if (next >= state.questions.length) {
+        // Exhausted the pool — re-shuffle and cycle from the start
+        return {
+          ...state,
+          index:     0,
+          questions: shuffle(state.questions),
+          selected:  null,
+          status:    'playing',
+        };
+      }
+      return { ...state, index: next, selected: null, status: 'playing' };
+    }
     case 'TICK':
       return { ...state, timeLeft: state.timeLeft - 1 };
     case 'FINISH':
       return { ...state, status: 'finished' };
-    case 'ADD_QUESTIONS':
-      return { ...state, questions: [...state.questions, ...action.questions] };
+    case 'LOAD_QUESTIONS':
+      return { ...state, questions: shuffle(action.questions) };
     default:
       return state;
   }
@@ -49,40 +65,26 @@ export function useSpeedrun(fetchMore, timeLimit = 120) {
   const { index, score, correct, total,
           selected, timeLeft, status, questions } = state;
 
-  // Initial fetch
+  // Fetch all available questions once on mount, then shuffle and use them in order
   useEffect(() => {
     fetchMoreRef.current().then(qs => {
-      dispatch({ type: 'ADD_QUESTIONS', questions: qs });
+      dispatch({ type: 'LOAD_QUESTIONS', questions: qs });
       setLoading(false);
     });
   }, []);
 
-  // Fetch more when running low
-  useEffect(() => {
-    if (questions.length - index < 5 && status === 'playing') {
-      fetchMoreRef.current().then(qs => {
-        dispatch({ type: 'ADD_QUESTIONS', questions: qs });
-      });
-    }
-  }, [index, questions.length, status]);
-
   // Global countdown — ticks every second
   useEffect(() => {
     if (status !== 'playing' && status !== 'feedback') return;
-    if (timeLeft === 0) {
-      dispatch({ type: 'FINISH' });
-      return;
-    }
+    if (timeLeft === 0) { dispatch({ type: 'FINISH' }); return; }
     const t = setTimeout(() => dispatch({ type: 'TICK' }), 1000);
     return () => clearTimeout(t);
   }, [timeLeft, status]);
 
-  // Feedback pause — very short (500ms) to keep pace fast
+  // Short feedback pause (500ms) before advancing
   useEffect(() => {
     if (status !== 'feedback') return;
-    const t = setTimeout(() => {
-      dispatch({ type: 'NEXT' });
-    }, 500);
+    const t = setTimeout(() => dispatch({ type: 'NEXT' }), 500);
     return () => clearTimeout(t);
   }, [status]);
 

@@ -15,26 +15,45 @@ import LoadingScreen from '../../components/LoadingScreen';
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
 function GuessTheCapital() {
-  const [questions, setQuestions] = useState([]);
-  const [error, setError]         = useState(null);
+  const [questions,  setQuestions]  = useState([]);
+  const [error,      setError]      = useState(null);
+  const [retryCount, setRetryCount] = useState(0);
+  const [retryKey,   setRetryKey]   = useState(0);
+  const [warming,    setWarming]    = useState(false);
 
   const { difficulty, questions: questionCount, timer, mode, timeLimit } = useGameParams();
-
   const [loading, setLoading] = useState(mode !== 'endless');
 
   useEffect(() => {
     if (mode === 'endless') return;
 
+    let retryTimer;
     axios.get(`${API_URL}/api/questions/capitals`, {
-      params: {difficulty, questions: questionCount}
+      params: { difficulty, questions: questionCount },
     })
-      .then(res => setQuestions(res.data))
-      .catch(() => setError('Failed to load questions.'))
-      .finally(() => setLoading(false));
-  }, [difficulty, questionCount, mode]);
+      .then(res => { setQuestions(res.data); setLoading(false); setWarming(false); })
+      .catch(err => {
+        const isNetwork = err.code === 'ERR_NETWORK' || err.code === 'ECONNABORTED';
+        if (isNetwork && retryCount < 3) {
+          setWarming(true);
+          retryTimer = setTimeout(() => setRetryCount(c => c + 1), 5000);
+        } else {
+          setError('Failed to load questions.');
+          setLoading(false);
+          setWarming(false);
+        }
+      });
 
-  if (loading) return <LoadingScreen />;
-  if (error)   return <p style={{ padding: 40, color: 'red' }}>{error}</p>;
+    return () => clearTimeout(retryTimer);
+  }, [difficulty, questionCount, mode, retryCount, retryKey]);
+
+  const handleRetry = () => { setLoading(true); setRetryCount(0); setError(null); setWarming(false); setRetryKey(k => k + 1); };
+
+  if (loading) return <LoadingScreen
+    message={warming ? 'Server is warming up, please wait...' : undefined}
+    subtext={warming ? `Attempt ${retryCount + 1} / 3` : undefined}
+  />;
+  if (error) return <LoadingScreen message="Failed to connect to server." onRetry={handleRetry} />;
 
   if (mode === 'endless') {
     return <EndlessRunner difficulty={difficulty} questionTime={parseInt(timer)} />;
@@ -80,8 +99,8 @@ function GameRunner({ questions, questionTime }) {
 
 function EndlessRunner({ difficulty, questionTime }) {
   const fetchMore = () =>
-    axios.get(`${API_URL}/api/questions/capitals`, {  // ✅
-      params: { difficulty, questions: 10 }
+    axios.get(`${API_URL}/api/questions/capitals`, {
+      params: { difficulty, questions: 250 }
     }).then(r => r.data);
 
   const endless = useEndless(fetchMore, questionTime);
@@ -116,8 +135,8 @@ function EndlessRunner({ difficulty, questionTime }) {
 
 function SpeedrunRunner({ difficulty, timeLimit }) {
   const fetchMore = () =>
-    axios.get(`${API_URL}/api/questions/capitals`, {  // ✅
-      params: { difficulty, questions: 10 }
+    axios.get(`${API_URL}/api/questions/capitals`, {
+      params: { difficulty, questions: 250 }
     }).then(r => r.data);
 
   const speedrun = useSpeedrun(fetchMore, timeLimit);

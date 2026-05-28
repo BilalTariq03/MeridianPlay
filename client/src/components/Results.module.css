@@ -199,3 +199,9 @@
   background: var(--ink-700);
   border-color: var(--border-hover);
 }
+
+@media (max-width: 768px) {
+  .page { padding: 24px 16px; }
+  .inner { gap: 16px; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+}

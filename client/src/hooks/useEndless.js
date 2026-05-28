@@ -1,5 +1,14 @@
 import { useReducer, useEffect, useRef, useState } from 'react';
 
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 function reducer(state, action) {
   switch (action.type) {
     case 'ANSWER':
@@ -8,14 +17,14 @@ function reducer(state, action) {
       }
       return {
         ...state,
-        selected:  action.choice,
-        score:     state.score + (1 * state.multiplier),
-        streak:    state.streak + 1,
-        best:      Math.max(state.best, state.streak + 1),
-        multiplier: state.streak + 1 >= 5  ? 3
-                  : state.streak + 1 >= 3  ? 2
+        selected:   action.choice,
+        score:      state.score + (1 * state.multiplier),
+        streak:     state.streak + 1,
+        best:       Math.max(state.best, state.streak + 1),
+        multiplier: state.streak + 1 >= 5 ? 3
+                  : state.streak + 1 >= 3 ? 2
                   : 1,
-        status:    'feedback',
+        status:     'feedback',
       };
     case 'NEXT':
       return {
@@ -27,8 +36,8 @@ function reducer(state, action) {
       };
     case 'TICK':
       return { ...state, timeLeft: state.timeLeft - 1 };
-    case 'ADD_QUESTIONS':
-      return { ...state, questions: [...state.questions, ...action.questions] };
+    case 'LOAD_QUESTIONS':
+      return { ...state, questions: shuffle(action.questions) };
     case 'COMPLETE':
       return { ...state, status: 'completed' };
     default:
@@ -51,35 +60,21 @@ export function useEndless(fetchMore, questionTime = 10) {
     questions:  [],
   };
 
-  const [state, dispatch]   = useReducer(reducer, init);
+  const [state, dispatch]     = useReducer(reducer, init);
   const [loading, setLoading] = useState(true);
 
   const { index, score, streak, best, multiplier,
           selected, timeLeft, status, questions } = state;
 
-  // Initial question fetch
+  // Fetch all available questions once on mount, shuffle them
   useEffect(() => {
     fetchMoreRef.current().then(qs => {
-      dispatch({ type: 'ADD_QUESTIONS', questions: qs });
+      dispatch({ type: 'LOAD_QUESTIONS', questions: qs });
       setLoading(false);
     });
   }, []);
 
-  // Fetch more when running low — keep 5 questions ahead
-  useEffect(() => {
-    if (questions.length - index < 5 && status === 'playing') {
-      fetchMoreRef.current().then(qs => {
-        if (qs.length === 0) {
-          // No more unique questions — player beat the game
-          dispatch({ type: 'COMPLETE' });
-        } else {
-          dispatch({ type: 'ADD_QUESTIONS', questions: qs });
-        }
-      });
-    }
-  }, [index, questions.length, status]);
-
-  // Timer
+  // Per-question countdown timer
   useEffect(() => {
     if (status !== 'playing' || loading) return;
     if (questionTime === 0) return;
@@ -96,12 +91,12 @@ export function useEndless(fetchMore, questionTime = 10) {
     return () => clearTimeout(t);
   }, [timeLeft, status, loading, questionTime]);
 
-  // Feedback pause → next
+  // Feedback pause → advance or complete when all questions answered
   useEffect(() => {
     if (status !== 'feedback') return;
     const t = setTimeout(() => {
       if (index + 1 >= questions.length) {
-        dispatch({ type: 'COMPLETE' }); // ran out of questions
+        dispatch({ type: 'COMPLETE' });
       } else {
         dispatch({ type: 'NEXT', questionTime });
       }

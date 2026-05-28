@@ -190,3 +190,8 @@
   color: var(--text-500);
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .body { padding: 24px 16px; }
+  .modeGrid { grid-template-columns: 1fr; }
+}

@@ -130,10 +130,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 32px 24px;
-  max-width: 600px;
+  max-width: 680px;
   width: 100%;
   margin: 0 auto;
+  gap: 20px;
+}
+
+.card {
+  width: 100%;
+  background: var(--ink-800);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
   gap: 24px;
 }
 

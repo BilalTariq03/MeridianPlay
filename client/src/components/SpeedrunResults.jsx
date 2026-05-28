@@ -1,9 +1,12 @@
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { IconBolt } from '@tabler/icons-react';
 import styles from './SpeedrunResults.module.css';
 
 export default function SpeedrunResults({ score, correct, total, timeLimit }) {
   const navigate  = useNavigate();
+
+  useEffect(() => { document.title = 'MeridianPlay · Results'; }, []);
   const accuracy  = total > 0 ? Math.round((correct / total) * 100) : 0;
   const perMinute = total > 0
     ? Math.round((correct / timeLimit) * 60)

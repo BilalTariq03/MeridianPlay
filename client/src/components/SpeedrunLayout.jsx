@@ -1,4 +1,5 @@
-import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { IconArrowLeft } from '@tabler/icons-react';
 import styles from './SpeedrunLayout.module.css';
 
@@ -10,7 +11,19 @@ export default function SpeedrunLayout({
   status, onAnswer, renderQuestion,
   gameTitle = 'Speedrun',
 }) {
-  const navigate   = useNavigate();
+  const navigate  = useNavigate();
+  const location  = useLocation();
+
+  const goBack = () => {
+    const back = location.pathname.replace('/play/', '/games/');
+    if (back !== location.pathname) navigate(back);
+    else navigate(-1);
+  };
+
+  useEffect(() => {
+    document.title = `MeridianPlay · ${gameTitle}`;
+  }, [gameTitle]);
+
   const fillWidth  = `${(timeLeft / timeLimit) * 100}%`;
   const isLow      = timeLeft <= 10;
   const accuracy   = total > 0 ? Math.round((correct / total) * 100) : 0;
@@ -34,7 +47,7 @@ export default function SpeedrunLayout({
 
       {/* Navbar */}
       <nav className={styles.nav}>
-        <button className={styles.backBtn} onClick={() => navigate('/')}><IconArrowLeft size={16} /></button>
+        <button className={styles.backBtn} onClick={goBack}><IconArrowLeft size={16} /></button>
         <span className={styles.navTitle}>{gameTitle} · Speedrun</span>
         <div className={styles.navStats}>
           <span className={styles.navCorrect}>{correct} correct</span>
@@ -73,22 +86,24 @@ export default function SpeedrunLayout({
 
       {/* Body */}
       <div className={styles.body}>
-        <div className={styles.questionArea}>
-          {question && renderQuestion(question)}
-        </div>
+        <div className={styles.card}>
+          <div className={styles.questionArea}>
+            {question && renderQuestion(question)}
+          </div>
 
-        <div className={styles.options}>
-          {question?.options.map((option, i) => (
-            <button
-              key={option}
-              className={getOptionClass(option)}
-              onClick={() => onAnswer(option)}
-              disabled={status === 'feedback'}
-            >
-              <span className={styles.optionKey}>{KEYS[i]}</span>
-              {option}
-            </button>
-          ))}
+          <div className={styles.options}>
+            {question?.options.map((option, i) => (
+              <button
+                key={option}
+                className={getOptionClass(option)}
+                onClick={() => onAnswer(option)}
+                disabled={status === 'feedback'}
+              >
+                <span className={styles.optionKey}>{KEYS[i]}</span>
+                {option}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 

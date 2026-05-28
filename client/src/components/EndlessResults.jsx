@@ -1,9 +1,12 @@
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { IconTrophy, IconSkull } from '@tabler/icons-react';
 import styles from './EndlessResults.module.css';
 
 export default function EndlessResults({ score, streak, best, completed }) {
   const navigate = useNavigate();
+
+  useEffect(() => { document.title = 'MeridianPlay · Results'; }, []);
 
   return (
     <div className={styles.page}>

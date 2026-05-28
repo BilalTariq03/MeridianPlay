@@ -14,27 +14,49 @@ import LoadingScreen from '../../components/LoadingScreen';
 
 const API_URL = import.meta.env.VITE_API_URL;
 
+const FLAG_FALLBACK = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Crect width='320' height='200' fill='%231E283C' rx='8'/%3E%3Ctext x='160' y='100' font-family='monospace' font-size='12' fill='%2364748B' text-anchor='middle' dominant-baseline='middle'%3EFlag unavailable%3C/text%3E%3C/svg%3E";
+const onFlagError = e => { e.currentTarget.onerror = null; e.currentTarget.src = FLAG_FALLBACK; };
+
 function GuessTheFlag() {
-  const [questions, setQuestions] = useState([]);
-  const [error, setError]         = useState(null);
+  const [questions,  setQuestions]  = useState([]);
+  const [error,      setError]      = useState(null);
+  const [retryCount, setRetryCount] = useState(0);
+  const [retryKey,   setRetryKey]   = useState(0);
+  const [warming,    setWarming]    = useState(false);
 
   const { difficulty, questions: questionCount, timer, mode, timeLimit } = useGameParams();
-
   const [loading, setLoading] = useState(mode !== 'endless');
 
   useEffect(() => {
     if (mode === 'endless') return;
 
-    axios.get(`${API_URL}/api/questions/flags`,
-      {params: {difficulty, questions: questionCount}
+    let retryTimer;
+    axios.get(`${API_URL}/api/questions/flags`, {
+      params: { difficulty, questions: questionCount },
     })
-      .then(res => setQuestions(res.data))
-      .catch(() => setError('Failed to load questions.'))
-      .finally(() => setLoading(false));
-  }, [difficulty, questionCount, mode]);
+      .then(res => { setQuestions(res.data); setLoading(false); setWarming(false); })
+      .catch(err => {
+        const isNetwork = err.code === 'ERR_NETWORK' || err.code === 'ECONNABORTED';
+        if (isNetwork && retryCount < 3) {
+          setWarming(true);
+          retryTimer = setTimeout(() => setRetryCount(c => c + 1), 5000);
+        } else {
+          setError('Failed to load questions.');
+          setLoading(false);
+          setWarming(false);
+        }
+      });
 
-  if (loading) return <LoadingScreen />;
-  if (error)   return <p style={{ padding: 40, color: 'red' }}>{error}</p>;
+    return () => clearTimeout(retryTimer);
+  }, [difficulty, questionCount, mode, retryCount, retryKey]);
+
+  const handleRetry = () => { setLoading(true); setRetryCount(0); setError(null); setWarming(false); setRetryKey(k => k + 1); };
+
+  if (loading) return <LoadingScreen
+    message={warming ? 'Server is warming up, please wait...' : undefined}
+    subtext={warming ? `Attempt ${retryCount + 1} / 3` : undefined}
+  />;
+  if (error) return <LoadingScreen message="Failed to connect to server." onRetry={handleRetry} />;
 
   if (mode === 'endless') {
     return <EndlessRunner difficulty={difficulty} questionTime={parseInt(timer)} />;
@@ -73,6 +95,7 @@ function GameRunner({ questions, questionTime }) {
         <img
           src={q.flag}
           alt="Guess this flag"
+          onError={onFlagError}
           style={{ width: '380px', borderRadius: '8px', boxShadow: '0 4px 20px rgba(0,0,0,0.4)' }}
         />
       )}
@@ -84,7 +107,7 @@ function GameRunner({ questions, questionTime }) {
 function EndlessRunner({ difficulty, questionTime }) {
   const fetchMore = () =>
     axios.get(`${API_URL}/api/questions/flags`, {
-      params: { difficulty, questions: 10 }
+      params: { difficulty, questions: 250 }
     }).then(r => r.data);
 
   const endless = useEndless(fetchMore, questionTime);
@@ -104,7 +127,7 @@ function EndlessRunner({ difficulty, questionTime }) {
       gameTitle="Guess the Flag"
       questionTime={questionTime}
       renderQuestion={(q) => (
-        <img src={q.flag} alt="flag"
+        <img src={q.flag} alt="flag" onError={onFlagError}
           style={{ width: '280px', borderRadius: '8px' }} />
       )}
     />
@@ -115,7 +138,7 @@ function EndlessRunner({ difficulty, questionTime }) {
 function SpeedrunRunner({ difficulty, timeLimit }) {
   const fetchMore = () =>
     axios.get(`${API_URL}/api/questions/flags`, {
-      params: { difficulty, questions: 10 }
+      params: { difficulty, questions: 250 }
     }).then(r => r.data);
 
   const speedrun = useSpeedrun(fetchMore, timeLimit);
@@ -144,6 +167,7 @@ function SpeedrunRunner({ difficulty, timeLimit }) {
         <img
           src={q.flag}
           alt="flag"
+          onError={onFlagError}
           style={{ width: '280px', borderRadius: '8px' }}
         />
       )}

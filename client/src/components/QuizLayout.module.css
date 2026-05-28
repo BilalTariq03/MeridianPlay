@@ -275,3 +275,23 @@
   color: var(--accent);
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .body { padding: 16px 12px; }
+
+  .option { padding: 12px 14px; }
+
+  .splitBody {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+  }
+
+  .splitLeft {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 20px;
+  }
+
+  .splitRight { padding: 20px 16px; }
+}

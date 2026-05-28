@@ -231,3 +231,21 @@
 }
 
 .card:hover .cardPlay { color: var(--accent); }
+
+@media (max-width: 768px) {
+  .nav { padding: 0 20px; }
+
+  .hero {
+    flex-direction: column;
+    padding: 40px 20px;
+    min-height: auto;
+  }
+
+  .heroRight { display: none; }
+
+  .heroTitle { font-size: 42px; }
+
+  .gamesSection { padding: 0 20px 40px; }
+
+  .cards { grid-template-columns: 1fr; }
+}
