@@ -124,22 +124,11 @@
   animation: floatGlobe 8s ease-in-out infinite;
 }
 
-.globeSvg { width: 100%; height: 100%; }
-
-/* Dots + longitude lines all rotate together */
-.rotatingGroup {
-  animation: spinGlobe 25s linear infinite;
-  transform-origin: 450px 450px;   /* center of new canvas */
-}
+.globeCanvas { width: 100%; height: 100%; }
 
 @keyframes floatGlobe {
   0%, 100% { transform: translateY(0px); }
   50%       { transform: translateY(-20px); }
-}
-
-@keyframes spinGlobe {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
 }
 
 /* Games section */

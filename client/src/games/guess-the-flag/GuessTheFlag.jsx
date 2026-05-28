@@ -73,7 +73,7 @@ function GameRunner({ questions, questionTime }) {
         <img
           src={q.flag}
           alt="Guess this flag"
-          style={{ width: '280px', borderRadius: '8px', boxShadow: '0 4px 20px rgba(0,0,0,0.4)' }}
+          style={{ width: '380px', borderRadius: '8px', boxShadow: '0 4px 20px rgba(0,0,0,0.4)' }}
         />
       )}
     />
