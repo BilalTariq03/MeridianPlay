@@ -12,13 +12,16 @@ const fetchAndCache = async () => {
 
   // Batch 2 — remaining fields
   const res2 = await axios.get(
-    'https://restcountries.com/v3.1/all?fields=cca2,independent'
+    'https://restcountries.com/v3.1/all?fields=cca2,subregion,independent,languages'
   );
 
   // Index batch 2 by country code for fast lookup
   const extra = {};
   res2.data.forEach(c => {
-    extra[c.cca2] = { independent: c.independent };
+    extra[c.cca2] = { subregion: c.subregion,
+                      independent: c.independent,
+                      languages: c.languages,
+     };
   });
 
   // Merge both batches
@@ -35,13 +38,15 @@ const fetchAndCache = async () => {
       area:        c.area || 0,
       latlng:      c.latlng || [0, 0],
       population:  c.population || 0,
+      subregion:   extra[c.cca2]?.subregion || '',
       independent: extra[c.cca2]?.independent || false,
+      languages:   extra[c.cca2]?.languages || {},
     }));
 
   const outputPath = path.join(__dirname, 'countries.json');
   fs.writeFileSync(outputPath, JSON.stringify(countries, null, 2));
 
-  console.log(`✅ Saved ${countries.length} countries to countries.json`);
+  console.log(`Saved ${countries.length} countries to countries.json`);
 };
 
 fetchAndCache();

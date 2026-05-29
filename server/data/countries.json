@@ -18,7 +18,11 @@
       -63.16666666
     ],
     "population": 16010,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Guatemala",
@@ -39,7 +43,11 @@
       -90.25
     ],
     "population": 18079810,
-    "independent": true
+    "subregion": "Central America",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Gambia",
@@ -60,7 +68,11 @@
       -16.56666666
     ],
     "population": 2422712,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Mexico",
@@ -81,7 +93,11 @@
       -102
     ],
     "population": 130575786,
-    "independent": true
+    "subregion": "North America",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Malawi",
@@ -102,7 +118,12 @@
       34
     ],
     "population": 20734262,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "nya": "Chewa"
+    }
   },
   {
     "name": "Pitcairn Islands",
@@ -123,7 +144,11 @@
       -130.1
     ],
     "population": 35,
-    "independent": false
+    "subregion": "Polynesia",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Argentina",
@@ -144,7 +169,12 @@
       -64
     ],
     "population": 46735004,
-    "independent": true
+    "subregion": "South America",
+    "independent": true,
+    "languages": {
+      "grn": "Guaraní",
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Guam",
@@ -165,7 +195,13 @@
       144.78333333
     ],
     "population": 153836,
-    "independent": false
+    "subregion": "Micronesia",
+    "independent": false,
+    "languages": {
+      "cha": "Chamorro",
+      "eng": "English",
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Bulgaria",
@@ -186,7 +222,11 @@
       25
     ],
     "population": 6437360,
-    "independent": true
+    "subregion": "Southeast Europe",
+    "independent": true,
+    "languages": {
+      "bul": "Bulgarian"
+    }
   },
   {
     "name": "Dominica",
@@ -207,7 +247,11 @@
       -61.33333333
     ],
     "population": 67408,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "United Kingdom",
@@ -228,7 +272,11 @@
       -2
     ],
     "population": 69281437,
-    "independent": true
+    "subregion": "Northern Europe",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Micronesia",
@@ -249,7 +297,11 @@
       158.25
     ],
     "population": 105564,
-    "independent": true
+    "subregion": "Micronesia",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Palestine",
@@ -278,7 +330,11 @@
       35.2
     ],
     "population": 5483450,
-    "independent": false
+    "subregion": "Western Asia",
+    "independent": false,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Curaçao",
@@ -299,7 +355,13 @@
       -68.933333
     ],
     "population": 156115,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "nld": "Dutch",
+      "pap": "Papiamento"
+    }
   },
   {
     "name": "Rwanda",
@@ -320,7 +382,13 @@
       30
     ],
     "population": 14104969,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "kin": "Kinyarwanda"
+    }
   },
   {
     "name": "Hong Kong",
@@ -341,7 +409,12 @@
       114.188
     ],
     "population": 7527500,
-    "independent": false
+    "subregion": "Eastern Asia",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "zho": "Chinese"
+    }
   },
   {
     "name": "Uzbekistan",
@@ -362,7 +435,12 @@
       64
     ],
     "population": 37859698,
-    "independent": true
+    "subregion": "Central Asia",
+    "independent": true,
+    "languages": {
+      "rus": "Russian",
+      "uzb": "Uzbek"
+    }
   },
   {
     "name": "China",
@@ -383,7 +461,11 @@
       105
     ],
     "population": 1408280000,
-    "independent": true
+    "subregion": "Eastern Asia",
+    "independent": true,
+    "languages": {
+      "zho": "Chinese"
+    }
   },
   {
     "name": "Cyprus",
@@ -404,7 +486,12 @@
       33
     ],
     "population": 1442614,
-    "independent": true
+    "subregion": "Southern Europe",
+    "independent": true,
+    "languages": {
+      "ell": "Greek",
+      "tur": "Turkish"
+    }
   },
   {
     "name": "Aruba",
@@ -425,7 +512,12 @@
       -69.96666666
     ],
     "population": 107566,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "nld": "Dutch",
+      "pap": "Papiamento"
+    }
   },
   {
     "name": "Réunion",
@@ -446,7 +538,11 @@
       55.5
     ],
     "population": 896175,
-    "independent": false
+    "subregion": "Eastern Africa",
+    "independent": false,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "South Korea",
@@ -467,7 +563,11 @@
       127.5
     ],
     "population": 51159889,
-    "independent": true
+    "subregion": "Eastern Asia",
+    "independent": true,
+    "languages": {
+      "kor": "Korean"
+    }
   },
   {
     "name": "Somalia",
@@ -488,7 +588,12 @@
       49
     ],
     "population": 19655000,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic",
+      "som": "Somali"
+    }
   },
   {
     "name": "Lebanon",
@@ -509,7 +614,12 @@
       35.83333333
     ],
     "population": 5490000,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic",
+      "fra": "French"
+    }
   },
   {
     "name": "Guinea",
@@ -530,7 +640,11 @@
       -10
     ],
     "population": 14363931,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Tajikistan",
@@ -551,7 +665,12 @@
       71
     ],
     "population": 10499000,
-    "independent": true
+    "subregion": "Central Asia",
+    "independent": true,
+    "languages": {
+      "rus": "Russian",
+      "tgk": "Tajik"
+    }
   },
   {
     "name": "Malaysia",
@@ -572,7 +691,12 @@
       112.5
     ],
     "population": 34231700,
-    "independent": true
+    "subregion": "South-Eastern Asia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "msa": "Malay"
+    }
   },
   {
     "name": "North Korea",
@@ -593,7 +717,11 @@
       127
     ],
     "population": 25950000,
-    "independent": true
+    "subregion": "Eastern Asia",
+    "independent": true,
+    "languages": {
+      "kor": "Korean"
+    }
   },
   {
     "name": "Sierra Leone",
@@ -614,7 +742,11 @@
       -11.5
     ],
     "population": 9077691,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Benin",
@@ -635,7 +767,11 @@
       2.25
     ],
     "population": 13224860,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Italy",
@@ -656,7 +792,12 @@
       12.83333333
     ],
     "population": 58927633,
-    "independent": true
+    "subregion": "Southern Europe",
+    "independent": true,
+    "languages": {
+      "ita": "Italian",
+      "cat": "Catalan"
+    }
   },
   {
     "name": "Trinidad and Tobago",
@@ -677,7 +818,11 @@
       -61.2225
     ],
     "population": 1367764,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Saudi Arabia",
@@ -698,7 +843,11 @@
       45
     ],
     "population": 35300280,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Costa Rica",
@@ -719,7 +868,11 @@
       -84
     ],
     "population": 5309625,
-    "independent": true
+    "subregion": "Central America",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Serbia",
@@ -740,7 +893,11 @@
       21
     ],
     "population": 6567783,
-    "independent": true
+    "subregion": "Southeast Europe",
+    "independent": true,
+    "languages": {
+      "srp": "Serbian"
+    }
   },
   {
     "name": "Tokelau",
@@ -761,7 +918,13 @@
       -172
     ],
     "population": 2608,
-    "independent": false
+    "subregion": "Polynesia",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "smo": "Samoan",
+      "tkl": "Tokelauan"
+    }
   },
   {
     "name": "Mongolia",
@@ -782,7 +945,11 @@
       105
     ],
     "population": 3544835,
-    "independent": true
+    "subregion": "Eastern Asia",
+    "independent": true,
+    "languages": {
+      "mon": "Mongolian"
+    }
   },
   {
     "name": "Brunei",
@@ -807,7 +974,11 @@
       114.66666666
     ],
     "population": 455500,
-    "independent": true
+    "subregion": "South-Eastern Asia",
+    "independent": true,
+    "languages": {
+      "msa": "Malay"
+    }
   },
   {
     "name": "Hungary",
@@ -828,7 +999,11 @@
       20
     ],
     "population": 9539502,
-    "independent": true
+    "subregion": "Central Europe",
+    "independent": true,
+    "languages": {
+      "hun": "Hungarian"
+    }
   },
   {
     "name": "Mozambique",
@@ -849,7 +1024,11 @@
       35
     ],
     "population": 34090466,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "por": "Portuguese"
+    }
   },
   {
     "name": "Kiribati",
@@ -874,7 +1053,12 @@
       173
     ],
     "population": 120740,
-    "independent": true
+    "subregion": "Micronesia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "gil": "Gilbertese"
+    }
   },
   {
     "name": "Haiti",
@@ -895,7 +1079,12 @@
       -72.41666666
     ],
     "population": 11867032,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "fra": "French",
+      "hat": "Haitian Creole"
+    }
   },
   {
     "name": "Cambodia",
@@ -920,7 +1109,11 @@
       105
     ],
     "population": 17577760,
-    "independent": true
+    "subregion": "South-Eastern Asia",
+    "independent": true,
+    "languages": {
+      "khm": "Khmer"
+    }
   },
   {
     "name": "Egypt",
@@ -941,7 +1134,11 @@
       30
     ],
     "population": 107271260,
-    "independent": true
+    "subregion": "Northern Africa",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Turkmenistan",
@@ -962,7 +1159,12 @@
       60
     ],
     "population": 7057841,
-    "independent": true
+    "subregion": "Central Asia",
+    "independent": true,
+    "languages": {
+      "rus": "Russian",
+      "tuk": "Turkmen"
+    }
   },
   {
     "name": "Oman",
@@ -983,7 +1185,11 @@
       57
     ],
     "population": 5343630,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Jamaica",
@@ -1004,7 +1210,12 @@
       -77.5
     ],
     "population": 2825544,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "jam": "Jamaican Patois"
+    }
   },
   {
     "name": "Azerbaijan",
@@ -1025,7 +1236,11 @@
       47.5
     ],
     "population": 10241722,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "aze": "Azerbaijani"
+    }
   },
   {
     "name": "Slovakia",
@@ -1046,7 +1261,11 @@
       19.5
     ],
     "population": 5413813,
-    "independent": true
+    "subregion": "Central Europe",
+    "independent": true,
+    "languages": {
+      "slk": "Slovak"
+    }
   },
   {
     "name": "Belarus",
@@ -1067,7 +1286,12 @@
       28
     ],
     "population": 9109280,
-    "independent": true
+    "subregion": "Eastern Europe",
+    "independent": true,
+    "languages": {
+      "bel": "Belarusian",
+      "rus": "Russian"
+    }
   },
   {
     "name": "Vietnam",
@@ -1088,7 +1312,11 @@
       107.83333333
     ],
     "population": 101343800,
-    "independent": true
+    "subregion": "South-Eastern Asia",
+    "independent": true,
+    "languages": {
+      "vie": "Vietnamese"
+    }
   },
   {
     "name": "United States Virgin Islands",
@@ -1109,7 +1337,11 @@
       -64.933333
     ],
     "population": 87146,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Gibraltar",
@@ -1130,7 +1362,11 @@
       -5.35
     ],
     "population": 38000,
-    "independent": false
+    "subregion": "Southern Europe",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Sint Maarten",
@@ -1151,7 +1387,13 @@
       -63.05
     ],
     "population": 41349,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "nld": "Dutch"
+    }
   },
   {
     "name": "Åland Islands",
@@ -1172,7 +1414,11 @@
       19.9
     ],
     "population": 30654,
-    "independent": false
+    "subregion": "Northern Europe",
+    "independent": false,
+    "languages": {
+      "swe": "Swedish"
+    }
   },
   {
     "name": "Syria",
@@ -1193,7 +1439,11 @@
       38
     ],
     "population": 25620000,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Martinique",
@@ -1214,7 +1464,11 @@
       -61
     ],
     "population": 349925,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Greenland",
@@ -1235,7 +1489,11 @@
       -40
     ],
     "population": 56542,
-    "independent": false
+    "subregion": "North America",
+    "independent": false,
+    "languages": {
+      "kal": "Greenlandic"
+    }
   },
   {
     "name": "Honduras",
@@ -1256,7 +1514,11 @@
       -86.5
     ],
     "population": 9892632,
-    "independent": true
+    "subregion": "Central America",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Tunisia",
@@ -1277,7 +1539,11 @@
       9
     ],
     "population": 11972169,
-    "independent": true
+    "subregion": "Northern Africa",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Comoros",
@@ -1298,7 +1564,13 @@
       44.25
     ],
     "population": 919901,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic",
+      "fra": "French",
+      "zdj": "Comorian"
+    }
   },
   {
     "name": "Slovenia",
@@ -1319,7 +1591,11 @@
       14.81666666
     ],
     "population": 2130638,
-    "independent": true
+    "subregion": "Central Europe",
+    "independent": true,
+    "languages": {
+      "slv": "Slovene"
+    }
   },
   {
     "name": "Switzerland",
@@ -1340,7 +1616,14 @@
       8
     ],
     "population": 9082848,
-    "independent": true
+    "subregion": "Western Europe",
+    "independent": true,
+    "languages": {
+      "fra": "French",
+      "gsw": "Swiss German",
+      "ita": "Italian",
+      "roh": "Romansh"
+    }
   },
   {
     "name": "Guernsey",
@@ -1365,7 +1648,13 @@
       -2.58333333
     ],
     "population": 64781,
-    "independent": false
+    "subregion": "Northern Europe",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "nfr": "Guernésiais"
+    }
   },
   {
     "name": "Myanmar",
@@ -1386,7 +1675,11 @@
       98
     ],
     "population": 51316756,
-    "independent": true
+    "subregion": "South-Eastern Asia",
+    "independent": true,
+    "languages": {
+      "mya": "Burmese"
+    }
   },
   {
     "name": "Paraguay",
@@ -1407,7 +1700,12 @@
       -58
     ],
     "population": 6109644,
-    "independent": true
+    "subregion": "South America",
+    "independent": true,
+    "languages": {
+      "grn": "Guaraní",
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Caribbean Netherlands",
@@ -1428,7 +1726,13 @@
       -68.25
     ],
     "population": 31980,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "nld": "Dutch",
+      "pap": "Papiamento"
+    }
   },
   {
     "name": "Barbados",
@@ -1449,7 +1753,11 @@
       -59.53333333
     ],
     "population": 267800,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Jordan",
@@ -1470,7 +1778,11 @@
       36
     ],
     "population": 11734000,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Laos",
@@ -1491,7 +1803,11 @@
       105
     ],
     "population": 7647000,
-    "independent": true
+    "subregion": "South-Eastern Asia",
+    "independent": true,
+    "languages": {
+      "lao": "Lao"
+    }
   },
   {
     "name": "Togo",
@@ -1512,7 +1828,11 @@
       1.16666666
     ],
     "population": 8095498,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Morocco",
@@ -1533,7 +1853,12 @@
       -5
     ],
     "population": 36828330,
-    "independent": true
+    "subregion": "Northern Africa",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic",
+      "ber": "Berber"
+    }
   },
   {
     "name": "Puerto Rico",
@@ -1554,7 +1879,12 @@
       -66.5
     ],
     "population": 3203295,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "spa": "Spanish"
+    }
   },
   {
     "name": "French Guiana",
@@ -1575,7 +1905,11 @@
       -53
     ],
     "population": 292354,
-    "independent": false
+    "subregion": "South America",
+    "independent": false,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Saint Pierre and Miquelon",
@@ -1596,7 +1930,11 @@
       -56.33333333
     ],
     "population": 5819,
-    "independent": false
+    "subregion": "North America",
+    "independent": false,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Saint Martin",
@@ -1617,7 +1955,11 @@
       -63.0501
     ],
     "population": 31496,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Estonia",
@@ -1638,7 +1980,11 @@
       26
     ],
     "population": 1369995,
-    "independent": true
+    "subregion": "Northern Europe",
+    "independent": true,
+    "languages": {
+      "est": "Estonian"
+    }
   },
   {
     "name": "Indonesia",
@@ -1659,7 +2005,11 @@
       120
     ],
     "population": 284438782,
-    "independent": true
+    "subregion": "South-Eastern Asia",
+    "independent": true,
+    "languages": {
+      "ind": "Indonesian"
+    }
   },
   {
     "name": "Seychelles",
@@ -1680,7 +2030,13 @@
       55.66666666
     ],
     "population": 122729,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "crs": "Seychellois Creole",
+      "eng": "English",
+      "fra": "French"
+    }
   },
   {
     "name": "Mali",
@@ -1701,7 +2057,11 @@
       -4
     ],
     "population": 22395489,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Timor-Leste",
@@ -1722,7 +2082,12 @@
       125.91666666
     ],
     "population": 1391221,
-    "independent": true
+    "subregion": "South-Eastern Asia",
+    "independent": true,
+    "languages": {
+      "por": "Portuguese",
+      "tet": "Tetum"
+    }
   },
   {
     "name": "Brazil",
@@ -1743,7 +2108,11 @@
       -55
     ],
     "population": 213421037,
-    "independent": true
+    "subregion": "South America",
+    "independent": true,
+    "languages": {
+      "por": "Portuguese"
+    }
   },
   {
     "name": "Ghana",
@@ -1764,7 +2133,11 @@
       -2
     ],
     "population": 33742380,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Kenya",
@@ -1785,7 +2158,12 @@
       38
     ],
     "population": 53330978,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "swa": "Swahili"
+    }
   },
   {
     "name": "Iceland",
@@ -1806,7 +2184,11 @@
       -18
     ],
     "population": 391810,
-    "independent": true
+    "subregion": "Northern Europe",
+    "independent": true,
+    "languages": {
+      "isl": "Icelandic"
+    }
   },
   {
     "name": "Madagascar",
@@ -1827,7 +2209,12 @@
       47
     ],
     "population": 31727042,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French",
+      "mlg": "Malagasy"
+    }
   },
   {
     "name": "Bangladesh",
@@ -1848,7 +2235,11 @@
       90
     ],
     "population": 169828911,
-    "independent": true
+    "subregion": "Southern Asia",
+    "independent": true,
+    "languages": {
+      "ben": "Bengali"
+    }
   },
   {
     "name": "DR Congo",
@@ -1869,7 +2260,15 @@
       25
     ],
     "population": 112832000,
-    "independent": true
+    "subregion": "Middle Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French",
+      "kon": "Kikongo",
+      "lin": "Lingala",
+      "lua": "Tshiluba",
+      "swa": "Swahili"
+    }
   },
   {
     "name": "Zimbabwe",
@@ -1890,7 +2289,25 @@
       30
     ],
     "population": 17073087,
-    "independent": true
+    "subregion": "Southern Africa",
+    "independent": true,
+    "languages": {
+      "bwg": "Chibarwe",
+      "eng": "English",
+      "kck": "Kalanga",
+      "khi": "Khoisan",
+      "ndc": "Ndau",
+      "nde": "Northern Ndebele",
+      "nya": "Chewa",
+      "sna": "Shona",
+      "sot": "Sotho",
+      "toi": "Tonga",
+      "tsn": "Tswana",
+      "tso": "Tsonga",
+      "ven": "Venda",
+      "xho": "Xhosa",
+      "zib": "Zimbabwean Sign Language"
+    }
   },
   {
     "name": "French Polynesia",
@@ -1911,7 +2328,11 @@
       -149.4068
     ],
     "population": 279500,
-    "independent": false
+    "subregion": "Polynesia",
+    "independent": false,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Turkey",
@@ -1932,7 +2353,11 @@
       35
     ],
     "population": 85664944,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "tur": "Turkish"
+    }
   },
   {
     "name": "Cape Verde",
@@ -1953,7 +2378,11 @@
       -23.0418
     ],
     "population": 491233,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "por": "Portuguese"
+    }
   },
   {
     "name": "Dominican Republic",
@@ -1974,7 +2403,11 @@
       -70.66666666
     ],
     "population": 10771504,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Bahamas",
@@ -1999,7 +2432,11 @@
       -77.3963
     ],
     "population": 398165,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Germany",
@@ -2020,7 +2457,11 @@
       9
     ],
     "population": 83491249,
-    "independent": true
+    "subregion": "Western Europe",
+    "independent": true,
+    "languages": {
+      "deu": "German"
+    }
   },
   {
     "name": "Suriname",
@@ -2041,7 +2482,11 @@
       -56
     ],
     "population": 616500,
-    "independent": true
+    "subregion": "South America",
+    "independent": true,
+    "languages": {
+      "nld": "Dutch"
+    }
   },
   {
     "name": "Tonga",
@@ -2062,7 +2507,12 @@
       -175
     ],
     "population": 100179,
-    "independent": true
+    "subregion": "Polynesia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "ton": "Tongan"
+    }
   },
   {
     "name": "British Indian Ocean Territory",
@@ -2083,7 +2533,11 @@
       71.5
     ],
     "population": 0,
-    "independent": false
+    "subregion": "Eastern Africa",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Saint Lucia",
@@ -2104,7 +2558,11 @@
       -60.96666666
     ],
     "population": 184100,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Ireland",
@@ -2125,7 +2583,12 @@
       -8
     ],
     "population": 5458600,
-    "independent": true
+    "subregion": "Northern Europe",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "gle": "Irish"
+    }
   },
   {
     "name": "Vatican City",
@@ -2146,7 +2609,12 @@
       12.45
     ],
     "population": 882,
-    "independent": true
+    "subregion": "Southern Europe",
+    "independent": true,
+    "languages": {
+      "ita": "Italian",
+      "lat": "Latin"
+    }
   },
   {
     "name": "Colombia",
@@ -2167,7 +2635,11 @@
       -72
     ],
     "population": 53057212,
-    "independent": true
+    "subregion": "South America",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Portugal",
@@ -2188,7 +2660,11 @@
       -8
     ],
     "population": 10749635,
-    "independent": true
+    "subregion": "Southern Europe",
+    "independent": true,
+    "languages": {
+      "por": "Portuguese"
+    }
   },
   {
     "name": "Faroe Islands",
@@ -2213,7 +2689,12 @@
       -7
     ],
     "population": 54885,
-    "independent": false
+    "subregion": "Northern Europe",
+    "independent": false,
+    "languages": {
+      "dan": "Danish",
+      "fao": "Faroese"
+    }
   },
   {
     "name": "São Tomé and Príncipe",
@@ -2234,7 +2715,11 @@
       7
     ],
     "population": 209607,
-    "independent": true
+    "subregion": "Middle Africa",
+    "independent": true,
+    "languages": {
+      "por": "Portuguese"
+    }
   },
   {
     "name": "Northern Mariana Islands",
@@ -2255,7 +2740,13 @@
       145.75
     ],
     "population": 47329,
-    "independent": false
+    "subregion": "Micronesia",
+    "independent": false,
+    "languages": {
+      "cal": "Carolinian",
+      "cha": "Chamorro",
+      "eng": "English"
+    }
   },
   {
     "name": "Jersey",
@@ -2280,7 +2771,13 @@
       -2.16666666
     ],
     "population": 103267,
-    "independent": false
+    "subregion": "Northern Europe",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "nrf": "Jèrriais"
+    }
   },
   {
     "name": "Mayotte",
@@ -2301,7 +2798,11 @@
       45.16666666
     ],
     "population": 320901,
-    "independent": false
+    "subregion": "Eastern Africa",
+    "independent": false,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Yemen",
@@ -2322,7 +2823,11 @@
       48
     ],
     "population": 32684503,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Nigeria",
@@ -2343,12 +2848,16 @@
       8
     ],
     "population": 223800000,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Afghanistan",
     "capital": "Kabul",
-    "flag": "https://flagcdn.com/w320/af.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
     "region": "Asia",
     "currency": {
       "AFN": {
@@ -2364,7 +2873,13 @@
       65
     ],
     "population": 43844000,
-    "independent": true
+    "subregion": "Southern Asia",
+    "independent": true,
+    "languages": {
+      "prs": "Dari",
+      "pus": "Pashto",
+      "tuk": "Turkmen"
+    }
   },
   {
     "name": "Botswana",
@@ -2385,7 +2900,12 @@
       24
     ],
     "population": 2359609,
-    "independent": true
+    "subregion": "Southern Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "tsn": "Tswana"
+    }
   },
   {
     "name": "Isle of Man",
@@ -2410,7 +2930,12 @@
       -4.5
     ],
     "population": 84530,
-    "independent": false
+    "subregion": "Northern Europe",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "glv": "Manx"
+    }
   },
   {
     "name": "El Salvador",
@@ -2431,7 +2956,11 @@
       -88.91666666
     ],
     "population": 6029976,
-    "independent": true
+    "subregion": "Central America",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Uganda",
@@ -2452,7 +2981,12 @@
       32
     ],
     "population": 45905417,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "swa": "Swahili"
+    }
   },
   {
     "name": "Andorra",
@@ -2473,7 +3007,11 @@
       1.5
     ],
     "population": 88406,
-    "independent": true
+    "subregion": "Southern Europe",
+    "independent": true,
+    "languages": {
+      "cat": "Catalan"
+    }
   },
   {
     "name": "Turks and Caicos Islands",
@@ -2494,7 +3032,11 @@
       -71.58333333
     ],
     "population": 50828,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Chad",
@@ -2515,7 +3057,12 @@
       19
     ],
     "population": 19340757,
-    "independent": true
+    "subregion": "Middle Africa",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic",
+      "fra": "French"
+    }
   },
   {
     "name": "Finland",
@@ -2536,7 +3083,12 @@
       26
     ],
     "population": 5650325,
-    "independent": true
+    "subregion": "Northern Europe",
+    "independent": true,
+    "languages": {
+      "fin": "Finnish",
+      "swe": "Swedish"
+    }
   },
   {
     "name": "Russia",
@@ -2557,7 +3109,11 @@
       100
     ],
     "population": 146028325,
-    "independent": true
+    "subregion": "Eastern Europe",
+    "independent": true,
+    "languages": {
+      "rus": "Russian"
+    }
   },
   {
     "name": "Kazakhstan",
@@ -2578,7 +3134,12 @@
       66.9237
     ],
     "population": 20426568,
-    "independent": true
+    "subregion": "Central Asia",
+    "independent": true,
+    "languages": {
+      "kaz": "Kazakh",
+      "rus": "Russian"
+    }
   },
   {
     "name": "Svalbard and Jan Mayen",
@@ -2599,7 +3160,11 @@
       20
     ],
     "population": 2530,
-    "independent": false
+    "subregion": "Northern Europe",
+    "independent": false,
+    "languages": {
+      "nor": "Norwegian"
+    }
   },
   {
     "name": "Venezuela",
@@ -2620,7 +3185,11 @@
       -66
     ],
     "population": 28517000,
-    "independent": true
+    "subregion": "South America",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Monaco",
@@ -2641,7 +3210,11 @@
       7.4
     ],
     "population": 38423,
-    "independent": true
+    "subregion": "Western Europe",
+    "independent": true,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Senegal",
@@ -2662,7 +3235,11 @@
       -14
     ],
     "population": 18593258,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Nepal",
@@ -2683,7 +3260,11 @@
       84
     ],
     "population": 29911840,
-    "independent": true
+    "subregion": "Southern Asia",
+    "independent": true,
+    "languages": {
+      "nep": "Nepali"
+    }
   },
   {
     "name": "United Arab Emirates",
@@ -2704,7 +3285,11 @@
       54
     ],
     "population": 11294243,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Taiwan",
@@ -2725,7 +3310,11 @@
       121
     ],
     "population": 23317031,
-    "independent": false
+    "subregion": "Eastern Asia",
+    "independent": false,
+    "languages": {
+      "zho": "Chinese"
+    }
   },
   {
     "name": "New Caledonia",
@@ -2746,7 +3335,11 @@
       165.5
     ],
     "population": 264596,
-    "independent": false
+    "subregion": "Melanesia",
+    "independent": false,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Bolivia",
@@ -2767,7 +3360,14 @@
       -65
     ],
     "population": 11365333,
-    "independent": true
+    "subregion": "South America",
+    "independent": true,
+    "languages": {
+      "aym": "Aymara",
+      "grn": "Guaraní",
+      "que": "Quechua",
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Chile",
@@ -2788,7 +3388,11 @@
       -71
     ],
     "population": 20206953,
-    "independent": true
+    "subregion": "South America",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Ivory Coast",
@@ -2809,7 +3413,11 @@
       -5
     ],
     "population": 31719275,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Libya",
@@ -2830,7 +3438,11 @@
       17
     ],
     "population": 7459000,
-    "independent": true
+    "subregion": "Northern Africa",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Peru",
@@ -2851,7 +3463,13 @@
       -76
     ],
     "population": 34350244,
-    "independent": true
+    "subregion": "South America",
+    "independent": true,
+    "languages": {
+      "aym": "Aymara",
+      "que": "Quechua",
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Canada",
@@ -2872,7 +3490,12 @@
       -95
     ],
     "population": 41651653,
-    "independent": true
+    "subregion": "North America",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "fra": "French"
+    }
   },
   {
     "name": "France",
@@ -2893,7 +3516,11 @@
       2
     ],
     "population": 66351959,
-    "independent": true
+    "subregion": "Western Europe",
+    "independent": true,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Djibouti",
@@ -2914,7 +3541,12 @@
       43
     ],
     "population": 1066809,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic",
+      "fra": "French"
+    }
   },
   {
     "name": "Burundi",
@@ -2935,7 +3567,12 @@
       30
     ],
     "population": 12332788,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French",
+      "run": "Kirundi"
+    }
   },
   {
     "name": "Kosovo",
@@ -2956,7 +3593,12 @@
       21.166667
     ],
     "population": 1585566,
-    "independent": true
+    "subregion": "Southeast Europe",
+    "independent": true,
+    "languages": {
+      "sqi": "Albanian",
+      "srp": "Serbian"
+    }
   },
   {
     "name": "Denmark",
@@ -2977,7 +3619,11 @@
       10
     ],
     "population": 6011488,
-    "independent": true
+    "subregion": "Northern Europe",
+    "independent": true,
+    "languages": {
+      "dan": "Danish"
+    }
   },
   {
     "name": "Greece",
@@ -2998,7 +3644,11 @@
       22
     ],
     "population": 10400720,
-    "independent": true
+    "subregion": "Southern Europe",
+    "independent": true,
+    "languages": {
+      "ell": "Greek"
+    }
   },
   {
     "name": "Czechia",
@@ -3019,7 +3669,12 @@
       15.5
     ],
     "population": 10882341,
-    "independent": true
+    "subregion": "Central Europe",
+    "independent": true,
+    "languages": {
+      "ces": "Czech",
+      "slk": "Slovak"
+    }
   },
   {
     "name": "Eritrea",
@@ -3040,7 +3695,13 @@
       39
     ],
     "population": 3607000,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic",
+      "eng": "English",
+      "tir": "Tigrinya"
+    }
   },
   {
     "name": "Namibia",
@@ -3065,7 +3726,19 @@
       17
     ],
     "population": 3022401,
-    "independent": true
+    "subregion": "Southern Africa",
+    "independent": true,
+    "languages": {
+      "afr": "Afrikaans",
+      "deu": "German",
+      "eng": "English",
+      "her": "Herero",
+      "hgm": "Khoekhoe",
+      "kwn": "Kwangali",
+      "loz": "Lozi",
+      "ndo": "Ndonga",
+      "tsn": "Tswana"
+    }
   },
   {
     "name": "British Virgin Islands",
@@ -3086,7 +3759,11 @@
       -64.62305
     ],
     "population": 39471,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Iran",
@@ -3107,7 +3784,11 @@
       53
     ],
     "population": 85961000,
-    "independent": true
+    "subregion": "Southern Asia",
+    "independent": true,
+    "languages": {
+      "fas": "Persian (Farsi)"
+    }
   },
   {
     "name": "Equatorial Guinea",
@@ -3128,7 +3809,13 @@
       10
     ],
     "population": 1668768,
-    "independent": true
+    "subregion": "Middle Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French",
+      "por": "Portuguese",
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Mauritania",
@@ -3149,7 +3836,11 @@
       -12
     ],
     "population": 4927532,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Bahrain",
@@ -3170,7 +3861,11 @@
       50.55
     ],
     "population": 1594654,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Cocos (Keeling) Islands",
@@ -3191,7 +3886,11 @@
       96.871
     ],
     "population": 593,
-    "independent": false
+    "subregion": "Australia and New Zealand",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Ethiopia",
@@ -3212,7 +3911,11 @@
       38
     ],
     "population": 111652998,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "amh": "Amharic"
+    }
   },
   {
     "name": "Zambia",
@@ -3233,7 +3936,11 @@
       30
     ],
     "population": 19693423,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -3254,7 +3961,13 @@
       18
     ],
     "population": 3422000,
-    "independent": true
+    "subregion": "Southeast Europe",
+    "independent": true,
+    "languages": {
+      "bos": "Bosnian",
+      "hrv": "Croatian",
+      "srp": "Serbian"
+    }
   },
   {
     "name": "Falkland Islands",
@@ -3275,7 +3988,11 @@
       -59
     ],
     "population": 3662,
-    "independent": false
+    "subregion": "South America",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Grenada",
@@ -3296,7 +4013,11 @@
       -61.66666666
     ],
     "population": 109021,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Thailand",
@@ -3317,7 +4038,11 @@
       100
     ],
     "population": 65859640,
-    "independent": true
+    "subregion": "South-Eastern Asia",
+    "independent": true,
+    "languages": {
+      "tha": "Thai"
+    }
   },
   {
     "name": "Romania",
@@ -3338,7 +4063,11 @@
       25
     ],
     "population": 19036031,
-    "independent": true
+    "subregion": "Southeast Europe",
+    "independent": true,
+    "languages": {
+      "ron": "Romanian"
+    }
   },
   {
     "name": "Saint Vincent and the Grenadines",
@@ -3359,7 +4088,11 @@
       -61.2
     ],
     "population": 110872,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Liberia",
@@ -3380,7 +4113,11 @@
       -9.5
     ],
     "population": 5248621,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "United States",
@@ -3401,7 +4138,11 @@
       -97
     ],
     "population": 340110988,
-    "independent": true
+    "subregion": "North America",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "South Sudan",
@@ -3422,7 +4163,11 @@
       30
     ],
     "population": 15786898,
-    "independent": true
+    "subregion": "Middle Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Armenia",
@@ -3443,7 +4188,11 @@
       45
     ],
     "population": 3076200,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "hye": "Armenian"
+    }
   },
   {
     "name": "Japan",
@@ -3464,7 +4213,11 @@
       138
     ],
     "population": 123210000,
-    "independent": true
+    "subregion": "Eastern Asia",
+    "independent": true,
+    "languages": {
+      "jpn": "Japanese"
+    }
   },
   {
     "name": "Pakistan",
@@ -3485,7 +4238,12 @@
       70
     ],
     "population": 241499431,
-    "independent": true
+    "subregion": "Southern Asia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "urd": "Urdu"
+    }
   },
   {
     "name": "Eswatini",
@@ -3510,7 +4268,12 @@
       31.5
     ],
     "population": 1235549,
-    "independent": true
+    "subregion": "Southern Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "ssw": "Swazi"
+    }
   },
   {
     "name": "Liechtenstein",
@@ -3531,7 +4294,11 @@
       9.53333333
     ],
     "population": 40900,
-    "independent": true
+    "subregion": "Western Europe",
+    "independent": true,
+    "languages": {
+      "deu": "German"
+    }
   },
   {
     "name": "Israel",
@@ -3552,7 +4319,12 @@
       35.13
     ],
     "population": 10134800,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic",
+      "heb": "Hebrew"
+    }
   },
   {
     "name": "American Samoa",
@@ -3573,7 +4345,12 @@
       -170
     ],
     "population": 49710,
-    "independent": false
+    "subregion": "Polynesia",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "smo": "Samoan"
+    }
   },
   {
     "name": "Sri Lanka",
@@ -3594,7 +4371,12 @@
       81
     ],
     "population": 21763170,
-    "independent": true
+    "subregion": "Southern Asia",
+    "independent": true,
+    "languages": {
+      "sin": "Sinhala",
+      "tam": "Tamil"
+    }
   },
   {
     "name": "South Georgia",
@@ -3615,7 +4397,11 @@
       -37
     ],
     "population": 0,
-    "independent": false
+    "subregion": "",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Albania",
@@ -3636,7 +4422,11 @@
       20
     ],
     "population": 2363314,
-    "independent": true
+    "subregion": "Southeast Europe",
+    "independent": true,
+    "languages": {
+      "sqi": "Albanian"
+    }
   },
   {
     "name": "Algeria",
@@ -3657,7 +4447,11 @@
       3
     ],
     "population": 47400000,
-    "independent": true
+    "subregion": "Northern Africa",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Ukraine",
@@ -3678,7 +4472,11 @@
       32
     ],
     "population": 32862000,
-    "independent": true
+    "subregion": "Eastern Europe",
+    "independent": true,
+    "languages": {
+      "ukr": "Ukrainian"
+    }
   },
   {
     "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -3703,7 +4501,11 @@
       -5.72
     ],
     "population": 5651,
-    "independent": false
+    "subregion": "Western Africa",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "San Marino",
@@ -3724,7 +4526,11 @@
       12.41666666
     ],
     "population": 34132,
-    "independent": true
+    "subregion": "Southern Europe",
+    "independent": true,
+    "languages": {
+      "ita": "Italian"
+    }
   },
   {
     "name": "Cuba",
@@ -3749,7 +4555,11 @@
       -80
     ],
     "population": 9748007,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Nauru",
@@ -3770,7 +4580,12 @@
       166.91666666
     ],
     "population": 11680,
-    "independent": true
+    "subregion": "Micronesia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "nau": "Nauru"
+    }
   },
   {
     "name": "Spain",
@@ -3791,7 +4606,14 @@
       -4
     ],
     "population": 49315949,
-    "independent": true
+    "subregion": "Southern Europe",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish",
+      "cat": "Catalan",
+      "eus": "Basque",
+      "glc": "Galician"
+    }
   },
   {
     "name": "Kuwait",
@@ -3812,7 +4634,11 @@
       45.75
     ],
     "population": 4881254,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Montserrat",
@@ -3833,7 +4659,11 @@
       -62.2
     ],
     "population": 4386,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Mauritius",
@@ -3854,7 +4684,13 @@
       57.55
     ],
     "population": 1243741,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "mfe": "Mauritian Creole"
+    }
   },
   {
     "name": "Sweden",
@@ -3875,7 +4711,11 @@
       15
     ],
     "population": 10605098,
-    "independent": true
+    "subregion": "Northern Europe",
+    "independent": true,
+    "languages": {
+      "swe": "Swedish"
+    }
   },
   {
     "name": "Australia",
@@ -3896,7 +4736,11 @@
       133
     ],
     "population": 27536874,
-    "independent": true
+    "subregion": "Australia and New Zealand",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Cameroon",
@@ -3917,7 +4761,12 @@
       12
     ],
     "population": 29442327,
-    "independent": true
+    "subregion": "Middle Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "fra": "French"
+    }
   },
   {
     "name": "Ecuador",
@@ -3938,7 +4787,11 @@
       -77.5
     ],
     "population": 18103660,
-    "independent": true
+    "subregion": "South America",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Qatar",
@@ -3959,7 +4812,11 @@
       51.25
     ],
     "population": 3173024,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic"
+    }
   },
   {
     "name": "Marshall Islands",
@@ -3980,7 +4837,12 @@
       168
     ],
     "population": 42418,
-    "independent": true
+    "subregion": "Micronesia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "mah": "Marshallese"
+    }
   },
   {
     "name": "Poland",
@@ -4001,7 +4863,11 @@
       20
     ],
     "population": 37392000,
-    "independent": true
+    "subregion": "Central Europe",
+    "independent": true,
+    "languages": {
+      "pol": "Polish"
+    }
   },
   {
     "name": "Cayman Islands",
@@ -4022,7 +4888,11 @@
       -81.2546
     ],
     "population": 84738,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "South Africa",
@@ -4043,7 +4913,21 @@
       24
     ],
     "population": 63100945,
-    "independent": true
+    "subregion": "Southern Africa",
+    "independent": true,
+    "languages": {
+      "afr": "Afrikaans",
+      "eng": "English",
+      "nbl": "Southern Ndebele",
+      "nso": "Northern Sotho",
+      "sot": "Southern Sotho",
+      "ssw": "Swazi",
+      "tsn": "Tswana",
+      "tso": "Tsonga",
+      "ven": "Venda",
+      "xho": "Xhosa",
+      "zul": "Zulu"
+    }
   },
   {
     "name": "Wallis and Futuna",
@@ -4064,7 +4948,11 @@
       -176.2
     ],
     "population": 11620,
-    "independent": false
+    "subregion": "Polynesia",
+    "independent": false,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Samoa",
@@ -4085,7 +4973,12 @@
       -172.33333333
     ],
     "population": 205557,
-    "independent": true
+    "subregion": "Polynesia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "smo": "Samoan"
+    }
   },
   {
     "name": "Netherlands",
@@ -4106,7 +4999,11 @@
       5.75
     ],
     "population": 18100436,
-    "independent": true
+    "subregion": "Western Europe",
+    "independent": true,
+    "languages": {
+      "nld": "Dutch"
+    }
   },
   {
     "name": "Western Sahara",
@@ -4135,7 +5032,13 @@
       -13
     ],
     "population": 600904,
-    "independent": false
+    "subregion": "Northern Africa",
+    "independent": false,
+    "languages": {
+      "ber": "Berber",
+      "mey": "Hassaniya",
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Montenegro",
@@ -4156,7 +5059,11 @@
       19.3
     ],
     "population": 623327,
-    "independent": true
+    "subregion": "Southeast Europe",
+    "independent": true,
+    "languages": {
+      "cnr": "Montenegrin"
+    }
   },
   {
     "name": "Bhutan",
@@ -4181,7 +5088,11 @@
       90.5
     ],
     "population": 784043,
-    "independent": true
+    "subregion": "Southern Asia",
+    "independent": true,
+    "languages": {
+      "dzo": "Dzongkha"
+    }
   },
   {
     "name": "Malta",
@@ -4202,7 +5113,12 @@
       14.3754
     ],
     "population": 574250,
-    "independent": true
+    "subregion": "Southern Europe",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "mlt": "Maltese"
+    }
   },
   {
     "name": "Vanuatu",
@@ -4223,7 +5139,13 @@
       167
     ],
     "population": 321409,
-    "independent": true
+    "subregion": "Melanesia",
+    "independent": true,
+    "languages": {
+      "bis": "Bislama",
+      "eng": "English",
+      "fra": "French"
+    }
   },
   {
     "name": "Tanzania",
@@ -4244,7 +5166,12 @@
       35
     ],
     "population": 68153004,
-    "independent": true
+    "subregion": "Eastern Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "swa": "Swahili"
+    }
   },
   {
     "name": "New Zealand",
@@ -4265,7 +5192,13 @@
       174
     ],
     "population": 5324700,
-    "independent": true
+    "subregion": "Australia and New Zealand",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "mri": "Māori",
+      "nzs": "New Zealand Sign Language"
+    }
   },
   {
     "name": "Palau",
@@ -4286,7 +5219,12 @@
       134.5
     ],
     "population": 16733,
-    "independent": true
+    "subregion": "Micronesia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "pau": "Palauan"
+    }
   },
   {
     "name": "Panama",
@@ -4311,7 +5249,11 @@
       -80
     ],
     "population": 4064780,
-    "independent": true
+    "subregion": "Central America",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Tuvalu",
@@ -4336,7 +5278,12 @@
       178
     ],
     "population": 10643,
-    "independent": true
+    "subregion": "Polynesia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "tvl": "Tuvaluan"
+    }
   },
   {
     "name": "Fiji",
@@ -4357,7 +5304,13 @@
       178.065
     ],
     "population": 900869,
-    "independent": true
+    "subregion": "Melanesia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "fij": "Fijian",
+      "hif": "Fiji Hindi"
+    }
   },
   {
     "name": "Nicaragua",
@@ -4378,7 +5331,11 @@
       -85
     ],
     "population": 6803886,
-    "independent": true
+    "subregion": "Central America",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Kyrgyzstan",
@@ -4399,7 +5356,12 @@
       75
     ],
     "population": 7281800,
-    "independent": true
+    "subregion": "Central Asia",
+    "independent": true,
+    "languages": {
+      "kir": "Kyrgyz",
+      "rus": "Russian"
+    }
   },
   {
     "name": "French Southern and Antarctic Lands",
@@ -4420,7 +5382,11 @@
       69.167
     ],
     "population": 400,
-    "independent": false
+    "subregion": "",
+    "independent": false,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Latvia",
@@ -4441,7 +5407,11 @@
       25
     ],
     "population": 1829000,
-    "independent": true
+    "subregion": "Northern Europe",
+    "independent": true,
+    "languages": {
+      "lav": "Latvian"
+    }
   },
   {
     "name": "Georgia",
@@ -4462,7 +5432,11 @@
       43.5
     ],
     "population": 4000921,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "kat": "Georgian"
+    }
   },
   {
     "name": "Luxembourg",
@@ -4483,7 +5457,13 @@
       6.16666666
     ],
     "population": 681973,
-    "independent": true
+    "subregion": "Western Europe",
+    "independent": true,
+    "languages": {
+      "deu": "German",
+      "fra": "French",
+      "ltz": "Luxembourgish"
+    }
   },
   {
     "name": "Austria",
@@ -4504,7 +5484,11 @@
       13.33333333
     ],
     "population": 9200931,
-    "independent": true
+    "subregion": "Central Europe",
+    "independent": true,
+    "languages": {
+      "deu": "German"
+    }
   },
   {
     "name": "North Macedonia",
@@ -4525,7 +5509,11 @@
       22
     ],
     "population": 1822612,
-    "independent": true
+    "subregion": "Southeast Europe",
+    "independent": true,
+    "languages": {
+      "mkd": "Macedonian"
+    }
   },
   {
     "name": "Saint Barthélemy",
@@ -4546,7 +5534,11 @@
       -63.41666666
     ],
     "population": 10562,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Christmas Island",
@@ -4567,7 +5559,11 @@
       105.66666666
     ],
     "population": 1692,
-    "independent": false
+    "subregion": "Australia and New Zealand",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Solomon Islands",
@@ -4588,7 +5584,11 @@
       159
     ],
     "population": 750325,
-    "independent": true
+    "subregion": "Melanesia",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Antigua and Barbuda",
@@ -4609,7 +5609,11 @@
       -61.8
     ],
     "population": 103603,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Iraq",
@@ -4630,7 +5634,13 @@
       44
     ],
     "population": 46118793,
-    "independent": true
+    "subregion": "Western Asia",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic",
+      "arc": "Aramaic",
+      "ckb": "Sorani"
+    }
   },
   {
     "name": "Moldova",
@@ -4651,7 +5661,11 @@
       29
     ],
     "population": 2749076,
-    "independent": true
+    "subregion": "Eastern Europe",
+    "independent": true,
+    "languages": {
+      "ron": "Romanian"
+    }
   },
   {
     "name": "Norfolk Island",
@@ -4672,7 +5686,12 @@
       167.95
     ],
     "population": 2188,
-    "independent": false
+    "subregion": "Australia and New Zealand",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "pih": "Norfuk"
+    }
   },
   {
     "name": "Republic of the Congo",
@@ -4693,7 +5712,13 @@
       15
     ],
     "population": 6142180,
-    "independent": true
+    "subregion": "Middle Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French",
+      "kon": "Kikongo",
+      "lin": "Lingala"
+    }
   },
   {
     "name": "Niue",
@@ -4714,7 +5739,12 @@
       -169.86666666
     ],
     "population": 1681,
-    "independent": false
+    "subregion": "Polynesia",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "niu": "Niuean"
+    }
   },
   {
     "name": "Lithuania",
@@ -4735,7 +5765,11 @@
       24
     ],
     "population": 2894886,
-    "independent": true
+    "subregion": "Northern Europe",
+    "independent": true,
+    "languages": {
+      "lit": "Lithuanian"
+    }
   },
   {
     "name": "Niger",
@@ -4756,7 +5790,11 @@
       8
     ],
     "population": 26312034,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Guyana",
@@ -4777,7 +5815,11 @@
       -59
     ],
     "population": 772975,
-    "independent": true
+    "subregion": "South America",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Bermuda",
@@ -4798,7 +5840,11 @@
       -64.75
     ],
     "population": 64055,
-    "independent": false
+    "subregion": "North America",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Gabon",
@@ -4819,7 +5865,11 @@
       11.75
     ],
     "population": 2469296,
-    "independent": true
+    "subregion": "Middle Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Cook Islands",
@@ -4844,7 +5894,12 @@
       -159.76666666
     ],
     "population": 15040,
-    "independent": false
+    "subregion": "Polynesia",
+    "independent": false,
+    "languages": {
+      "eng": "English",
+      "rar": "Cook Islands Māori"
+    }
   },
   {
     "name": "Angola",
@@ -4865,7 +5920,11 @@
       18.5
     ],
     "population": 36170961,
-    "independent": true
+    "subregion": "Middle Africa",
+    "independent": true,
+    "languages": {
+      "por": "Portuguese"
+    }
   },
   {
     "name": "Norway",
@@ -4886,7 +5945,13 @@
       10
     ],
     "population": 5606944,
-    "independent": true
+    "subregion": "Northern Europe",
+    "independent": true,
+    "languages": {
+      "nno": "Norwegian Nynorsk",
+      "nob": "Norwegian Bokmål",
+      "smi": "Sami"
+    }
   },
   {
     "name": "Guadeloupe",
@@ -4907,7 +5972,11 @@
       -61.583333
     ],
     "population": 378561,
-    "independent": false
+    "subregion": "Caribbean",
+    "independent": false,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "Maldives",
@@ -4928,7 +5997,11 @@
       73
     ],
     "population": 515132,
-    "independent": true
+    "subregion": "Southern Asia",
+    "independent": true,
+    "languages": {
+      "div": "Maldivian"
+    }
   },
   {
     "name": "Belgium",
@@ -4949,7 +6022,13 @@
       4
     ],
     "population": 11825551,
-    "independent": true
+    "subregion": "Western Europe",
+    "independent": true,
+    "languages": {
+      "deu": "German",
+      "fra": "French",
+      "nld": "Dutch"
+    }
   },
   {
     "name": "Croatia",
@@ -4970,7 +6049,11 @@
       15.5
     ],
     "population": 3866233,
-    "independent": true
+    "subregion": "Southeast Europe",
+    "independent": true,
+    "languages": {
+      "hrv": "Croatian"
+    }
   },
   {
     "name": "Belize",
@@ -4991,7 +6074,13 @@
       -88.75
     ],
     "population": 417634,
-    "independent": true
+    "subregion": "Central America",
+    "independent": true,
+    "languages": {
+      "bjz": "Belizean Creole",
+      "eng": "English",
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Saint Kitts and Nevis",
@@ -5012,7 +6101,11 @@
       -62.75
     ],
     "population": 51320,
-    "independent": true
+    "subregion": "Caribbean",
+    "independent": true,
+    "languages": {
+      "eng": "English"
+    }
   },
   {
     "name": "Singapore",
@@ -5033,7 +6126,14 @@
       103.8
     ],
     "population": 6110200,
-    "independent": true
+    "subregion": "South-Eastern Asia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "zho": "Chinese",
+      "msa": "Malay",
+      "tam": "Tamil"
+    }
   },
   {
     "name": "Lesotho",
@@ -5058,7 +6158,12 @@
       28.5
     ],
     "population": 2116427,
-    "independent": true
+    "subregion": "Southern Africa",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "sot": "Sotho"
+    }
   },
   {
     "name": "Uruguay",
@@ -5079,7 +6184,11 @@
       -56
     ],
     "population": 3499451,
-    "independent": true
+    "subregion": "South America",
+    "independent": true,
+    "languages": {
+      "spa": "Spanish"
+    }
   },
   {
     "name": "Burkina Faso",
@@ -5100,7 +6209,11 @@
       -2
     ],
     "population": 24070553,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French"
+    }
   },
   {
     "name": "India",
@@ -5121,7 +6234,13 @@
       77
     ],
     "population": 1417492000,
-    "independent": true
+    "subregion": "Southern Asia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "hin": "Hindi",
+      "tam": "Tamil"
+    }
   },
   {
     "name": "Philippines",
@@ -5142,7 +6261,12 @@
       122
     ],
     "population": 114123600,
-    "independent": true
+    "subregion": "South-Eastern Asia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "fil": "Filipino"
+    }
   },
   {
     "name": "Central African Republic",
@@ -5163,7 +6287,12 @@
       21
     ],
     "population": 6470307,
-    "independent": true
+    "subregion": "Middle Africa",
+    "independent": true,
+    "languages": {
+      "fra": "French",
+      "sag": "Sango"
+    }
   },
   {
     "name": "Sudan",
@@ -5184,7 +6313,12 @@
       30
     ],
     "population": 51662000,
-    "independent": true
+    "subregion": "Northern Africa",
+    "independent": true,
+    "languages": {
+      "ara": "Arabic",
+      "eng": "English"
+    }
   },
   {
     "name": "Guinea-Bissau",
@@ -5205,7 +6339,12 @@
       -15
     ],
     "population": 1781308,
-    "independent": true
+    "subregion": "Western Africa",
+    "independent": true,
+    "languages": {
+      "por": "Portuguese",
+      "pov": "Upper Guinea Creole"
+    }
   },
   {
     "name": "Papua New Guinea",
@@ -5226,7 +6365,13 @@
       147
     ],
     "population": 11781559,
-    "independent": true
+    "subregion": "Melanesia",
+    "independent": true,
+    "languages": {
+      "eng": "English",
+      "hmo": "Hiri Motu",
+      "tpi": "Tok Pisin"
+    }
   },
   {
     "name": "United States Minor Outlying Islands",
@@ -5247,6 +6392,10 @@
       166.633333
     ],
     "population": 0,
-    "independent": false
+    "subregion": "North America",
+    "independent": false,
+    "languages": {
+      "eng": "English"
+    }
   }
 ]

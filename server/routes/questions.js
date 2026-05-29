@@ -46,6 +46,25 @@ const simplifyCurrency = (name) => {
 };
 
 
+// Helper to get primary language
+const getPrimaryLanguage = (languages) => {
+  if (!languages || Object.keys(languages).length === 0) return null;
+  return Object.values(languages)[0]; // first language listed
+};
+
+const getContinent = (country) => {
+  if (country.region !== 'Americas') return country.region;
+
+  // Split Americas by subregion
+  const sub = country.subregion || '';
+  if (sub.includes('South')) return 'South America';
+  if (sub.includes('North') || sub.includes('Central') || sub.includes('Caribbean')) {
+    return 'North America';
+  }
+  return 'Americas'; // fallback
+};
+
+
 // GET /api/questions/flags
 // Returns 10 questions: each has a correct country + 3 wrong options
 router.get('/flags', (req, res) => {
@@ -198,5 +217,96 @@ router.get('/currencies', (req, res) => {
   res.json(questions);
 });
 
+
+
+
+// GET /api/questions/languages
+// Shows country flag + name → pick the language
+router.get('/languages', (req, res) => {
+  const difficulty = req.query.difficulty || 'medium';
+  const pool       = filterByDifficulty(countries, difficulty).filter(c =>
+    c.languages && Object.keys(c.languages).length > 0
+  );
+
+  if (pool.length < 4) {
+    return res.status(400).json({ error: 'Not enough countries for this difficulty' });
+  }
+
+  const count    = getCount(req.query, pool);
+  const shuffled = getRandom(pool, count);
+
+  const questions = shuffled.map(correct => {
+    const correctLang = getPrimaryLanguage(correct.languages);
+    const used        = new Set([correctLang]);
+    const wrong       = [];
+
+    const candidates = getRandom(
+      pool.filter(c => c.code !== correct.code),
+      50
+    );
+
+    for (const c of candidates) {
+      if (wrong.length === 3) break;
+      const lang = getPrimaryLanguage(c.languages);
+      if (lang && !used.has(lang)) {
+        used.add(lang);
+        wrong.push(lang);
+      }
+    }
+
+    const options = getRandom([correctLang, ...wrong], 4);
+
+    return {
+      question: correct.name,
+      flag:     correct.flag,
+      answer:   correctLang,
+      options,
+    };
+  });
+
+  res.json(questions);
+});
+
+
+
+router.get('/continents', (req, res) => {
+  const difficulty = req.query.difficulty || 'medium';
+  const pool       = filterByDifficulty(countries, difficulty);
+
+  if (pool.length < 4) {
+    return res.status(400).json({ error: 'Not enough countries for this difficulty' });
+  }
+
+  const count    = getCount(req.query, pool);
+  const shuffled = getRandom(pool, count);
+
+  const ALL_CONTINENTS = [
+    'Africa',
+    'North America',
+    'South America',
+    'Asia',
+    'Europe',
+    'Oceania',
+    'Antarctic',
+  ];
+
+  const questions = shuffled.map(correct => {
+    const correctContinent = getContinent(correct);
+    const wrong   = getRandom(
+      ALL_CONTINENTS.filter(c => c !== correctContinent),
+      3
+    );
+    const options = getRandom([correctContinent, ...wrong], 4);
+
+    return {
+      question: correct.name,
+      flag:     correct.flag,
+      answer:   correctContinent,
+      options,
+    };
+  });
+
+  res.json(questions);
+});
 
 module.exports = router;
