@@ -6,7 +6,9 @@ import {
   IconMap2,
   IconCoin,
   IconWorld,
+  IconLanguage,
 } from '@tabler/icons-react';
+
 import GlobeGL from 'react-globe.gl';
 import { IconArrowRight } from '@tabler/icons-react';
 import games from '../config/games.config';
@@ -17,6 +19,8 @@ const ICON_MAP = {
   'building-bank': IconBuildingBank,
   'map-2':         IconMap2,
   'coin':          IconCoin,
+  'language':      IconLanguage,
+  'world':         IconWorld, 
 };
 
 function Globe() {

@@ -43,6 +43,28 @@ const games = [
     apiEndpoint: '/api/questions/currencies',
     available: true,
   },
+  {
+  id: 'guess-the-language',
+  title: 'Guess the Language',
+  description: 'What language does this country speak?',
+  icon: 'language',
+  category: 'geography',
+  path: '/games/guess-the-language',
+  playPath: '/play/guess-the-language',
+  apiEndpoint: '/api/questions/languages',
+  available: true,
+},
+{
+  id: 'guess-the-continent',
+  title: 'Guess the Continent',
+  description: 'Which continent is this country in?',
+  icon: 'world',
+  category: 'geography',
+  path: '/games/guess-the-continent',
+  playPath: '/play/guess-the-continent',
+  apiEndpoint: '/api/questions/continents',
+  available: true,
+},
 ];
 
 export default games;

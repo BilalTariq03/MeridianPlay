@@ -4,6 +4,8 @@ import {
   IconFlag2, IconBuildingBank,
   IconMap2, IconCoin,
   IconArrowLeft, IconArrowRight,
+  IconWorld,
+  IconLanguage,
 } from '@tabler/icons-react';
 import games from '../config/games.config';
 import styles from './GameSelect.module.css';
@@ -13,6 +15,8 @@ const ICON_MAP = {
   'building-bank': IconBuildingBank,
   'map-2':         IconMap2,
   'coin':          IconCoin,
+  'language':      IconLanguage,
+  'world':         IconWorld, 
 };
 
 const MODES = [
@@ -101,6 +105,7 @@ export default function GameSelect() {
   );
 
   const Icon = ICON_MAP[game.icon];
+
 
   const handleStart = () => {
     const params = new URLSearchParams({
