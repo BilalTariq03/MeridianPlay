@@ -7,6 +7,7 @@ import {
   IconCoin,
   IconWorld,
   IconLanguage,
+  IconArrowsUpDown 
 } from '@tabler/icons-react';
 
 import GlobeGL from 'react-globe.gl';
@@ -21,6 +22,7 @@ const ICON_MAP = {
   'coin':          IconCoin,
   'language':      IconLanguage,
   'world':         IconWorld, 
+  'arrows-up-down': IconArrowsUpDown,
 };
 
 function Globe() {

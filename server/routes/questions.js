@@ -309,4 +309,27 @@ router.get('/continents', (req, res) => {
   res.json(questions);
 });
 
+
+// GET /api/questions/higher-lower-population
+// Returns a pool of count+1 countries for chain gameplay (pairing done on client)
+router.get('/higher-lower-population', (req, res) => {
+  const difficulty = req.query.difficulty || 'medium';
+  const pool       = filterByDifficulty(countries, difficulty);
+  const count      = getCount(req.query, pool);
+
+  if (pool.length < 2) {
+    return res.status(400).json({ error: 'Not enough countries' });
+  }
+
+  // N rounds requires N+1 countries in the chain
+  const needed   = Math.min(count + 1, pool.length);
+  const shuffled = getRandom(pool, needed);
+
+  res.json(shuffled.map(c => ({
+    name:       c.name,
+    flag:       c.flag,
+    population: c.population,
+  })));
+});
+
 module.exports = router;

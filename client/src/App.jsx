@@ -8,6 +8,8 @@ import GuessTheMapCountry from './games/guess-the-map-country/GuessTheMapCountry
 import GuessTheCurrency   from './games/guess-the-currency/GuessTheCurrency';
 import GuessTheLanguage  from './games/guess-the-language/GuessTheLanguage';
 import GuessTheContinent from './games/guess-the-continent/GuessTheContinent';
+import HigherLowerPopulation from './games/higher-lower-population/HigherLowerPopulation';
+
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/play/guess-the-currency"      element={<GuessTheCurrency />} />
         <Route path="/play/guess-the-language"  element={<GuessTheLanguage />} />
         <Route path="/play/guess-the-continent" element={<GuessTheContinent />} />
+        <Route path="/play/higher-lower-population" element={<HigherLowerPopulation />} />
+
 
         <Route path="*" element={<NotFound />} />
       </Routes>

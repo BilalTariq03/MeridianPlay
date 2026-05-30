@@ -65,6 +65,17 @@ const games = [
   apiEndpoint: '/api/questions/continents',
   available: true,
 },
+{
+  id: 'higher-lower-population',
+  title: 'Higher or Lower',
+  description: 'Which country has the bigger population?',
+  icon: 'arrows-up-down',
+  category: 'geography',
+  path: '/games/higher-lower-population',
+  playPath: '/play/higher-lower-population',
+  apiEndpoint: '/api/questions/higher-lower-population',
+  available: true,
+},
 ];
 
 export default games;

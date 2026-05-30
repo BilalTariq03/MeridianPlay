@@ -6,6 +6,7 @@ import {
   IconArrowLeft, IconArrowRight,
   IconWorld,
   IconLanguage,
+  IconArrowsUpDown
 } from '@tabler/icons-react';
 import games from '../config/games.config';
 import styles from './GameSelect.module.css';
@@ -17,6 +18,7 @@ const ICON_MAP = {
   'coin':          IconCoin,
   'language':      IconLanguage,
   'world':         IconWorld, 
+  'arrows-up-down': IconArrowsUpDown,
 };
 
 const MODES = [

@@ -1,0 +1,281 @@
+.page {
+  min-height: 100vh;
+  background: var(--ink-900);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 24px;
+  height: 56px;
+  border-bottom: 1px solid var(--border);
+  background: var(--ink-950);
+  flex-shrink: 0;
+}
+
+.backBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-sm);
+  background: var(--ink-700);
+  border: 1px solid var(--border);
+  color: var(--text-300);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+  flex-shrink: 0;
+}
+
+.backBtn:hover { background: var(--ink-600); }
+
+.navTitle {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-100);
+  letter-spacing: 0.02em;
+}
+
+.navScore {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-400);
+}
+
+.navScoreVal { color: var(--accent); font-weight: 500; }
+
+/* Progress dots */
+.progressRow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 24px;
+  background: var(--ink-950);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.dot {
+  flex: 1;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--ink-700);
+  transition: background 0.3s;
+}
+
+.dotDone    { background: var(--success); }
+.dotCurrent { background: var(--accent); }
+
+/* Timer */
+.timerRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 24px;
+  background: var(--ink-950);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.timerTrack {
+  flex: 1;
+  height: 3px;
+  background: var(--ink-700);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.timerFill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 2px;
+  transition: width 1s linear, background 0.3s;
+}
+
+.timerFillLow { background: var(--danger); }
+
+.timerNum {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-400);
+  min-width: 20px;
+  text-align: right;
+}
+
+.timerNumLow { color: var(--danger); }
+
+/* Two halves — fill remaining height */
+.halves {
+  flex: 1;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.half {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+
+.half:disabled { cursor: default; }
+
+.halfLeft {
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Flag as full-bleed background div (more reliable than <img> inside <button>) */
+.bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Dark overlay — tinted on feedback */
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.55);
+  transition: background 0.35s;
+  pointer-events: none;
+}
+
+.overlayWin  { background: rgba(34, 197, 94, 0.15); }
+.overlayLose { background: rgba(239, 68, 68, 0.15); }
+
+/* Content absolutely fills the half so justify-content: center always works */
+.content {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 40px 32px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.half:hover:not(:disabled) .content { transform: scale(1.01); }
+
+.name {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--text-100);
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.9);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.population {
+  font-family: var(--font-mono);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--accent);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+.populationDim {
+  font-family: var(--font-mono);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-400);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+.hint {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.45);
+  margin: 0;
+  letter-spacing: 0.06em;
+}
+
+.iconWin {
+  color: var(--success);
+  filter: drop-shadow(0 0 10px rgba(34, 197, 94, 0.55));
+  display: flex;
+}
+
+.iconLose {
+  color: var(--danger);
+  filter: drop-shadow(0 0 10px rgba(239, 68, 68, 0.45));
+  display: flex;
+}
+
+/* VS divider: thin vertical line + centered badge */
+.divider {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.10);
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.vsBadge {
+  background: var(--ink-800);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-400);
+  letter-spacing: 0.14em;
+  white-space: nowrap;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Mobile: stack vertically, each half takes 50% of viewport height */
+@media (max-width: 768px) {
+  .halves { flex-direction: column; }
+
+  .half { min-height: 42vh; }
+
+  .halfLeft {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .name { font-size: 22px; }
+  .population { font-size: 20px; }
+
+  .divider {
+    top: 50%;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.10);
+  }
+
+  .content { padding: 28px 20px; }
+}
