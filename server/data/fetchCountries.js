@@ -7,7 +7,7 @@ const fetchAndCache = async () => {
 
   // Batch 1 — first 10 fields
   const res1 = await axios.get(
-    'https://restcountries.com/v3.1/all?fields=name,capital,flags,region,currencies,cca2,ccn3,area,latlng,population'
+    'https://restcountries.com/v3.1/all?fields=name,capital,region,currencies,cca2,ccn3,area,latlng,population'
   );
 
   // Batch 2 — remaining fields
@@ -30,7 +30,7 @@ const fetchAndCache = async () => {
     .map(c => ({
       name:        c.name.common,
       capital:     c.capital[0],
-      flag:        c.flags.png,
+      flag:        `https://flagcdn.com/w320/${c.cca2.toLowerCase()}.png`,
       region:      c.region,
       currency:    c.currencies,
       code:        c.cca2,
